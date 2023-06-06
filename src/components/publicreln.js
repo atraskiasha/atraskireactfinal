@@ -4,11 +4,11 @@ import { Container, Row, Col, Modal, Button} from 'react-bootstrap';
 import { Link} from 'react-router-dom';
 
 
-import offer1 from './imagegallery/mediarel.png'
+// import offer1 from './imagegallery/mediarel.png'
 import offer2 from './imagegallery/eventman.png'
 import offer3 from './imagegallery/socialmm.png'
 import offer4 from './imagegallery/contentcreation.png'
-
+import '../index.css'
 
 
 const Public = () => {
@@ -37,22 +37,22 @@ const Public = () => {
         <h1 className="mt-5 text-white text-center">Public Relation</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4">
-          <Col md={3}>
+          {/* <Col md={3}>
             <div className="image-container" onClick={handleImageClick}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
             </div>
-          </Col>
-          <Col md={3}>
+          </Col> */}
+          <Col md={4}>
             <div className="image-container" onClick={handleImageClick}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
             </div>
           </Col>
-          <Col md={3}>
+          <Col md={4}>
             <div className="image-container" onClick={handleImageClick}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
-          <Col md={3}>
+          <Col md={4}>
             <div className="image-container" onClick={handleImageClick}>
               <img src={offer4} alt="Image 3" className="img-fluid" />
             </div>
@@ -63,11 +63,9 @@ const Public = () => {
           <Modal.Header closeButton>
             <Modal.Title>What We Offer:</Modal.Title>
           </Modal.Header>
-          <Modal.Body>
-            <h4>Media Relations</h4>
-            <h6>Media relations involves managing the relationship between an organization and the
-              media, focusing on building positive interactions, establishing credibility, and effectively
-              communicating key messages to the public through various media channels. </h6>
+          <Modal.Body className="modal_body">
+            {/* <h4>Media Relations</h4>
+            <h6>Media relations are a crucial aspect of any successful marketing strategy. It involves building and nurturing relationships with journalists, reporters, and media outlets to secure positive coverage for businesses. </h6> */}
             <h4>Event Management
               :</h4>
             <h6>Event management encompasses the planning, organization, and execution of various

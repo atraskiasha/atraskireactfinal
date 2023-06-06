@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import offer1 from './images/influencer.jpeg'
@@ -10,29 +10,20 @@ import offer1 from './images/influencer.jpeg'
 const Marketing = () => {
 
   return (
+<>
 
-    <Container>
-      <h1 className="mt-5 text-white text-center">Influencer Marketing</h1>
-      {/* <h3 className="mt-3  text-white text-center">What We Offer</h3> */}
-      <Row className="mt-4 ml-5">
-        <Col md={3} className="ml-5">
-          <div className="image-container"  >
-            <img src={offer1} alt="Image 1" className="img-fluid ml-5" />
-          </div>
-        </Col>
-        <Col md={4} className="text-center ml-5">
-          <div className="image-container ml-5"  >
-            <p>Collaborating with various
-              influencers across the country to
-              create hype about your brand. With
-              a successful implementation of an
-              influence marketing activity your
-              brand can get a desired reach at a
-              very short time.</p>
-          </div>
-        </Col>
+<Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+<Card className="bg-dark text-white" style={{ maxWidth: '30rem' }}>
+  <Card.Img variant="top" src={offer1} />
+  <Card.Body>
+    <Card.Text className="text-white text-center" style={{fontFamily:"sans-serif"}}>
+    Influencer marketing has become a powerful strategy for businesses to reach their target audience through influential individuals in their respective industries. By partnering with relevant influencers, businesses can leverage their credibility and large following to promote their products or services. Influencer marketing provides authentic and relatable content, increasing brand awareness and driving customer engagement. It helps businesses tap into niche markets and reach a highly targeted audience.
+    </Card.Text>
+  </Card.Body>
+</Card>
 
-      </Row>
+    </Container>
+
 
 
 
@@ -59,10 +50,9 @@ const Marketing = () => {
       </footer>
 
       {/*  footer ends  */}
-    </Container>
 
 
-
+      </>
 
 
 

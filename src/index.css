@@ -264,11 +264,11 @@ body {
 .card-title {
   font-size: 30px;
   margin:18px;
-  color: beige;
+  color: black;
 }
 .card-text {
-  font-size: 30px;
-  color: gainsboro;
+  font-size: 17px;
+  color: #222;
 }
 .card-body {
   margin-right: 20px;
@@ -397,6 +397,21 @@ p {
   font-family: "Oswald", sans-serif;
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
 }
+.containers{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marketing_card{
+  width: 50% !important;
+  text-align: center;
+  align-items: center;
+  border-radius: 40px;
+
+}
+
 .card .txt {
   margin-left: -3rem;
   z-index: 1;
@@ -817,5 +832,16 @@ p {
 
 
 
+.modal{
+  display:block;
+}
+
+.modal_body h6, .modal_body h4{
+  color:black;
+}
+
+.modal h6, .modal h4{
+  color:black;
+}
 
 /* blog */

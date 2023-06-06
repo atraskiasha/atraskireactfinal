@@ -6,6 +6,7 @@ import { Link} from 'react-router-dom';
 import offer1 from './images/commercial.jpeg'
 import offer2 from './images/productshoot.jpeg'
 import offer3 from './images/podcastandshoot.jpeg'
+import '../index.css'
 
 
 
@@ -24,7 +25,7 @@ function Prod() {
     return (
         <>
            <Container>
-        <h1 className="mt-5 text-white text-center">Public Relation</h1>
+        <h1 className="mt-5 text-white text-center">Production</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4">
           <Col md={4}>
@@ -47,11 +48,11 @@ function Prod() {
         </Container>
 
 
-        <Modal show={showModal} onHide={handleModalClose} dialogClassName="custom-modal w-1000" >
-          <Modal.Header closeButton>
+        <Modal show={showModal} onHide={handleModalClose} dialogClassName="custom-modal w-1000">
+          <Modal.Header closeButton >
             <Modal.Title>What We Offer:</Modal.Title>
           </Modal.Header>
-          <Modal.Body>
+          <Modal.Body className="modal">
             <h4>Media Relations</h4>
             <h6>Media relations involves managing the relationship between an organization and the
               media, focusing on building positive interactions, establishing credibility, and effectively
