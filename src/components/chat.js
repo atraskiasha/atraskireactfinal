@@ -24,32 +24,82 @@ const Chat = () => {
     },
     {
       id: 'Name',
-      message: 'Hi {previousValue}, Please select your issue',
+      message: 'Hi {previousValue}, kindly let us know with which service we can help you',
       trigger: 'issues',
     },
     {
       id: 'issues',
       options: [
         {
-          value: 'Marketing',
-          label: 'Marketing',
-          trigger: 'Marketing',
+          value: 'Digital Marketing',
+          label: 'Digital Marketing',
+          trigger: 'Digital Marketing',
         },
         {
           value: 'Events',
           label: 'Events',
           trigger: 'Events',
         },
+        {
+          value: 'Public Relation',
+          label: 'Public Relation',
+          trigger: 'Public Relation',
+        },
+        {
+          value: 'Production',
+          label: 'Production',
+          trigger: 'Production',
+        },
+        {
+          value: 'Web Development',
+          label: 'Web Development',
+          trigger: 'Web Development',
+        },
+        {
+          value: 'MICE',
+          label: 'MICE',
+          trigger: 'MICE',
+        },
+        {
+          value: 'Influencer Marketing',
+          label: 'Influencer Marketing',
+          trigger: 'Influencer Marketing',
+        },
       ],
     },
     {
-      id: 'Marketing',
+      id: 'Digital Marketing',
       message: 'Thanks for your interest. Our team will get in touch with you.',
       end: true,
     },
     {
       id: 'Events',
-      message: 'Thanks for your interest. Our team will get in touch with you.',
+      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      end: true,
+    },
+    {
+      id: 'Public Relation',
+      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      end: true,
+    },
+    {
+      id: 'Production',
+      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      end: true,
+    },
+    {
+      id: 'Web Development',
+      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      end: true,
+    },
+    {
+      id: 'MICE',
+      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      end: true,
+    },
+    {
+      id: 'Influencer Marketing',
+      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
       end: true,
     },
   ];
