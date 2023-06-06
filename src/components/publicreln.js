@@ -37,11 +37,7 @@ const Public = () => {
         <h1 className="mt-5 text-white text-center">Public Relation</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4">
-          {/* <Col md={3}>
-            <div className="image-container" onClick={handleImageClick}>
-              <img src={offer1} alt="Image 1" className="img-fluid" />
-            </div>
-          </Col> */}
+          
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
