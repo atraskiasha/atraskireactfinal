@@ -1,6 +1,7 @@
 import {React,  useState } from "react";
 // import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
-import { about } from "./assets";
+// import { about } from "../imagegallery/bg.jpg";
+import aboutimg from "../imagegallery/bg.jpg"
 import Modal from "react-bootstrap/Modal";
 import './App.css'
 import Button from "react-bootstrap/Button";
@@ -14,7 +15,7 @@ const Abouts = () => {
         <div className="row d-flex align-items-center justify-content-between  my-3">
           <div className="col-12 col-lg-6 d-block d-lg-none">
             <img
-              src={about}
+              src={aboutimg}
               alt=""
               className="img-fluid"
               style={{ widh: " 100%", Height: "23rem" }}
@@ -123,7 +124,7 @@ const Abouts = () => {
           </div>
           <div className="col-12 col-lg-6 d-none d-lg-block ">
             <img
-              src={about}
+              src={aboutimg}
               alt=""
               className="img-fluid"
               style={{ widh: " 100%", Height: "23rem" }}

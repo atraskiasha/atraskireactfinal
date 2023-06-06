@@ -3,4 +3,4 @@ import about from "./vector.jpg";
 
 
 
-export { about };
+export {about};

@@ -1,5 +1,5 @@
 import React from "react";
-import { about } from "./assets";
+import { about } from '../imagegallery/bg.jpg';
 
 function Perks() {
   const carde = {

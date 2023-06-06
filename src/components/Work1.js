@@ -65,26 +65,38 @@ const Work1 = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card style={{ marginBottom: '30px' }}>
+        </Row>
+        <Row>
+          <Col md={4} >
+            <Card style={{ marginBottom: '0px', marginTop:'30px'}}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
-                  <p className="description text-center text-bold" style={{ marginBottom: '-40px' }}>Mog Asun</p>
+                  <p className="description text-center text-bold" style={{ marginBottom: '40px', marginTop:'50px' }}>Mog Asun</p>
                 </div>
                 <video src={video4} autoPlay muted loop className="video-element" />
               </Card.Body>
             </Card>
           </Col>
           <Col md={4}>
-            <Card style={{ marginBottom: '30px' }}>
+            <Card style={{ marginBottom: '30px', marginTop:'30px' }}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
-                  <p className="description text-center text-bold" style={{ marginBottom: '-40px' }}>Dil E-Mughlai</p>
+                  <p className="description text-center text-bold" style={{ marginBottom: '40px', marginTop:'50px' }}>Dil-E-Mughlai</p>
                 </div>
                 <video src={video5} autoPlay muted loop className="video-element" />
               </Card.Body>
             </Card>
           </Col>
+          {/* <Col md={4}>
+            <Card style={{ marginBottom: '30px', marginTop:'50px' }}>
+              <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
+                <div className="video-overlay">
+                  <p className="description text-center text-bold" style={{ marginBottom: '-40px' }}>Eazy Dinner</p>
+                </div>
+                <video src={video3} autoPlay muted loop className="video-element" />
+              </Card.Body>
+            </Card>
+          </Col> */}
         </Row>
       </div>
       {/* projects */}
@@ -92,8 +104,8 @@ const Work1 = () => {
       {/* project details */}
       <nav className="drop-project text-center">
 
-//         <label for="touch"><span>Project details</span></label>
-//         <input type="checkbox" id="touch" />
+{/* //         <label for="touch"><span>Project details</span></label>
+//         <input type="checkbox" id="touch" /> */}
 
         {/* <ul class="slide">
           <li><a href="#">Pep n Pure,Budget: 50,000,Brief:Implementing Digital Marketing for Pep n Pure Results: Company sales increased by 60% .</a></li>
