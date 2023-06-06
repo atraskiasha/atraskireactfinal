@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Abouts from './Eshower/EAbout';
-import Hero from './Eshower/Hero';
-import Perks from './Eshower/perks';
+// import { Link } from 'react-router-dom'
+import Abouts from './EAbout';
+import Hero from './Hero';
+// import Perks from './Eshower/perks';
 const Eshower = () => {
 
 

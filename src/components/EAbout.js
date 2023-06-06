@@ -1,7 +1,7 @@
 import {React,  useState } from "react";
 // import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 // import { about } from "../imagegallery/bg.jpg";
-import aboutimg from "../imagegallery/bg.jpg"
+import aboutimg from "./imagegallery/bg.jpg"
 import Modal from "react-bootstrap/Modal";
 import './App.css'
 import Button from "react-bootstrap/Button";
