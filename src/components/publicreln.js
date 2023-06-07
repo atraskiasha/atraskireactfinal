@@ -39,17 +39,17 @@ const Public = () => {
         <Row className="mt-4">
           
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
             </div>
           </Col>
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer4} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
