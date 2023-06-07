@@ -43,7 +43,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/anish-dhar?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bx8gYUaYhTcyMIoijF%2FI1DA%3D%3D'> <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/priti-jhawar-91005a204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BpiticpQmRGyXMO7%2ByBzF2w%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/priti-jhawar-91005a204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BpiticpQmRGyXMO7%2ByBzF2w%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                               <a href='https://www.linkedin.com/in/priyanka-basu-2063ab192?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9qhO%2FZ0lT1%2BQLAIOKTIY6A%3D%3D'> <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/riju-rjd-35958a21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bf4uEOf%2FTTx2RQf5RE%2Bs0ag%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/mrinmoy-banik-5439891b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfjFWOOJqRNq3QIWxutIV8w%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/tridip-chowdhury-5710b51a6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1MIrT5%2BGSSK9zJpTRKkC8Q%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/abhishek-yadav-6a2079263?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMjFWR9V0TcqsBeN5KAIq1A%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/mansi-chawla-459b97204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnoRt3ngOR8qvsrRMW2kcQg%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ const Careers = () => {
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li>
+                                <a href='https://www.linkedin.com/in/asha-gautam-a2b2421b2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXeCCIrg7TfeDIQ8jik91Xg%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
