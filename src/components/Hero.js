@@ -21,10 +21,10 @@ function Hero() {
               
               <a
                 className="btn btn-outline-light btn-lg"
-                href="#!"
+                href="https://forms.gle/C3j12MsdHEEdaNVH7"
                 role="button"
               >
-                join our community{" "}
+                Join our community{" "}
               </a>
             </div>
           </div>
