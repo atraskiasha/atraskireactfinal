@@ -39,17 +39,17 @@ const Service = () => {
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4" style={{pointerEvents:'cursor'}}>
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
             </div>
           </Col>
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
             </div>
           </Col>
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
