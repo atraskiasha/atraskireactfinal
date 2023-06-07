@@ -24,29 +24,29 @@ const Web = () => {
            <Container>
         <h1 className="mt-5 text-white text-center">Public Relation</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
-        <Row className="mt-4">
-          <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+        <Row className="mt-4" style={{display:'flex' , justifyContent:'center'}} >
+          <Col md={4} className="mt-3">
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
             </div>
           </Col>
-          <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+          <Col md={4} className="mt-3">
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
             </div>
           </Col>
-          <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+          <Col md={4} className="mt-3">
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
-          <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+          <Col md={4} className="mt-3">
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer4} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
-          <Col md={4}>
-            <div className="image-container" onClick={handleImageClick}>
+          <Col md={4}className="mt-3">
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer5} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
