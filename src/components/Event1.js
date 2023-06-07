@@ -1,15 +1,19 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/heading-has-content */
-import event from './imagegallery/event.jpg'
+// import event from './imagegallery/event.jpg'
 import subimg1 from './imagegallery/dealer.png'
 import subimg2 from './imagegallery/stall.png'
 import subimg3 from './imagegallery/launch.png'
 import subimg4 from './imagegallery/atlbtl.png'
-import eventimg1 from './imagegallery/w1.jpeg'
-import eventimg2 from './imagegallery/w2.jpeg'
-import eventimg3 from './imagegallery/w3.jpeg'
-import eventimg4 from './imagegallery/w4.jpeg'
+// import eventimg1 from './imagegallery/w1.jpeg'
+// import eventimg2 from './imagegallery/w2.jpeg'
+// import eventimg3 from './imagegallery/w3.jpeg'
+// import eventimg4 from './imagegallery/w4.jpeg'
 import eventimg5 from './imagegallery/w5.jpeg'
+import e1 from './images/e15.jpg';
+import e2 from './images/e16.png';
+import e3 from './images/e17.png';
+import e4 from './images/e18.png';
 
 import portfolio1 from './images/e1.jpg'
 import portfolio2 from './images/e2.jpg'
@@ -23,25 +27,36 @@ import portfolio7 from './images/e7.jpg'
 import React, { useState } from 'react'
 import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import  '../index.css';
 
 
 
 function Event1() {
 
-    const headerStyle = {
-        backgroundImage: `url(${event})`,
-        backgroundSize: '1297px',
-        backgroundAttachment:'fixed',
-        height: '30vh',
-        position: 'relative',
-    };
+// {/* <HEAD */}
+//     const headerStyle = {
+//         backgroundImage: `url(${event})`,
+//         backgroundSize: '1297px',
+//         backgroundAttachment:'fixed',
+//         height: '30vh',
+//         position: 'relative',
+//     };
 
-    const headingStyle = {
-        color: '#ffffff',
-        fontSize: '2rem',
-        textTransform: 'uppercase',
-        textAlign: 'center',
-    };
+    // const headerStyle = {
+    //     backgroundImage: `url(${event})`,
+    //     backgroundSize: '1297px',
+    //     backgroundAttachment: 'fixed',
+    //     backgroundRepeate:'no-repeate',
+    //     height: '30vh',
+    //     position: 'relative',
+    // };
+
+    // const headingStyle = {
+    //     color: '#ffffff',
+    //     fontSize: '2rem',
+    //     textTransform: 'uppercase',
+    //     textAlign: 'center',
+    // };
     const [showModal, setShowModal] = useState(false);
 
     const handleModalClose = () => {
@@ -56,11 +71,12 @@ function Event1() {
 
     return (
         <>
-            <header style={headerStyle}>
+            {/* <header style={headerStyle}>
                 <h1 style={headingStyle}></h1>
-            </header>
+            </header> */}
             <div className="container">
-                <h1 className="big-heading">Events:Unforgettable moments, boundless possibilities</h1>
+              <h1 className="text-center mb-3 font-weight-bold">Events</h1>
+                <h2 className="text-center">Unforgettable moments, boundless possibilities</h2>
             </div>
             {/* cards */}
             <Container>
@@ -122,10 +138,10 @@ function Event1() {
             {/* portfolio */}
             <div class="portfolio">
                 <h1 style={{ textAlign: 'center', color: 'white', margin: '50px' }}>Our Portfolio</h1>
-                <div class="row">
+                <div class="row mb-3" >
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={portfolio1} alt="Image 1" />
+                            <img src={portfolio1} alt="Image 1"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -135,7 +151,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={portfolio2} alt="Image 2" />
+                            <img src={portfolio2} alt="Image 2"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -145,7 +161,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={portfolio3} alt="Image 3" />
+                            <img src={portfolio3} alt="Image 3"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -155,7 +171,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={portfolio4} alt="Image 4" />
+                            <img src={portfolio4} alt="Image 4"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -165,10 +181,10 @@ function Event1() {
                     </div>
 
                 </div>
-                <div class="row">
+                <div class="row mb-3">
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={portfolio5} alt="Image 1" />
+                            <img src={portfolio5} alt="Image 1"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -178,7 +194,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={portfolio6} alt="Image 2" />
+                            <img src={portfolio6} alt="Image 2"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -188,7 +204,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={portfolio7} alt="Image 3" />
+                            <img src={portfolio7} alt="Image 3"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -198,7 +214,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={eventimg5} alt="Image 4" />
+                            <img src={eventimg5} alt="Image 4"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -207,10 +223,10 @@ function Event1() {
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mb-3">
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={eventimg4} alt="Image 1" />
+                            <img src={e1} alt="Image 1"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -220,7 +236,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={eventimg3} alt="Image 2" />
+                            <img src={e2} alt="Image 2" className="w-2"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -230,7 +246,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={eventimg2} alt="Image 3" />
+                            <img src={e3} alt="Image 3"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 
@@ -240,7 +256,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={eventimg1} alt="Image 4" />
+                            <img src={e4} alt="Image 4"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 

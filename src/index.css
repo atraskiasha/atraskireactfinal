@@ -592,9 +592,13 @@ p {
   overflow: hidden;
 }
 
+.image-container{
+  height:100%;
+}
+
 .portfolio .image-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: transform 0.3s ease;
 }
 
@@ -845,6 +849,7 @@ p {
 }
 
 /* blog */
+/* <<<<<<< HEAD */
 /* search bar */
 .search-icon {
   position: absolute;
@@ -873,4 +878,9 @@ p {
 .sentence {
   margin-bottom: 10px;
 }
+/* ======= */
+
+
+/* Events */
+/* >>>>>>> 6acff2ea6f30cff1ad39517900301a4559c8a472 */
 
