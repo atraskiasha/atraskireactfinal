@@ -33,15 +33,6 @@ import  '../index.css';
 
 function Event1() {
 
-// {/* <HEAD */}
-//     const headerStyle = {
-//         backgroundImage: `url(${event})`,
-//         backgroundSize: '1297px',
-//         backgroundAttachment:'fixed',
-//         height: '30vh',
-//         position: 'relative',
-//     };
-
     // const headerStyle = {
     //     backgroundImage: `url(${event})`,
     //     backgroundSize: '1297px',
@@ -84,22 +75,22 @@ function Event1() {
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4" style={{pointerEvents:'cursor'}}>
           <Col md={3}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={subimg1} alt="Image 1" className="img-fluid" />
             </div>
           </Col>
           <Col md={3}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={subimg2} alt="Image 2" className="img-fluid" />
             </div>
           </Col>
           <Col md={3}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={subimg3} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
           <Col md={3}>
-            <div className="image-container" onClick={handleImageClick}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={subimg4} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
