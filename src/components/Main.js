@@ -6,6 +6,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState, useEffect } from 'react';
 import { Container, Alert } from 'react-bootstrap';
+// import { FaSearch } from 'react-icons/fa';
+
 // import Button from 'react-bootstrap/Button';
 
 
@@ -23,10 +25,15 @@ import handImage from './images/hand.png'; // Import your hand image
 
 // import logo10 from './images/atraski logo new -2.png';
 const sentences = [
-    'Harness the power of digital marketing and build business',
-    'Join us in revolution and pave your path to business success.',
-    'Discover the limitless opportunities marketing and unlock your business.',
-    'Take charge of your entrepreneurial journey by mastering digital marketing',
+    'Want to join Digital Marketing team?',
+    'Need to build Public Relation in market?',
+    'Want to create an Event with us?',
+    'Are you looking for a web developer?',
+    'Do you want to create Influencer Marketing?',
+    'Want to work on the mice solution ?',
+    // 'Join us in revolution and pave your path to business success.',
+    // 'Discover the limitless opportunities marketing and unlock your business.',
+    // 'Take charge of your entrepreneurial journey by mastering digital marketing',
   ];
 
 const Main = () => {
@@ -49,9 +56,9 @@ const Main = () => {
         setIsHandTapping(true);
         const tapEndTimeout = setTimeout(() => {
           setIsHandTapping(false);
-        }, 500); // Tap animation duration
+        }, 500); 
         return () => clearTimeout(tapEndTimeout);
-      }, 1000); // Delay before starting tap animation
+      }, 1000); 
       return () => clearTimeout(handTapTimeout);
     }, [currentSentenceIndex]);
   
@@ -77,12 +84,13 @@ const Main = () => {
       <Alert
         variant="primary"
         className="text-center position-relative"
-        style={{ width: `${currentSentence.length}ch`, fontSize: '1.5rem', backgroundColor: '#F9F9F9' }}
+        style={{ width: `${currentSentence.length}ch`, fontSize: '1.5rem', backgroundColor: '#FFFAF4' }}
       >
         {isHandTapping && <img src={handImage} alt="Hand" className="hand-image" />}
         {currentSentence}
       </Alert>
     </Container>
+    
        
           </a>
 

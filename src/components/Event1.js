@@ -31,7 +31,7 @@ function Event1() {
     const headerStyle = {
         backgroundImage: `url(${event})`,
         backgroundSize: '1297px',
-        backgroundAttachment: 'fixed',
+        backgroundAttachment:'fixed',
         height: '30vh',
         position: 'relative',
     };

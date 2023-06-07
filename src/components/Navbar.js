@@ -56,6 +56,12 @@ const Navbar = () => {
               <NavLink className="nav-link" to="https://mycitymyvoice.in/">MCMV</NavLink>
             </li>
             <li className="nav-item">
+              <NavLink className="nav-link" to="https://atstay.in/">Travel</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="">Fashion</NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink className="nav-link" to="/blogger">Blogger's Mela</NavLink>
             </li>
             <li className="nav-item">

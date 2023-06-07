@@ -845,3 +845,32 @@ p {
 }
 
 /* blog */
+/* search bar */
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sentences-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sentence {
+  margin-bottom: 10px;
+}
+
