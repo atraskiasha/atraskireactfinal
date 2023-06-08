@@ -19,7 +19,7 @@ const Mice = () => {
   return (
     <div>
       <Container>
-        <h1 className="mt-5 text-white text-center">Digital Marketing</h1>
+        <h1 className="mt-5 text-white text-center">MICE</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4" style={{pointerEvents:'cursor'}}>
           <Col md={4}>

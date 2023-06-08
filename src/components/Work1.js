@@ -1,15 +1,11 @@
 import React from 'react'
 import { Card, Row, Col } from 'react-bootstrap';
 import { Link} from 'react-router-dom';
-
-
-// import project1 from './imagegallery/aao.png'
-// import project2 from './imagegallery/barbeque.png'
-// import project3 from './imagegallery/ducati.png'
-// import project4 from './imagegallery/hoichoi.png'
-// import project5 from './imagegallery/jewel.png'
-// import project6 from './imagegallery/pepnpure.png'
-
+// import WorkGallary from './workGallary';
+import work1 from '../components/images/DY PATIL1.jpg';
+import work2 from '../components/images/DY PATIL2.jpg';
+import work3 from '../components/images/DYPATIL3.jpg';
+import './workGallery.css';
 import video1 from './videos/jewel.mp4'
 import video2 from './videos/haldiram.mp4'
 import video3 from './videos/eazydinner.mp4'
@@ -25,13 +21,9 @@ const Work1 = () => {
 
 
   return (
+    
     <>
-
-
-
-
-
-      {/* projects */}
+     {/* projects */}
       <div>
         <h2 className="text-center text-white" style={{ marginBottom: '10px' }}>Successful Projects</h2>
         <Row>
@@ -116,11 +108,64 @@ const Work1 = () => {
           <li><a href="#">Aao Nxt,Budget: 20,000,Brief: Women bikers rally and tourism.</a></li>
         </ul> */}
 
+        
       </nav>
       {/* project details */}
 
 
+      <main>
+
+
+  <div className = "cardsm">
+    <img src={work1} alt="" className="work_img"/>
+    <div className="card-contentse">
+      <h2 className='mb-5'>
+        Card Heading
+      </h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+      </p>
+      
+    </div>
+  </div>
+
+
+  <div className = "cardsm">
+    <img src={work2} alt="" className="work_img"/>
+    <div className="card-contentse">
+      <h2 className='mb-5'>
+        Card Heading
+      </h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+      </p>
+      
+    </div>
+  </div>
+
+
+  <div className = "cardsm">
+    <img src={work3} alt="" className="work_img"/>
+    <div className="card-contentse">
+      <h2 className='mb-5'>
+        Card Heading
+      </h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+      </p>
+      
+    </div>
+  </div>
+</main>
+
+
+
  {/* footer starts  */}
+
+<div className="mt-5 ml-5">
+
+ </div>
+
  <footer className=" text-white">
         <div className="container">
           <div className="row">
@@ -145,14 +190,7 @@ const Work1 = () => {
       {/*  footer ends  */}
 
 
-
-
-
-
-
-
-
-    </>
+      </>
   )
 }
 

@@ -12,6 +12,8 @@ import offer3 from './imagegallery/seo.png'
 
 const Service = () => {
   const [showModal, setShowModal] = useState(false);
+  const [showModal2 , setShowModal2] = useState(false);
+  const [showModal3 , setShowModal3] = useState(false);
 
   const handleModalClose = () => {
     setShowModal(false);
@@ -19,6 +21,24 @@ const Service = () => {
 
   const handleImageClick = () => {
     setShowModal(true);
+  };
+
+
+  const handleModalClose2 = () => {
+    setShowModal2(false);
+  };
+
+  const handleImageClick2 = () => {
+    setShowModal2(true);
+  };
+
+
+  const handleModalClose3 = () => {
+    setShowModal3(false);
+  };
+
+  const handleImageClick3 = () => {
+    setShowModal3(true);
   };
 
   //   const modalStyle = `
@@ -44,12 +64,12 @@ const Service = () => {
             </div>
           </Col>
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
+            <div className="image-container" onClick={handleImageClick2} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
             </div>
           </Col>
           <Col md={4}>
-            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
+            <div className="image-container" onClick={handleImageClick3} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
             </div>
           </Col>
@@ -61,17 +81,7 @@ const Service = () => {
           </Modal.Header>
           <Modal.Body>
             <h4>Social Media Marketing:</h4>
-            <h9>It is an essential tool for businesses to connect with their target audience and build brand awareness. It allows companies to reach a wide range of potential customers with tailored messages and engaging content, resulting in increased conversions.</h9>
-            <h4>Social Media Advertising:</h4>
-            <h9>media advertising also offers detailed analytics and reporting, enabling businesses to
-              track the performance of their ads in real-time. This data-driven approach allows for
-              continuous optimization, ensuring that ad campaigns are cost-effective and delivering
-              the desired results.	</h9>
-            <h4>SEO</h4>
-            <h9>It is a crucial digital marketing strategy aimed at
-              improving a website's visibility and organic search rankings on search engine result
-              pages. By optimizing various aspects of a website, such as content, keywords, meta
-              tags, and backlinks, SEO helps businesses attract more targeted organic traffic.</h9>
+            <h9>Social media marketing has revolutionised the way businesses connect with their audience. It harnesses the power of platforms like Facebook, Instagram, and Twitter to reach potential customers, build brand awareness, and drive engagement. By utilising targeted ads, captivating content, and strategic campaigns, social media marketing enables businesses to expand their online presence, attract new leads, and increase conversions. Moreover, it provides valuable insights into customer behaviour, preferences, and trends, allowing for more effective marketing strategies.</h9>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose}>
@@ -79,6 +89,47 @@ const Service = () => {
             </Button>
           </Modal.Footer>
         </Modal>
+
+
+
+        <Modal show={showModal2} onHide={handleModalClose2} dialogClassName="custom-modal w-1000" >
+          <Modal.Header closeButton>
+            <Modal.Title>What We Offer</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <h4>Social Media Advertisement:</h4>
+            <h9>Social media advertising is a powerful tool for businesses to reach their target audience with precision and impact. By leveraging platforms like Facebook, Instagram, and LinkedIn, companies can deliver tailored messages and engaging content to potential customers. Social media ads offer unparalleled targeting options based on demographics, interests, and behaviour, ensuring maximum relevance and ROI. They also provide real-time performance tracking and analytics, allowing businesses to optimise their campaigns for better results. With the ability to boost brand visibility, drive website traffic, and generate leads, social media advertising is a game-changer in the world of digital marketing, offering businesses endless opportunities for growth and success.
+</h9>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleModalClose2}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+
+
+
+        <Modal show={showModal3} onHide={handleModalClose3} dialogClassName="custom-modal w-1000" >
+          <Modal.Header closeButton>
+            <Modal.Title>What We Offer</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <h4>Search Engine Optimization:</h4>
+            <h9>Search engine optimization (SEO) is the key to improving a website's visibility in search engine results and driving organic traffic. By optimizing website content, structure, and technical aspects, businesses can rank higher on search engine pages, increasing their chances of being discovered by potential customers. SEO enhances user experience, making websites faster, easier to navigate, and more user-friendly. It also builds trust and credibility, as users tend to trust websites that appear in top search results. Additionally, SEO is a cost-effective marketing strategy with long-term benefits, as it continues to drive organic traffic even after initial optimization efforts. With SEO, businesses can reach their target audience effectively and gain a competitive edge in the online marketplace.
+
+</h9>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleModalClose3}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+
+
+
+
       </Container>
 
 
