@@ -43,25 +43,37 @@ const ContactUs = () => {
               <Col md={10}>
                 <Form.Group controlId="firstName" id="name" className="text-white">
                   <Form.Label> NAME</Form.Label>
-                  <Form.Control type="text" placeholder="Please enter first name..." required />
+                  <Form.Control type="text" name="user_name" placeholder="Please enter first name..." required />
                 </Form.Group>
               </Col>
               <Col md={10}>
                 <Form.Group controlId="email" id="email" className="text-white">
                   <Form.Label>EMAIL</Form.Label>
-                  <Form.Control type="email" placeholder="Please enter email..." required />
+                  <Form.Control type="email" name="user_email" placeholder="Please enter email..." required />
+                </Form.Group>
+              </Col>
+              <Col md={10}>
+                <Form.Group controlId="message" id="message" className="text-white">
+                  <Form.Label>no</Form.Label>
+                  <Form.Control type="textarea" name="user_n" placeholder="Please enter email..." required />
+                </Form.Group>
+              </Col>
+              <Col md={10}>
+                <Form.Group controlId="email" id="email" className="text-white">
+                  <Form.Label>message</Form.Label>
+                  <Form.Control type="email" name="user_mg" placeholder="Please enter email..." required />
                 </Form.Group>
               </Col>
               <Col md={10}>
                 <Form.Group controlId="phoneNumber" id="phoneNumber" className="text-white">
                   <Form.Label>PHONE NUMBER</Form.Label>
-                  <Form.Control type="text" placeholder="Please enter phone number..." required />
+                  <Form.Control type="text" name="user_phone" placeholder="Please enter phone number..." required />
                 </Form.Group>
               </Col>
               <Col md={10}>
                 <Form.Group controlId="query" id="query" className="text-white">
                   <Form.Label>WHAT DO YOU HAVE IN MIND?</Form.Label>
-                  <Form.Control as="textarea" rows={3} placeholder="Please enter query..." required />
+                  <Form.Control as="textarea" name="user_email" rows={3} placeholder="Please enter query..." required />
                 </Form.Group>
               </Col>
             </Row>
