@@ -3,8 +3,8 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Modal, Button} from 'react-bootstrap';
 import { Link} from 'react-router-dom';
-import offer1 from './imagegallery/socialmedia.png'
-import offer2 from './imagegallery/socialmediaad.png'
+import offer1 from './images/Annual Business Meetings.jpg'
+import offer2 from './images/Business events.jpg'
 // import offer3 from './imagegallery/seo.png'
 const Mice = () => {
   const [showModal, setShowModal] = useState(false);
