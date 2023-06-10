@@ -852,3 +852,10 @@ p {
 
 
 /* Events */
+/* nav */
+.dropdown-item.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* nav */
