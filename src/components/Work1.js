@@ -120,8 +120,7 @@ const Work1 = () => {
         
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      On 6th and 7th May Atraski successfully executed exhibition stall design and fabrication for @dpuunitechsociety at Pragati Maidan, Delhi organised by @collegedunia . This success goes to our entire team who planned and executed the entire project with dedication and passion.      </p>
       
     </div>
   </div>
@@ -131,8 +130,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
             </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Atraski Events (@atraskievents) is proud to be a part of the launch of the new Nissan Magnite for Nissan motor India!      </p>
       
     </div>
   </div>
@@ -144,8 +142,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Do nothing!!!      </p>
       
     </div>
   </div>
@@ -157,7 +154,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+      BTL activity for SKODA , in Delhi!
       </p>
       
     </div>
@@ -174,8 +171,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Mindray India participated in CME organized by the Indian Society for the Study of Pain, Pune Chapter (SSPP) titled “#Ultrasound – An Eye of Pain Physicians” on 17th Oct.      </p>
       
     </div>
   </div>
@@ -185,8 +181,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Atraski events (@atraskievents) are proud to be part of this event, and we are pretty excited to announce to you that we have organized this conference meet for MI.      </p>
       
     </div>
   </div>
@@ -198,7 +193,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+      Branding for Jonnie Walker
       </p>
       
     </div>
@@ -211,7 +206,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+      LIIT ARCH GATE installation for Wellness Forever
       </p>
       
     </div>
@@ -228,8 +223,8 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Make your event stand out from the rest. 🤝
+Atraski Events Brand-Solutions has the branding and marketing expertise you need to succeed.      </p>
       
     </div>
   </div>
@@ -239,8 +234,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Atraski events (@atraskievents) are proud to be part of this event and we have organized this conference meet for MI      </p>
       
     </div>
   </div>
@@ -252,8 +246,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Atraski events (@atraskievents) implemented this mobile showcase van for Pepe Jeans!      </p>
       
     </div>
   </div>
@@ -265,8 +258,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-      </p>
+      Atraskievents successfully organised a virtual meeting for Volkswagen      </p>
       
     </div>
   </div>
