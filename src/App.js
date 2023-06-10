@@ -27,9 +27,16 @@ import Marketing from './components/marketing';
 import Prod from './components/production';
 import Blogger from './components/Blogger';
 import Eshower from './components/Eshower';
-import Footer1 from './components/Footer1';
+// import Footer1 from './components/Footer1';
 import Privacy1 from './components/Privacy1';
 import Chat from './components/chat';
+import M from './components/Models';
+import EventsAtAtraski from './components/EventsAtAtraski';
+import Collaboration from "./components/Collaboration";
+import Services from './components/Services';
+import Cities from './components/Cities';
+// import Footer from './components/Footer';
+import Section1 from './components/section1';
 
 
 function App() {
@@ -58,9 +65,16 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/blogger" element={<Blogger />} />
           <Route path="/Eshower" element={<Eshower />} />
-          <Route path="/footer" element={<Footer1 />} />
+          {/* <Route path="/footer" element={<Footer1 />} /> */}
           <Route path="/privacy" element={<Privacy1 />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/mainmodel" element={<M />} />
+          <Route path="/eventatatraski" element={<EventsAtAtraski />} />
+          <Route path="/collabration" element={<Collaboration />} />
+          <Route path="/servicesfashion" element={<Services />} />
+          <Route path="/cities" element={<Cities />} />
+          <Route path="/sectionfashion" element={<Section1 />} />
+
 
 
         </Routes>

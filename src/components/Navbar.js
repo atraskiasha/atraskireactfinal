@@ -93,7 +93,7 @@ const Navbar = () => {
                   onMouseEnter={toggleSubSubMenu} // Removed ref and replaced with onMouseEnter event
                   onMouseLeave={toggleSubSubMenu} // Removed ref and replaced with onMouseLeave event
                 >
-                  <NavLink className="dropdown-item dropdown-toggle bg-secondary" to="#" >
+                  <NavLink className="dropdown-item dropdown-toggle " to="#" style={{backgroundColor:'white', color:'black'}}>
                     More </NavLink>
                   <ul className={`dropdown-menu ${subSubMenuOpen ? 'show' : ''}`}>
                     <li>
@@ -152,11 +152,11 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="https://atstay.in/">
-                Travel
+                Atstay
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="">
+              <NavLink className="nav-link" to="/sectionfashion">
                 Fashion
               </NavLink>
             </li>
