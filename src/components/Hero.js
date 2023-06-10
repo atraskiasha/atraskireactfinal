@@ -1,5 +1,6 @@
 import React from "react";
 // import { MDBBtn, MDBContainer } from "mdb-react-ui-kit";
+import backimg from './images/eshower.jpg'
 import "./App.css";
 
 function Hero() {
@@ -8,8 +9,8 @@ function Hero() {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://i.insider.com/60f7f9ee2a723b0011e4f4b7?width=1136&format=jpeg')",
+          backgroundImage: `url(${backimg})`,
+
           height: 600, backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center'
         }}
       >
