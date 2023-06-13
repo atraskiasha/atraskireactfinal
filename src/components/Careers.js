@@ -171,7 +171,7 @@ const Careers = () => {
                                 <span class="bi bi-plus">Actively Hiring</span><br></br>
                                 <span class="bi bi-geo-alt-fill" >Delhi,India</span><br></br>
 
-                                <a href="https://www.linkedin.com/jobs/view/3616374996" className="btn btn-primary" style={{margin:'10px'}}>Apply Now</a>
+                                <a href="https://www.linkedin.com/jobs/view/3616374996" className="btn btn-primary" style={{margin:'10px'}} target="_blank">Apply Now</a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ const Careers = () => {
                                 <span class="bi bi-plus">Actively Hiring</span><br></br>
                                 <span class="bi bi-geo-alt-fill" >Delhi,India</span><br></br>
 
-                                <a href="https://www.linkedin.com/jobs/view/3616374996" className="btn btn-primary" style={{ margin: '10px' }}>Apply Now</a>
+                                <a href="https://www.linkedin.com/jobs/view/3616374996" className="btn btn-primary" style={{ margin: '10px' }} target="_blank">Apply Now</a>
                             </div>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ const Careers = () => {
                                 <span class="bi bi-briefcase-fill">Full Time</span><br></br>
                                 <span class="bi bi-plus">Actively Hiring</span><br></br>
                                 <span class="bi bi-geo-alt-fill" >Delhi,India</span><br></br>
-                                <a href="https://www.linkedin.com/jobs/view/3616374996" className="btn btn-primary" style={{margin:'19px'}}>Apply Now</a>
+                                <a href="https://www.linkedin.com/jobs/view/3616374996" className="btn btn-primary" style={{margin:'19px'}} target="_blank">Apply Now</a>
                             </div>
                         </div>
                     </div>
