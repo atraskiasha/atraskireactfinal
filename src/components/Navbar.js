@@ -69,7 +69,7 @@ const Navbar = () => {
             </li>
 
             <li className={`nav-item dropdown ${subMenuOpen ? 'show' : ''}`} ref={subMenuRef}>
-              <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" onClick={toggleSubMenu}>
+              <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" onClick={toggleSubMenu} style={{color:'#808080'}}>
                 Services
               </NavLink>
               <ul className={`dropdown-menu ${subMenuOpen ? 'show' : ''}`} aria-labelledby="navbarDropdownMenuLink">
