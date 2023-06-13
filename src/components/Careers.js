@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import { Link} from 'react-router-dom';
@@ -200,7 +201,7 @@ const Careers = () => {
                     </div>
                 </div>
                  {/* footer starts  */}
-      <footer className=" text-white">
+      <footer className=" text-white" style={{backgroundColor:'#333'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-6">

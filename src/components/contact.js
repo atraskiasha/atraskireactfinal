@@ -52,7 +52,7 @@ const ContactUs = () => {
                   <Form.Control type="email" name="user_email" placeholder="Please enter email..." required />
                 </Form.Group>
               </Col>
-              <Col md={10}>
+              {/* <Col md={10}>
                 <Form.Group controlId="message" id="message" className="text-white">
                   <Form.Label>no</Form.Label>
                   <Form.Control type="textarea" name="user_n" placeholder="Please enter email..." required />
@@ -69,7 +69,7 @@ const ContactUs = () => {
                   <Form.Label>PHONE NUMBER</Form.Label>
                   <Form.Control type="text" name="user_phone" placeholder="Please enter phone number..." required />
                 </Form.Group>
-              </Col>
+              </Col> */}
               <Col md={10}>
                 <Form.Group controlId="query" id="query" className="text-white">
                   <Form.Label>WHAT DO YOU HAVE IN MIND?</Form.Label>

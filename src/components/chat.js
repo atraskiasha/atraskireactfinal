@@ -24,7 +24,17 @@ const Chat = () => {
     },
     {
       id: 'Name',
-      message: 'Hi {previousValue}, kindly let us know with which service we can help you',
+      message: 'Hi {previousValue}, please enter your contact number.',
+      trigger: 'waiting2',
+    },
+    {
+      id: 'waiting2',
+      user: true,
+      trigger: 'ContactNumber',
+    },
+    {
+      id: 'ContactNumber',
+      message: 'Great! We will contact you at {previousValue}, kindly let us know with which service we can help you',
       trigger: 'issues',
     },
     {
