@@ -142,7 +142,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-      Do nothing!!!      </p>
+      nothingcoin bank by 5 star</p>
       
     </div>
   </div>
