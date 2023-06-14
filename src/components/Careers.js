@@ -200,8 +200,11 @@ const Careers = () => {
                         </div>
                     </div>
                 </div>
-                 {/* footer starts  */}
-      <footer className=" text-white" style={{backgroundColor:'#333'}}>
+              
+            </div>
+
+   {/* footer starts  */}
+   <footer className=" text-white" style={{backgroundColor:'#333'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -223,9 +226,6 @@ const Careers = () => {
       </footer>
 
       {/*  footer ends  */}
-            </div>
-
-
         </>
     )
 }

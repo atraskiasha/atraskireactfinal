@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Abouts from './EAbout';
 import Hero from './Hero';
 // import Perks from './Eshower/perks';
@@ -42,7 +42,7 @@ const Eshower = () => {
                     </div>
                 </div>
                  {/* footer starts  */}
-      {/* <footer className=" text-white">
+      <footer className=" text-white" style={{backgroundColor:'#333'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -61,7 +61,7 @@ const Eshower = () => {
           </div>
 
         </div>
-      </footer>  */}
+      </footer>
 
       {/*  footer ends  */}
             </div>
