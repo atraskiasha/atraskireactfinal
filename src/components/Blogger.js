@@ -138,9 +138,9 @@ const Blogger = () => {
       {/* Gallery  */}
       
    {/* // */}
-   <div>
+   {/* <div>
    <Upcoming />
-   </div>
+   </div> */}
    {/* //    */}
       
 
