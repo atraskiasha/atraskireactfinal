@@ -21,10 +21,10 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('click', handleOutsideClick);
+    document.addEventListener('click', handleOutsideClick);
 
     return () => {
-      window.removeEventListener('click', handleOutsideClick);
+      document.removeEventListener('click', handleOutsideClick);
     };
   }, []);
 
@@ -46,7 +46,13 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md navbar-dark">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/home">
-          <img src={logo4} alt="Your Logo" width="100px" height="100" className="d-inline-block align-text-top" />
+          <img
+            src={logo4}
+            alt="Your Logo"
+            width="100px"
+            height="100"
+            className="d-inline-block align-text-top"
+          />
         </NavLink>
 
         <button
@@ -69,7 +75,14 @@ const Navbar = () => {
             </li>
 
             <li className={`nav-item dropdown ${subMenuOpen ? 'show' : ''}`} ref={subMenuRef}>
-              <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" onClick={toggleSubMenu} style={{color:'#808080'}}>
+              <NavLink
+                className="nav-link dropdown-toggle"
+                to="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                onClick={toggleSubMenu}
+                style={{ color: '#808080' }}
+              >
                 Services
               </NavLink>
               <ul className={`dropdown-menu ${subMenuOpen ? 'show' : ''}`} aria-labelledby="navbarDropdownMenuLink">
@@ -89,44 +102,32 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li
-                  className={`nav-item dropdown ${subSubMenuOpen ? 'show' : ''}`} // Adjusted class condition
-                  onMouseEnter={toggleSubSubMenu} // Removed ref and replaced with onMouseEnter event
-                  onMouseLeave={toggleSubSubMenu} // Removed ref and replaced with onMouseLeave event
+                  className={`nav-item dropdown ${subSubMenuOpen ? 'show' : ''}`}
+                  onMouseEnter={toggleSubSubMenu}
+                  onMouseLeave={toggleSubSubMenu}
+                  ref={subSubMenuRef}
                 >
-                  <NavLink className="dropdown-item dropdown-toggle " to="#" style={{backgroundColor:'white', color:'black'}}>
-                    More </NavLink>
+                  <NavLink className="dropdown-item dropdown-toggle " to="#" style={{ backgroundColor: 'white', color: 'black' }}>
+                    More
+                  </NavLink>
                   <ul className={`dropdown-menu ${subSubMenuOpen ? 'show' : ''}`}>
                     <li>
                       <NavLink className="dropdown-item" to="/production" onClick={closeDropdowns}>
-                      Production
+                        Production
                       </NavLink>
                     </li>
                     <li>
                       <NavLink className="dropdown-item" to="/web" onClick={closeDropdowns}>
-                      Web Development </NavLink>
+                        Web Development
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink className="dropdown-item" to="/mice" onClick={closeDropdowns}>
-                      MICE </NavLink>
+                        MICE
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
-                {/* <li>
-                  <NavLink className="dropdown-item" to="/production" onClick={closeDropdowns}>
-                    Production
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="dropdown-item" to="/web" onClick={closeDropdowns}>
-                    Web Development
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="dropdown-item" to="/mice" onClick={closeDropdowns}>
-                    MICE
-                  </NavLink>
-                </li> */}
-                
               </ul>
             </li>
 
@@ -140,11 +141,6 @@ const Navbar = () => {
                 About Us
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink className="nav-link" to="/chat">
-                Chat
-              </NavLink>
-            </li> */}
             <li className="nav-item">
               <NavLink className="nav-link" to="https://mycitymyvoice.in/">
                 MCMV
