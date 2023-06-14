@@ -280,8 +280,8 @@ Atraski Events Brand-Solutions has the branding and marketing expertise you need
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <p><i className="fa fa-envelope"></i> Email: atraskiabhyudaymajhi@gmail.com</p>
-              <p><i className="fa fa-phone"></i> Contact No: 9163720198</p>
+            <p><i className="fa fa-envelope"></i> Email: abhyuday.majhi@atraski.com</p>
+              <p><i className="fa fa-envelope"></i>Email: priti.jhawar@atraski.com</p>              <p><i className="fa fa-phone"></i> Contact No: 9163720198</p>
               <p><i className="fa fa-phone"></i> Contact No: 7596009785</p>
             </div>
             <div className="col-md-6 text-md-right">
