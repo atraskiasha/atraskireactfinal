@@ -9,7 +9,9 @@ export default function Upcoming() {
   const [values, setValues] = useState(1);
 
   const Decrement = () => {
-    setValues(values - 1);
+    if (values > 1) {
+      setValues(values - 1);
+    }
   }
 
   const Increment = () => {
