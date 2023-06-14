@@ -22,7 +22,7 @@ function Hero() {
               
               <a
                 className="btn btn-outline-light btn-lg"
-                href="https://forms.gle/C3j12MsdHEEdaNVH7"
+                href="/googleform"
                 role="button"
               >
                 Join our community{" "}

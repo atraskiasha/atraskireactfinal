@@ -37,6 +37,7 @@ import Services from './components/Services';
 import Cities from './components/Cities';
 // import Footer from './components/Footer';
 import Section1 from './components/section1';
+import GoogleForm from './components/Form';
 
 
 function App() {
@@ -74,6 +75,7 @@ function App() {
           <Route path="/servicesfashion" element={<Services />} />
           <Route path="/cities" element={<Cities />} />
           <Route path="/sectionfashion" element={<Section1 />} />
+          <Route path="/googleform" element={<GoogleForm />} />
 
 
 
