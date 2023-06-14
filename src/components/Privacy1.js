@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link} from 'react-router-dom';
+// import { Link} from 'react-router-dom';
 
 const Privacy1 = () => {
 
     return (
         <div>
             <section className="upcoming-events" style={{ backgroundColor: '#fff', color: '#333', padding: '10px', textAlign: 'center', height: '20vh' }}>
-                <h2 className="privacy-policy" style={{ margin: '50px', fontSize: '50px', textAlign: 'center' }}>Privacy Policy</h2>
+                <h2 className="privacy-policy" style={{ margin: '50px', fontSize: '50px', textAlign: 'center', color:'black' }}>Privacy Policy</h2>
                 <div className="event-container">
                     <p style={{ margin: '50px', fontSize: '20px', textAlign: 'left' }}>At Atraski, accessible from atraski.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Atraski and how we use it.
 
@@ -57,7 +57,7 @@ const Privacy1 = () => {
             </section>
 
              {/* footer starts  */}
-      <footer className=" text-white">
+      {/* <footer className=" text-white">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -76,7 +76,7 @@ const Privacy1 = () => {
           </div>
 
         </div>
-      </footer>
+      </footer> */}
 
       {/*  footer ends  */}
 
