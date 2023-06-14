@@ -128,7 +128,7 @@ function Prod() {
       
 
       {/* footer starts  */}
-      <footer className=" text-white">
+      <footer className=" text-white" style={{backgroundColor:'#333'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-6">
