@@ -12,6 +12,7 @@ const Services = () => {
       margin: "2rem",
       boxShadow: " 0 4px 8px 0 white, 0 6px 20px 0 pink",
       color: "black",
+       textAlign:"center"
     };
     
   return (
@@ -24,7 +25,7 @@ const Services = () => {
           </h5>
         </div>
         <div className="col-12  col-md-6 col-lg-3 my-1 " style={card}>
-          <h5 style={{ fontWeight: "bolder", alignItems: "center",color:"black" }}>
+          <h5 style={{ fontWeight: "bolder", alignItems: "center",color:"black" , marginTop:'1.2rem'}}>
             {" "}
             PROFESSIONALS
           </h5>
