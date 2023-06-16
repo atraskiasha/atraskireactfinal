@@ -1,7 +1,36 @@
 import React from 'react';
 import ChatBot from 'react-simple-chatbot';
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, push } from 'firebase/database';
 import { Segment } from 'semantic-ui-react';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDT4Z9iamyL8n9piUid_bjKhAe-OT9Xcvs",
+  authDomain: "chatbot-f3e28.firebaseapp.com",
+  databaseURL: "https://chatbot-f3e28-default-rtdb.firebaseio.com",
+  projectId: "chatbot-f3e28",
+  storageBucket: "chatbot-f3e28.appspot.com",
+  messagingSenderId: "1027874989950",
+  appId: "1:1027874989950:web:58128665a70c6c0685352f"
+};
+
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
+const databaseRef = ref(database, 'chatbot');
+
 const Chat = () => {
+  const handleEnd = ({ steps, values }) => {
+    const chatData = {
+      timestamp: Date.now(),
+      steps: steps.map(({ id, message, value }) => ({ id, message, value })),
+      values
+    };
+
+    push(databaseRef, chatData)
+      .then(() => console.log('Data successfully pushed to Firebase'))
+      .catch(error => console.error('Error pushing data to Firebase:', error));
+  };
+
   const steps = [
     {
       id: 'Greet',
@@ -24,7 +53,7 @@ const Chat = () => {
     },
     {
       id: 'Name',
-      message: 'Hi {previousValue}, please enter your contact number.',
+      message: 'Hi {previousValue}, please enter your contact number and gmail.',
       trigger: 'waiting2',
     },
     {
@@ -84,44 +113,46 @@ const Chat = () => {
     },
     {
       id: 'Events',
-      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      message: 'Thanks for your interest. Our team will get in touch with you. Have a look at our past projects',
       end: true,
     },
     {
       id: 'Public Relation',
-      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      message: 'Thanks for your interest. Our team will get in touch with you. Have a look at our past projects',
       end: true,
     },
     {
       id: 'Production',
-      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      message: 'Thanks for your interest. Our team will get in touch with you. Have a look at our past projects',
       end: true,
     },
     {
       id: 'Web Development',
-      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      message: 'Thanks for your interest. Our team will get in touch with you. Have a look at our past projects',
       end: true,
     },
     {
       id: 'MICE',
-      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      message: 'Thanks for your interest. Our team will get in touch with you. Have a look at our past projects',
       end: true,
     },
     {
       id: 'Influencer Marketing',
-      message: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
+      message
+: 'Thanks for your interest. Our team will get in touch with you.Have a look at our past projects',
       end: true,
     },
   ];
 
   return (
     
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh'}}>
       <Segment floated="right">
-        <ChatBot steps={steps} />
+        <ChatBot steps={steps} handleEnd={handleEnd} />
       </Segment>
     </div>
   );
 };
+;
 
 export default React.memo(Chat);
