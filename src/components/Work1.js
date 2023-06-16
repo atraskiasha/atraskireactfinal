@@ -5,15 +5,15 @@ import { Link} from 'react-router-dom';
 // import WorkGallary from './workGallary';
 import work1 from '../components/images/DY PATIL1.jpg';
 import work2 from '../components/images/nissan.png';
-import work3 from '../components/images/nothingcoinbank.png';
-import work4 from '../components/images/skoda.png';
+import work3 from '../components/images/pharmco.jpg';
+import work4 from '../components/images/suez.jpg';
 import work5 from '../components/images/ultrasound.png';
-import work6 from '../components/images/confrence.png';
-import work7 from '../components/images/jhonny-walker.png';
-import work8 from '../components/images/gatebranding.png';
-import work9 from '../components/images/fabrication.png';
-import work10 from '../components/images/mi.png';
-import work11 from '../components/images/pepepure.png';
+import work6 from '../components/images/weisstechnique.jpg';
+import work7 from '../components/images/jhonny walker.jpg';
+import work8 from '../components/images/medicene.jpeg';
+import work9 from '../components/images/nothingcoinbank.png';
+import work10 from '../components/images/mi.jpg';
+import work11 from '../components/images/pepe.jpg';
 import work12 from '../components/images/volksvagan.png';
 import work13 from '../components/images/facebook.png';
 import work14 from '../components/images/auditoirum.png';
@@ -142,7 +142,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-      nothingcoin bank by 5 star</p>
+      We are proud to implement exhibition stall for Alkem.</p>
       
     </div>
   </div>
@@ -154,7 +154,8 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-      BTL activity for SKODA , in Delhi!
+      We are proud to implement exhibition stall for Suez.
+
       </p>
       
     </div>
@@ -181,7 +182,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-      Atraski events (@atraskievents) are proud to be part of this event, and we are pretty excited to announce to you that we have organized this conference meet for MI.      </p>
+      Proud to execute book for Weisstechnik at NuGen Mobility Summit organised by ICAT.      </p>
       
     </div>
   </div>
@@ -223,8 +224,7 @@ const Work1 = () => {
       <h2 className='mb-5'>
       </h2>
       <p>
-      Make your event stand out from the rest. 🤝
-Atraski Events Brand-Solutions has the branding and marketing expertise you need to succeed.      </p>
+      nothingcoinbank by 5 star      </p>
       
     </div>
   </div>
