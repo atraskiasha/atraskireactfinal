@@ -144,17 +144,17 @@ const Main = () => {
 >
 
 
-        <input
+       <input
           type="text"
           value={selectedOption}
           placeholder={selectedOption}
           readOnly
           // style={{ width: selectedOption.length * 8, color: 'blue' }}
-          style={{ width: selectedOption ? '70vh' : '350px',height:'6vh',borderRadius:'7px', color: 'black', backgroundColor:'',textAlign:'center',fontSize:'1.1rem' }}
+          style={{ width: selectedOption ? '70vh' : '350px',height:'6vh',borderRadius:'24px',border:'3px solid #fff ', color: '#fff', background:'transparent',textAlign:'center',fontSize:'1.1rem' }}
 
           />
          <span className="search-icon" style={{ position: 'relative', right: '30rem', fontSize:'1.2rem' }}>
-    <i className="fas fa-search" style={{ color: 'black' }}></i>
+    <i className="fas fa-search" style={{ color: '#fff' }}></i>
   </span>
         <span>&#x25BC;</span>
       </div>
