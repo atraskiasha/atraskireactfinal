@@ -22,7 +22,7 @@ const Services = () => {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '0'>
+    padding: '0'}}>
       <h1 className="text-center my-4 Heading-1">OUR SERVICES</h1>
       <div className="row col-12 justify-content-center my-2 text-center ">
         <div className="col-12  col-md-6 col-lg-3 my-1 " style={card}>
