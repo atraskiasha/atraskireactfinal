@@ -153,7 +153,7 @@ const Main = () => {
           style={{ width: selectedOption ? '50vh' : '350px',height:'6vh',borderRadius:'7px', color: 'black', backgroundColor:'',textAlign:'center',fontSize:'1.1rem' }}
 
           />
-         <span className="search-icon" style={{ position: 'relative', right: '24.5rem' }}>
+         <span className="search-icon" style={{ position: 'relative', right: '24.5rem', fontSize:'1.2rem' }}>
     <i className="fas fa-search" style={{ color: 'black' }}></i>
   </span>
         <span>&#x25BC;</span>
