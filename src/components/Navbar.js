@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/home">
+        <NavLink className="navbar-brand" to="/Atraski">
           <img
             src={logo4}
             alt="Your Logo"
@@ -69,7 +69,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/home">
+              <NavLink className="nav-link" to="/Atraski">
                 Home
               </NavLink>
             </li>
@@ -132,7 +132,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Work1">
+              <NavLink className="nav-link" to="/Our Work">
                 Work
               </NavLink>
             </li>

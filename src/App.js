@@ -50,12 +50,12 @@ function App() {
 
         <Navbar />
         <Routes>
-          <Route exact path="/home" element={<Main/>} />
+          <Route exact path="/Atraski" element={<Main/>} />
           <Route path="/atraskireact" element={<Main/>} />
           <Route path="/" element={<Main/>} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
-          <Route path="/Work1" element={<Work1 />} />
+          <Route path="/Our Work" element={<Work1 />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/event" element={<Event1 />} />
           <Route path="/public" element={<Public />} />
