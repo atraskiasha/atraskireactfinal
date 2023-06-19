@@ -150,10 +150,10 @@ const Main = () => {
           placeholder={selectedOption}
           readOnly
           // style={{ width: selectedOption.length * 8, color: 'blue' }}
-          style={{ width: selectedOption ? '50vh' : '350px',height:'6vh',borderRadius:'7px', color: 'black', backgroundColor:'',textAlign:'center',fontSize:'1.1rem' }}
+          style={{ width: selectedOption ? '70vh' : '350px',height:'6vh',borderRadius:'7px', color: 'black', backgroundColor:'',textAlign:'center',fontSize:'1.1rem' }}
 
           />
-         <span className="search-icon" style={{ position: 'relative', right: '24.5rem', fontSize:'1.2rem' }}>
+         <span className="search-icon" style={{ position: 'relative', right: '30rem', fontSize:'1.2rem' }}>
     <i className="fas fa-search" style={{ color: 'black' }}></i>
   </span>
         <span>&#x25BC;</span>
@@ -163,7 +163,7 @@ const Main = () => {
           
           {filteredOptions.map((option) => (
             <a href='/chat'><div key={option} onClick={() => handleOptionSelect(option)}
-            style={{ cursor: 'pointer', fontSize: '1rem', textAlign: 'center', margin: '-1.3rem 0' }}
+            style={{ cursor: 'pointer', fontSize: '1rem', textAlign: 'center', margin: '-1.5rem 0' }}
             >
               {option}
             </div></a>
