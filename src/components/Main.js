@@ -4,18 +4,32 @@ import { Link } from 'react-router-dom';
 import { useState} from 'react';
 import '../index.css';
 
+// <<<<<<< HEAD
 
-import logo1 from './images/bm.jpeg';
-import logo2 from './images/ducati.jpeg';
-import logo3 from './images/bmwi.jpeg';
-import logo4 from './images/home3.jpeg';
-import logo5 from './images/home4.webp';
-import logo6 from './images/cme.jpeg';
-import logo7 from './images/eazydiner-prime.png';
-import logo8 from './images/mcmv.jpeg';
-import logo9 from './images/travel.jpeg';
+// import logo1 from './images/bm.jpeg';
+// import logo2 from './images/ducati.jpeg';
+// import logo3 from './images/bmwi.jpeg';
+// import logo4 from './images/home3.jpeg';
+// import logo5 from './images/home4.webp';
+// import logo6 from './images/cme.jpeg';
+// import logo7 from './images/eazydiner-prime.png';
+// import logo8 from './images/mcmv.jpeg';
+// import logo9 from './images/travel.jpeg';
 // import handImage from './images/hand.png'; // Import your hand image
 // import searchIcon from './images/search.png'; // Import your search icon
+// =======
+import logo1 from './images/3-01.png';
+import logo2 from './images/ducati.jpg';
+import logo3 from './images/4-01.png';
+import logo4 from './images/7.png';
+import logo5 from './images/1.png';
+import logo6 from './images/cme.png';
+import logo7 from './images/eazydiner-prime.png';
+import logo8 from './images/2.png';
+import logo9 from './images/travel.png';
+// import handImage from './images/hand.png'; // Import your hand image
+ 
+// >>>>>>> 2744392e7ec3026a8b8da4f0aa9489d6f4c11f85
 
 // const sentences = [
 //   'Want to join Digital Marketing team?',
@@ -144,12 +158,11 @@ const Main = () => {
 
 
 
-
-      <div
+<div
         className="background-image-res"
 
         style={{
-          backgroundImage: `url(${logo1})`,
+          backgroundImage: `url(${logo8})`,
           backgroundSize: '100% auto',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -194,7 +207,7 @@ const Main = () => {
       </div>
       <div
         style={{
-          backgroundImage: `url(${logo8})`,
+          backgroundImage: `url(${logo1})`,
           backgroundSize: '100% auto',
           backgroundAttachment: 'fixed',
           height: '80vh',
