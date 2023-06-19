@@ -87,6 +87,7 @@ body {
 
   #changeText{
     font-size:1.1rem !important;
+    width:38ch !important;
   }
   #mainheading{
     margin-top:0 !important;
