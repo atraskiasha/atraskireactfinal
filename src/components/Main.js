@@ -1,7 +1,7 @@
 // import React, { useState, useEffect } from 'react';
 // import { Container, Alert } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { useState} from 'react';
+import React, { useState, useEffect ,useMemo} from 'react';
 import '../index.css';
 
 // <<<<<<< HEAD
@@ -42,10 +42,22 @@ import logo9 from './images/travel.png';
 
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState('');
+  const [selectedOption, setSelectedOption] = useState('Want to join Digital Marketing team?');
   const [searchTerm] = useState('');
 
-  const options = ['Want to join Digital Marketing team?', 'Need to build Public Relation in market?', 'Want to create an Event with us?'];
+  const options = useMemo(() => ['Want to join Digital Marketing team?', 'Need to build Public Relation in market?', 'Want to create an Event with us?'], []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const currentIndex = options.indexOf(selectedOption);
+      const nextIndex = (currentIndex + 1) % options.length;
+      setSelectedOption(options[nextIndex]);
+    }, 2000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [selectedOption, options]);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -59,6 +71,7 @@ const Main = () => {
   // const handleSearch = (event) => {
   //   setSearchTerm(event.target.value);
   // };
+  
 
   const filteredOptions = options.filter((option) =>
     option.toLowerCase().includes(searchTerm.toLowerCase())
@@ -129,15 +142,20 @@ const Main = () => {
           {/* </a> */}
           <div onClick={handleToggle}             style={{ cursor:'pointer' }}
 >
+
+
         <input
           type="text"
           value={selectedOption}
-          placeholder="Select an option"
+          placeholder={selectedOption}
           readOnly
           // style={{ width: selectedOption.length * 8, color: 'blue' }}
-          style={{ width: selectedOption ? '70vh' : '350px',height:'5vh',borderRadius:'7px', color: 'black', backgroundColor:'',textAlign:'center',fontSize:'1.1rem' }}
+          style={{ width: selectedOption ? '50vh' : '350px',height:'6vh',borderRadius:'7px', color: 'black', backgroundColor:'',textAlign:'center',fontSize:'1.1rem' }}
 
           />
+         <span className="search-icon" style={{ position: 'relative', right: '24.5rem' }}>
+    <i className="fas fa-search" style={{ color: 'black' }}></i>
+  </span>
         <span>&#x25BC;</span>
       </div>
       {isOpen && (
@@ -152,7 +170,7 @@ const Main = () => {
           ))}
         </div>
       )}
-        
+       
         </div>
       </div>
 
