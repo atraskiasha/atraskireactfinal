@@ -150,7 +150,7 @@ const Section1 = () => {
         </div>
       </div>
 
-      <div className="col-12 d-block d-lg-none justify-content-center">
+      <div className="col-12 d-block d-lg-none justify-content-center" style={{padding:'0'}}>
         <img
           src={bannerimg}
           alt=""
