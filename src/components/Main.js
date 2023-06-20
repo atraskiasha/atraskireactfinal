@@ -36,7 +36,7 @@ const sentences = [
   'Looking for best brand visibility or Public Relation solutions?',
   'Search of optimum Event Management support?',
   'In search of the right web development solutions?',
-  'Looking searching for right Influencer Marketing solutions?',
+  'Looking for right Influencer Marketing solutions?',
   'Looking for assistance in MICE solutions?',
 ];
 
