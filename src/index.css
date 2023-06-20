@@ -101,6 +101,10 @@ body {
   .background{
     height:auto;
   }
+  #changeText{
+    font-size:1.1rem !important;
+    width:50ch !important;
+  }
 }
 
 @media screen and (max-width:821px){
