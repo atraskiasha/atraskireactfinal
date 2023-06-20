@@ -32,12 +32,12 @@ import logo9 from './images/travel.png';
 // >>>>>>> 2744392e7ec3026a8b8da4f0aa9489d6f4c11f85
 
 const sentences = [
-  'Want to join Digital Marketing team?',
-  'Need to build Public Relation in market?',
-  'Want to create an Event with us?',
-  'Are you looking for a web developer?',
-  'Do you want to create Influencer Marketing?',
-  'Want to work on the mice solution ?',
+  'In need of Digital Marketing Solutions?',
+  'Looking for best brand visibility or Public Relation solutions?',
+  'Search of optimum Event Management support?',
+  'In search of the right web development solutions?',
+  'Looking searching for right Influencer Marketing solutions?',
+  'Looking for assistance in MICE solutions?',
 ];
 
 const Main = () => {
@@ -95,7 +95,7 @@ const Main = () => {
                   id="changeText"
                   variant="primary"
                   className="text-center position-relative"
-                  style={{ width: '60ch', fontSize: '1.3rem', backgroundColor: '#F9F9F9' }}
+                  style={{ width: '60ch', fontSize: '1.1rem', backgroundColor: '#F9F9F9' }}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
