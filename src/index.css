@@ -101,6 +101,10 @@ body {
   .background{
     height:auto;
   }
+  #changeText{
+    font-size:1.1rem !important;
+    width:50ch !important;
+  }
 }
 
 @media screen and (max-width:821px){
@@ -126,6 +130,10 @@ body {
 @media screen and (max-width:415px){
   .background{
     height:auto;
+  }
+  #changeText{
+    /* font-size:1.1rem !important; */
+    width:38ch !important;
   }
 }
 
