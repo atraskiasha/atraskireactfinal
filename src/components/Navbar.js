@@ -3,6 +3,16 @@ import { NavLink } from 'react-router-dom';
 import logo4 from './images/logo.png';
 
 const Navbar = () => {
+
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const handleNavClick = () => {
+    setIsNavOpen(false);
+  };
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
   const [subMenuOpen, setSubMenuOpen] = useState(false);
   const [subSubMenuOpen, setSubSubMenuOpen] = useState(false);
 
@@ -43,7 +53,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-md navbar-dark">
+    <nav className={`navbar navbar-expand-md navbar-dark  ${isNavOpen ? 'show' : ''}`}>
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/Atraski">
           <img
@@ -58,18 +68,21 @@ const Navbar = () => {
         <button
           className="navbar-toggler"
           type="button"
+          onClick={toggleNav} 
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
-          aria-expanded="false"
+          aria-expanded={isNavOpen ? "true" : "false"}
+
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div className={`collapse navbar-collapse justify-content-end ${isNavOpen ? 'show' : ''}`}
+        id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Atraski">
+              <NavLink className="nav-link" to="/Atraski" onClick={handleNavClick} >
                 Home
               </NavLink>
             </li>
@@ -87,17 +100,26 @@ const Navbar = () => {
               </NavLink>
               <ul className={`dropdown-menu ${subMenuOpen ? 'show' : ''}`} aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <NavLink className="dropdown-item" to="/services" onClick={closeDropdowns}>
+                  <NavLink className="dropdown-item" to="/services"   onClick={() => {
+    closeDropdowns();
+    handleNavClick();
+  }} >
                     Digital Marketing
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/event" onClick={closeDropdowns}>
+                  <NavLink className="dropdown-item" to="/event"   onClick={() => {
+    closeDropdowns();
+    handleNavClick();
+  }}>
                     Events
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/marketing" onClick={closeDropdowns}>
+                  <NavLink className="dropdown-item" to="/marketing"   onClick={() => {
+    closeDropdowns();
+    handleNavClick();
+  }}>
                     Influencer Marketing
                   </NavLink>
                 </li>
@@ -112,17 +134,26 @@ const Navbar = () => {
                   </NavLink>
                   <ul className={`dropdown-menu ${subSubMenuOpen ? 'show' : ''}`}>
                     <li>
-                      <NavLink className="dropdown-item" to="/production" onClick={closeDropdowns}>
+                      <NavLink className="dropdown-item" to="/production"   onClick={() => {
+    closeDropdowns();
+    handleNavClick();
+  }}>
                         Production
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink className="dropdown-item" to="/web" onClick={closeDropdowns}>
+                      <NavLink className="dropdown-item" to="/web"   onClick={() => {
+    closeDropdowns();
+    handleNavClick();
+  }}>
                         Web Development
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink className="dropdown-item" to="/mice" onClick={closeDropdowns}>
+                      <NavLink className="dropdown-item" to="/mice"   onClick={() => {
+    closeDropdowns();
+    handleNavClick();
+  }}>
                         MICE
                       </NavLink>
                     </li>
@@ -132,47 +163,47 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/OurWork">
+              <NavLink className="nav-link" to="/OurWork"  onClick={handleNavClick}>
                 Work
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about">
+              <NavLink className="nav-link" to="/about" onClick={handleNavClick}>
                 About Us
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="https://mycitymyvoice.in/">
+              <NavLink className="nav-link" to="https://mycitymyvoice.in/" onClick={handleNavClick}>
                 MCMV
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="https://atstay.in/">
+              <NavLink className="nav-link" to="https://atstay.in/" onClick={handleNavClick}>
                 Atstay
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/sectionfashion">
+              <NavLink className="nav-link" to="/fashion" onClick={handleNavClick}>
                 Fashion
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/blogger">
+              <NavLink className="nav-link" to="/blogger" onClick={handleNavClick}>
                 Blogger's Mela
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Eshower">
+              <NavLink className="nav-link" to="/Eshower" onClick={handleNavClick}>
                 E-Shower
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/careers">
+              <NavLink className="nav-link" to="/careers" onClick={handleNavClick}>
                 Careers
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/ContactUs">
+              <NavLink className="nav-link" to="/ContactUs" onClick={handleNavClick}>
                 Contact us
               </NavLink>
             </li>

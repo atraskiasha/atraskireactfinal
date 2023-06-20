@@ -74,7 +74,7 @@ function App() {
           <Route path="/collabration" element={<Collaboration />} />
           <Route path="/servicesfashion" element={<Services />} />
           <Route path="/cities" element={<Cities />} />
-          <Route path="/sectionfashion" element={<Section1 />} />
+          <Route path="/fashion" element={<Section1 />} />
           <Route path="/googleform" element={<GoogleForm />} />
 
 
