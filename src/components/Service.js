@@ -148,7 +148,7 @@ const Service = () => {
             <div className="col-md-4 mb-4">
               <div className="card h-100">
                 <div className="bg-dark card-body">
-                  <h4 className="card-title fw-bold">Experience</h4>
+                  <h4 className="card-title fw-bold" style={{color:'#FFF4F4'}}>Experience</h4>
                   <p className="card-text">We have years of experience in the industry and have helped numerous clients achieve their goals.</p>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const Service = () => {
             <div className="col-md-4 mb-4">
               <div className="card h-100">
                 <div className="bg-dark card-body">
-                  <h4 className="card-title fw-bold">Expertise</h4>
+                  <h4 className="card-title fw-bold" style={{color:'#FFF4F4'}}>Expertise</h4>
                   <p className="card-text">Our team consists of highly skilled professionals with expertise in various areas of digital marketing.</p>
                 </div>
               </div>
@@ -164,7 +164,7 @@ const Service = () => {
             <div className="col-md-4 mb-4">
               <div className="card h-100">
                 <div className="bg-dark card-body">
-                  <h4 className="card-title fw-bold">Results</h4>
+                  <h4 className="card-title fw-bold" style={{color:'#FFF4F4'}}>Results</h4>
                   <p className="card-text">We focus on delivering measurable results that help our clients achieve their business objectives.</p>
                 </div>
               </div>

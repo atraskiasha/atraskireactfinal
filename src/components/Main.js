@@ -95,7 +95,7 @@ const Main = () => {
                   id="changeText"
                   variant="primary"
                   className="text-center position-relative"
-                  style={{ width: '66ch', fontSize: '1.3rem', backgroundColor: '#F9F9F9' }}
+                  style={{ width: '60ch', fontSize: '1.3rem', backgroundColor: '#F9F9F9' }}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
