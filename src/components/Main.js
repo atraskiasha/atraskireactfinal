@@ -70,7 +70,7 @@ const Main = () => {
           
           <Form onSubmit={handleFormSubmit} className="d-flex align-items-center">
       <Dropdown>
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
+        <Dropdown.Toggle variant="dark" id="dropdown-basic">
           <BsFillCaretDownFill size={1} /> {/* Reduce the size of the symbol */}
         </Dropdown.Toggle>
 
@@ -114,9 +114,10 @@ const Main = () => {
         className="mr-sm-2"
         value={searchValue}
         onChange={handleSearchInputChange}
+        style={{ borderColor: 'blue' }}
       />
 
-      <Button type="submit" variant="outline-success">
+      <Button type="submit" variant="dark">
         Search
       </Button>
     </Form>
