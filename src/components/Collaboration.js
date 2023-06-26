@@ -7,19 +7,19 @@ const Collaboration = () => {
         <h1 className="Heading-1 text-center"> OUR PAST COLLABORATION</h1>
         {/* <div className="col-lg-5 d-none d-lg-block ps-0 ps-sm-4 text-start py-3"> */}
         <div className="col-9 ps-0 ps-sm-4 m-2 p-3 justify-content-center">
-          <p>
+          <p style={{textAlign:'center'}}>
             Atraski welcomes each and every individual starting from a beginner
             to an intermediate who believes in the fact that Fashion is like
             the air they need to breathe and survive.
           </p>
-          <p>
+          <p style={{textAlign:'center'}}>
             Here are some of our previous journeys and collaborations where our
             models amazed the world with their gorgeous performance & aesthetic
             expressions while our designers lit up the garments with their
             brilliance!
           </p>
         </div>
-        <div className="col-9" style={{fontWeight:"bold"}}>
+        <div className="col-9" style={{fontWeight:"bold", textAlign:'center'}}>
           <ul>
             <li>Bhubaneswar Fashion Week</li>
             <li>Bangalore Fashion Confluence</li>

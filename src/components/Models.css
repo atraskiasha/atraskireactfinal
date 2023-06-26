@@ -29,7 +29,7 @@
  .active > div { display:none; }
  .active > div:first-child { display:block; }
 
-/*xs*/
+
 @media (max-width: 767px) {
   .carousel-inner .active.left { left: -50%; }
   .carousel-inner .active.right { left: 50%; }
@@ -39,7 +39,7 @@
 	.active > div:first-child + div { display:block; }
 }
 
-/*sm*/
+
 @media (min-width: 768px) and (max-width: 991px) {
   .carousel-inner .active.left { left: -50%; }
   .carousel-inner .active.right { left: 50%; }
@@ -49,7 +49,7 @@
 	.active > div:first-child + div { display:block; }
 }
 
-/*md*/
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .carousel-inner .active.left { left: -33%; }
   .carousel-inner .active.right { left: 33%; }
@@ -60,7 +60,7 @@
   .active > div:first-child + div + div { display:block; }
 }
 
-/*lg*/
+
 @media (min-width: 1200px) {
   .carousel-inner .active.left { left: -25%; }
   .carousel-inner .active.right{ left:  25%; }

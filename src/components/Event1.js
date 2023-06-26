@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/heading-has-content */
 // import event from './imagegallery/event.jpg'
@@ -14,6 +15,7 @@ import e1 from './images/e15.jpg';
 import e2 from './images/e16.png';
 import e3 from './images/e17.png';
 import e4 from './images/e18.png';
+import audi from './images/audi.jpg'
 
 import portfolio1 from './images/e1.jpg'
 import portfolio2 from './images/e2.jpg'
@@ -273,7 +275,7 @@ function Event1() {
                     </div>
                     <div class="col-md-3">
                         <div class="image-container">
-                            <img src={eventimg5} alt="Image 4"/>
+                            <img src={audi} alt="Image 4"/>
                             <div class="overlay">
                                 <div class="overlay-content">
 

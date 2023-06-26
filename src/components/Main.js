@@ -1,23 +1,16 @@
-// import React, { useState, useEffect } from 'react';
-import { Container, Alert } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import React, { useState,useEffect } from 'react';
+/* eslint-disable no-unused-vars */
+
+import React, { useState} from 'react';
 import '../index.css';
+import { Form, FormControl, Dropdown, Button } from 'react-bootstrap';
+// import CustomSelect from './customSelect';
+import {  Link } from 'react-router-dom';
+import { BsFillCaretDownFill } from 'react-icons/bs'; // Import caret down icon from react-icons library
 
-// <<<<<<< HEAD
 
-// import logo1 from './images/bm.jpeg';
-// import logo2 from './images/ducati.jpeg';
-// import logo3 from './images/bmwi.jpeg';
-// import logo4 from './images/home3.jpeg';
-// import logo5 from './images/home4.webp';
-// import logo6 from './images/cme.jpeg';
-// import logo7 from './images/eazydiner-prime.png';
-// import logo8 from './images/mcmv.jpeg';
-// import logo9 from './images/travel.jpeg';
-// import handImage from './images/hand.png'; // Import your hand image
-// import searchIcon from './images/search.png'; // Import your search icon
-// =======
+
+
+
 import logo1 from './images/3-01.png';
 import logo2 from './images/ducati.jpg';
 import logo3 from './images/4-01.png';
@@ -27,56 +20,41 @@ import logo6 from './images/cme.png';
 import logo7 from './images/eazydiner-prime.png';
 import logo8 from './images/2.png';
 import logo9 from './images/travel.png';
-// import handImage from './images/hand.png'; // Import your hand image
- 
-// >>>>>>> 2744392e7ec3026a8b8da4f0aa9489d6f4c11f85
 
-const sentences = [
-  'In need of Digital Marketing Solutions?',
-  'Looking for best brand visibility or Public Relation solutions?',
-  'Search of optimum Event Management support?',
-  'In search of the right web development solutions?',
-  'Looking for right Influencer Marketing solutions?',
-  'Looking for assistance in MICE solutions?',
-];
+
+// const options = [
+//   { value: 'In need of Digital Marketing Solutions?', label: 'In need of Digital Marketing Solutions?' , link:'/chat' },
+//   { value: 'Looking for best brand visibility or Public Relation solutions?', label: 'Looking for best brand visibility or Public Relation solutions?', link:'/chat' },
+//   { value: 'Search of optimum Event Management support?', label: 'Search of optimum Event Management support?', link:'/chat' },
+//   { value: 'Looking for right Influencer Marketing solutions?', label: 'Looking for right Influencer Marketing solutions?' , link:'/chat'},
+//   { value: 'Looking for assistance in MICE solutions?', label: 'Looking for assistance in MICE solutions?', link:'/chat' },
+  
+// ];
 
 const Main = () => {
   
  
-  const [isHovered, setIsHovered] = useState(false);
-  const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
-  // const [isHandTapping, setIsHandTapping] = useState(false);
+  const [selectedOption, setSelectedOption] = useState('');
+  const [searchValue, setSearchValue] = useState('');
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
+  const handleOptionSelect = (option) => {
+    setSelectedOption(option);
+    setSearchValue(option);
   };
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    // Redirect to the "/chat" page with the selected option
+    window.location.href = `/chat?selectedOption=${selectedOption}`;
   };
 
-  useEffect(() => {
-    const handTapTimeout = setTimeout(() => {
-      // setIsHandTapping(true);
-      const tapEndTimeout = setTimeout(() => {
-        // setIsHandTapping(false);
-      }, 500); // Tap animation duration
-      return () => clearTimeout(tapEndTimeout);
-    }, 1000); // Delay before starting tap animation
-    return () => clearTimeout(handTapTimeout);
-  }, [currentSentenceIndex]);
+  const handleSearchInputChange = (event) => {
+    setSearchValue(event.target.value);
+  };
 
-  useEffect(() => {
-    const intervals = setInterval(() => {
-      if (!isHovered) {
-        setCurrentSentenceIndex((prevIndex) => (prevIndex + 1) % sentences.length);
-      }
-    }, 3000);
+  
 
-    return () => clearInterval(intervals);
-  }, [isHovered]);
-
-  const currentSentence = sentences[currentSentenceIndex];
+  
 
   return (
     <>
@@ -88,24 +66,62 @@ const Main = () => {
             <span className="mobile-only">Hello, World! We believe in inspiring India in a unique and innovative way. Every day, we offer a wide range of services across events, travel, blogging, and fashion to bring you the best of what we have to offer.</span>
           </h3>
           <a href="/chat" className="containerchat">
-          <Container className="d-flex align-items-center justify-content-center">
-              <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                {/* <img src={searchIcon} alt="Search" style={{ width: '20px', height: '20px' }} /> */}
-                <Alert
-                  id="changeText"
-                  variant="primary"
-                  className="text-center position-relative"
-                  style={{ width: '60ch', fontSize: '1.1rem', backgroundColor: '#F9F9F9' }}
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                >
-          {/* {isHandTapping && <img src={handImage} alt="Hand" className="hand-image" />} */}
-          {currentSentence}
-          </Alert>
-          </div>
-          </Container>
           </a>
           
+          <Form onSubmit={handleFormSubmit} className="d-flex align-items-center">
+      <Dropdown>
+        <Dropdown.Toggle variant="success" id="dropdown-basic">
+          <BsFillCaretDownFill size={1} /> {/* Reduce the size of the symbol */}
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item
+            onClick={() => handleOptionSelect('In need of Digital Marketing Solutions')}
+            style={{ fontSize: '12px', color: 'black' }} // Reduce the font size of the dropdown item text
+          >
+           In need of Digital Marketing Solutions?
+          </Dropdown.Item>
+          <Dropdown.Item
+            onClick={() => handleOptionSelect(' Looking for best brand visibility or Public Relation solutions')}
+            style={{ fontSize: '12px', color: 'black' }}
+          >
+           Looking for best brand visibility or Public Relation solutions?
+          </Dropdown.Item>
+          <Dropdown.Item
+            onClick={() => handleOptionSelect('Search of optimum Event Management support')}
+            style={{ fontSize: '12px', color: 'black' }}
+          >
+           Search of optimum Event Management support?
+          </Dropdown.Item>
+          <Dropdown.Item
+            onClick={() => handleOptionSelect('Looking for right Influencer Marketing solutions')}
+            style={{ fontSize: '12px', color: 'black' }}
+          >
+          Looking for right Influencer Marketing solutions?
+          </Dropdown.Item>
+          <Dropdown.Item
+            onClick={() => handleOptionSelect(' Looking for right Influencer Marketing solutions')}
+            style={{ fontSize: '12px', color: 'black' }}
+          >
+           Looking for right Influencer Marketing solutions?
+          </Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+
+      <FormControl
+        type="text"
+        placeholder="Search"
+        className="mr-sm-2"
+        value={searchValue}
+        onChange={handleSearchInputChange}
+      />
+
+      <Button type="submit" variant="outline-success">
+        Search
+      </Button>
+    </Form>
+          
+      
         </div>
       </div>
 
