@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import React, { useState} from 'react';
+import React, { useState, useRef} from 'react';
 import '../index.css';
 import { Form, FormControl, Dropdown, Button } from 'react-bootstrap';
 // import CustomSelect from './customSelect';
@@ -33,9 +33,9 @@ import logo9 from './images/travel.png';
 
 const Main = () => {
   
- 
   const [selectedOption, setSelectedOption] = useState('');
   const [searchValue, setSearchValue] = useState('');
+  const [showDropdown, setShowDropdown] = useState(false); // Add showDropdown state
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
@@ -44,7 +44,6 @@ const Main = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    // Redirect to the "/chat" page with the selected option
     window.location.href = `/chat?selectedOption=${selectedOption}`;
   };
 
@@ -52,7 +51,9 @@ const Main = () => {
     setSearchValue(event.target.value);
   };
 
-  
+  const handleSearchBarFocus = () => {
+    setShowDropdown(true);
+  };
 
   
 
@@ -69,15 +70,15 @@ const Main = () => {
           </a>
           
           <Form onSubmit={handleFormSubmit} className="d-flex align-items-center">
-      <Dropdown>
-        <Dropdown.Toggle variant="dark" id="dropdown-basic">
-          <BsFillCaretDownFill size={1} /> {/* Reduce the size of the symbol */}
+          <Dropdown show={showDropdown} onToggle={setShowDropdown}>
+        <Dropdown.Toggle  variant="dark" id="dropdown-basic">
+          <BsFillCaretDownFill size={1} /> 
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
           <Dropdown.Item
             onClick={() => handleOptionSelect('In need of Digital Marketing Solutions')}
-            style={{ fontSize: '12px', color: 'black' }} // Reduce the font size of the dropdown item text
+            style={{ fontSize: '12px', color: 'black' }} 
           >
            In need of Digital Marketing Solutions?
           </Dropdown.Item>
@@ -114,6 +115,7 @@ const Main = () => {
         className="mr-sm-2"
         value={searchValue}
         onChange={handleSearchInputChange}
+        onFocus={handleSearchBarFocus}
         style={{ borderColor: 'blue' }}
       />
 
