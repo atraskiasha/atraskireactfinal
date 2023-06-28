@@ -2,7 +2,8 @@ import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, push } from 'firebase/database';
-import { Segment } from 'semantic-ui-react';
+import { Segment, Button } from 'semantic-ui-react';
+import { useNavigate } from 'react-router-dom';
 
 const firebaseConfig = {
   apiKey: "AIzaSyDT4Z9iamyL8n9piUid_bjKhAe-OT9Xcvs",
@@ -19,6 +20,8 @@ const database = getDatabase(app);
 const databaseRef = ref(database, 'chatbot');
 
 const Chat = () => {
+  const navigate = useNavigate();
+
   const handleEnd = ({ steps, values }) => {
     const chatData = {
       timestamp: Date.now(),
@@ -29,6 +32,9 @@ const Chat = () => {
     push(databaseRef, chatData)
       .then(() => console.log('Data successfully pushed to Firebase'))
       .catch(error => console.error('Error pushing data to Firebase:', error));
+  };
+  const handleGoBack = () => {
+    navigate('/'); // Replace '/' with the path of your main menu page
   };
 
   const steps = [
@@ -147,10 +153,18 @@ const Chat = () => {
   return (
     
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh'}}>
-      <Segment floated="right">
-        <ChatBot steps={steps} handleEnd={handleEnd} />
-      </Segment>
-    </div>
+    <Segment floated="right">
+      <ChatBot steps={steps} handleEnd={handleEnd} />
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+        <Button
+          onClick={handleGoBack}
+          style={{ backgroundColor: '#6554AF', color: 'white', borderRadius:'8px',fontSize: '18px' }}
+        >
+          Go back to main menu
+        </Button>
+      </div>
+    </Segment>
+  </div>
   );
 };
 ;

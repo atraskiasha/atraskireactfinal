@@ -1,10 +1,12 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo4 from './images/logo.png';
 
 const Navbar = () => {
-
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [subMenuOpen, setSubMenuOpen] = useState(false);
+  const [subSubMenuOpen, setSubSubMenuOpen] = useState(false);
 
   const handleNavClick = () => {
     setIsNavOpen(false);
@@ -13,8 +15,6 @@ const Navbar = () => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
-  const [subMenuOpen, setSubMenuOpen] = useState(false);
-  const [subSubMenuOpen, setSubSubMenuOpen] = useState(false);
 
   const subMenuRef = useRef(null);
   const subSubMenuRef = useRef(null);
@@ -68,21 +68,19 @@ const Navbar = () => {
         <button
           className="navbar-toggler"
           type="button"
-          onClick={toggleNav} 
+          onClick={toggleNav}
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
-          aria-expanded={isNavOpen ? "true" : "false"}
-
+          aria-expanded={isNavOpen ? 'true' : 'false'}
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse justify-content-end ${isNavOpen ? 'show' : ''}`}
-        id="navbarNav">
+        <div className={`collapse navbar-collapse justify-content-end ${isNavOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Atraski" onClick={handleNavClick} >
+              <NavLink className="nav-link" to="/Atraski" onClick={handleNavClick}>
                 Home
               </NavLink>
             </li>
@@ -98,72 +96,105 @@ const Navbar = () => {
               >
                 Services
               </NavLink>
-              <ul className={`dropdown-menu ${subMenuOpen ? 'show' : ''}`} aria-labelledby="navbarDropdownMenuLink">
-                <li>
-                  <NavLink className="dropdown-item" to="/services"   onClick={() => {
-    closeDropdowns();
-    handleNavClick();
-  }} >
-                    Digital Marketing
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="dropdown-item" to="/event"   onClick={() => {
-    closeDropdowns();
-    handleNavClick();
-  }}>
-                    Events
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="dropdown-item" to="/marketing"   onClick={() => {
-    closeDropdowns();
-    handleNavClick();
-  }}>
-                    Influencer Marketing
-                  </NavLink>
-                </li>
-                <li
-                  className={`nav-item dropdown ${subSubMenuOpen ? 'show' : ''}`}
-                  onMouseEnter={toggleSubSubMenu}
-                  onMouseLeave={toggleSubSubMenu}
-                  ref={subSubMenuRef}
-                >
-                  <NavLink className="dropdown-item dropdown-toggle " to="#" style={{ backgroundColor: 'white', color: 'black' }}>
-                    More
-                  </NavLink>
-                  <ul className={`dropdown-menu ${subSubMenuOpen ? 'show' : ''}`}>
+              <ul
+                className={`dropdown-menu ${subMenuOpen ? 'show' : ''}`}
+                aria-labelledby="navbarDropdownMenuLink"
+                style={{width:'450px'}}
+              >
+                <div className="row">
+                  <div className="col-6">
                     <li>
-                      <NavLink className="dropdown-item" to="/production"   onClick={() => {
-    closeDropdowns();
-    handleNavClick();
-  }}>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/services"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                      >
+                        Digital Marketing
+                      </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/event"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                      >
+                        Events
+                      </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/marketing"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                      >
+                        Influencer Marketing
+                      </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+
+                    </li>
+                  </div>
+                  <div className="col-6">
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/production"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                      >
                         Production
                       </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+
                     </li>
                     <li>
-                      <NavLink className="dropdown-item" to="/web"   onClick={() => {
-    closeDropdowns();
-    handleNavClick();
-  }}>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/web"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                      >
                         Web Development
                       </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+
                     </li>
                     <li>
-                      <NavLink className="dropdown-item" to="/mice"   onClick={() => {
-    closeDropdowns();
-    handleNavClick();
-  }}>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/mice"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                      >
                         MICE
                       </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+
                     </li>
-                  </ul>
-                </li>
+                  </div>
+                </div>
               </ul>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/OurWork"  onClick={handleNavClick}>
+              <NavLink className="nav-link" to="/OurWork" onClick={handleNavClick}>
                 Work
               </NavLink>
             </li>
@@ -208,6 +239,48 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+
+          {/* Right part of the sub-menu */}
+          <div className={`dropdown-menu ${subSubMenuOpen ? 'show' : ''}`} ref={subSubMenuRef} style={{width:'500px'}}>
+            <div className="row">
+              <div className="col-6">
+                <NavLink
+                  className="dropdown-item"
+                  to="/production"
+                  onClick={() => {
+                    closeDropdowns();
+                    handleNavClick();
+                  }}
+                >
+                  Production
+                </NavLink>
+              </div>
+              <div className="col-6">
+                <NavLink
+                  className="dropdown-item"
+                  to="/web"
+                  onClick={() => {
+                    closeDropdowns();
+                    handleNavClick();
+                  }}
+                >
+                  Web Development
+                </NavLink>
+              </div>
+              <div className="col-6">
+                <NavLink
+                  className="dropdown-item"
+                  to="/mice"
+                  onClick={() => {
+                    closeDropdowns();
+                    handleNavClick();
+                  }}
+                >
+                  MICE
+                </NavLink>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

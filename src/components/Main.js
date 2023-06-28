@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import React, { useState, useRef} from 'react';
+import React, { useState, useRef,useEffect} from 'react';
 import '../index.css';
 import { Form, FormControl, Dropdown, Button } from 'react-bootstrap';
 // import CustomSelect from './customSelect';
@@ -35,7 +35,22 @@ const Main = () => {
   
   const [selectedOption, setSelectedOption] = useState('');
   const [searchValue, setSearchValue] = useState('');
-  const [showDropdown, setShowDropdown] = useState(false); // Add showDropdown state
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setShowDropdown(false);
+    }
+  };
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
@@ -54,7 +69,6 @@ const Main = () => {
   const handleSearchBarFocus = () => {
     setShowDropdown(true);
   };
-
   
 
   return (
@@ -70,6 +84,8 @@ const Main = () => {
           </a>
           
           <Form onSubmit={handleFormSubmit} className="d-flex align-items-center">
+          <div ref={dropdownRef}>
+
           <Dropdown show={showDropdown} onToggle={setShowDropdown}>
         <Dropdown.Toggle  variant="dark" id="dropdown-basic">
           <BsFillCaretDownFill size={1} /> 
@@ -108,6 +124,7 @@ const Main = () => {
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
+      </div>
 
       <FormControl
         type="text"
@@ -261,9 +278,10 @@ const Main = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <p><i className="fa fa-envelope"></i> Email: abhyuday.majhi@atraski.com</p>
-              <p><i className="fa fa-envelope"></i>Email: priti.jhawar@atraski.com</p>              <p><i className="fa fa-phone"></i> Contact No: 9163720198</p>
-              <p><i className="fa fa-phone"></i> Contact No: 7596009785</p>
+              <p><i className="fa fa-envelope"></i> Email: communications@atraski.com</p>
+              {/* <p><i className="fa fa-envelope"></i>Email: priti.jhawar@atraski.com</p>             */}
+                <p><i className="fa fa-phone"></i> Contact No: 9163720198 / 7596009785</p>
+              {/* <p><i className="fa fa-phone"></i> Contact No: 7596009785</p> */}
             </div>
             <div className="col-md-6 text-md-right">
               <p>Atraski India
