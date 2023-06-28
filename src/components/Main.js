@@ -132,7 +132,7 @@ const Main = () => {
         className="mr-sm-2"
         value={searchValue}
         onChange={handleSearchInputChange}
-        onFocus={handleSearchBarFocus}
+        onClick={handleSearchBarFocus}
         style={{ borderColor: 'blue' }}
       />
 
