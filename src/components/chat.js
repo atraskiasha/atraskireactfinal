@@ -158,7 +158,7 @@ const Chat = () => {
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
         <Button
           onClick={handleGoBack}
-          style={{ backgroundColor: '#6554AF', color: 'white', borderRadius:'8px',fontSize: '18px' }}
+          style={{ backgroundColor: 'transparent', color: 'white',fontSize: '18px',padding:'10px', border:'2px solid #6554AF', borderRadius:'20px' }}
         >
           Go back to main menu
         </Button>
