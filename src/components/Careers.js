@@ -2,16 +2,16 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import { Link} from 'react-router-dom';
-import anish from './images/Anish.png'
-import abhy from './images/Abhyuday.png'
-import priti from './images/Priti.png'
-import riju from './images/Riju.png'
-import priyanka from './images/Priyanka.png'
-import mrimoy from './images/mrimoy.png'
-import tridip from './images/Tridip.png'
-import mansi from './images/Mansi.png'
-import abhishek from './images/Abhishek.png'
-import asha from './images/asha.png'
+import anish from './images/Anish.jpg'
+import abhy from './images/Abhyuday.jpg'
+import priti from './images/Priti.jpg'
+import riju from './images/Riju.jpg'
+import priyanka from './images/Priyanka.jpg'
+import mrimoy from './images/mrimoy.jpg'
+import tridip from './images/Tridip.jpg'
+import mansi from './images/mansi.jfif'
+import abhishek from './images/Abhishek.jpg'
+import asha from './images/asha.jpg'
 
 const Careers = () => {
 
@@ -65,7 +65,7 @@ const Careers = () => {
 
                     <div class="col-xl-3 col-sm-6 mb-5">
                         <div class="bg-white rounded shadow-sm py-5 px-4"><img src={priti} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0 text-black">Priti Jhawar</h5><span class="small text-uppercase text-muted">BD Executive</span>
+                            <h5 class="mb-0 text-black">Priti Jhawar</h5><span class="small text-uppercase text-muted">Business Development Executive</span>
                             <ul class="social mb-0 list-inline mt-3">
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
@@ -89,7 +89,7 @@ const Careers = () => {
 
                     <div class="col-xl-3 col-sm-6 mb-5">
                         <div class="bg-white rounded shadow-sm py-5 px-4"><img src={riju} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0 text-black">Riju RjD</h5><span class="small text-uppercase text-muted">Graphic Designer</span>
+                            <h5 class="mb-0 text-black">Riju Dass</h5><span class="small text-uppercase text-muted">Graphic Designer</span>
                             <ul class="social mb-0 list-inline mt-3">
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
@@ -100,7 +100,7 @@ const Careers = () => {
                     </div>
                     <div class="col-xl-3 col-sm-6 mb-5">
                         <div class="bg-white rounded shadow-sm py-5 px-4"><img src={mrimoy} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0 text-black">Mrinmoy Banik </h5><span class="small text-uppercase text-muted">BD Executive </span>
+                            <h5 class="mb-0 text-black">Mrinmoy Banik </h5><span class="small text-uppercase text-muted">Business Development Executive </span>
                             <ul class="social mb-0 list-inline mt-3">
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
@@ -122,7 +122,7 @@ const Careers = () => {
                     </div>
                     <div class="col-xl-3 col-sm-6 mb-5">
                         <div class="bg-white rounded shadow-sm py-5 px-4"><img src={abhishek} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0 text-black">Abhishek Yadav</h5><span class="small text-uppercase text-muted">BD EXECUTIVE</span>
+                            <h5 class="mb-0 text-black">Abhishek Yadav</h5><span class="small text-uppercase text-muted">Business Development EXECUTIVE</span>
                             <ul class="social mb-0 list-inline mt-3">
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
@@ -133,7 +133,7 @@ const Careers = () => {
                     </div>
                     <div class="col-xl-3 col-sm-6 mb-5">
                         <div class="bg-white rounded shadow-sm py-5 px-4"><img src={mansi} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0 text-black">Mansi Chawla</h5><span class="small text-uppercase text-muted">HR </span>
+                            <h5 class="mb-0 text-black">Mansi Chawla</h5><span class="small text-uppercase text-muted">Human Resource</span>
                             <ul class="social mb-0 list-inline mt-3">
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
@@ -144,7 +144,7 @@ const Careers = () => {
                     </div>
                     <div class="col-xl-3 col-sm-6 mb-5">
                         <div class="bg-white rounded shadow-sm py-5 px-4"><img src={asha} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0 text-black">Asha Sharma</h5><span class="small text-uppercase text-muted">Web Developer</span>
+                            <h5 class="mb-0 text-black">Asha Sharma</h5><span class="small text-uppercase text-muted">Website Developer</span>
                             <ul class="social mb-0 list-inline mt-3">
                                 {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
                                 <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>

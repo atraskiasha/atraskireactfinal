@@ -10,7 +10,7 @@ import { Link} from 'react-router-dom';
 import blogger1 from './imagegallery/Piyush-1.jpg'
 import blogger2 from './imagegallery/Sumedha-1.jpg'
 import blogger3 from './imagegallery/Simran-2.jpg'
-import blogger4 from './imagegallery/81829159_746328929187181_7991821624035015901_n.jpg'
+import blogger4 from './imagegallery/anmol.jpg'
 import blogger5 from './imagegallery/img8.jpg'
 import blogger6 from './imagegallery/ishani.jpg'
 import blogger7 from './imagegallery/Huma.jpg'

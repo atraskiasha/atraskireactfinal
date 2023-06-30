@@ -4,19 +4,18 @@ import { Card, Row, Col } from 'react-bootstrap';
 import { Link} from 'react-router-dom';
 // import WorkGallary from './workGallary';
 import work1 from '../components/images/DY PATIL1.jpg';
-import work2 from '../components/images/nissan.png';
+import work2 from '../components/images/nissan.jpg';
 import work3 from '../components/images/pharmco.jpg';
 import work4 from '../components/images/suez.jpg';
-import work5 from '../components/images/ultrasound.png';
+import work5 from '../components/images/ultrasound.jpg';
 import work6 from '../components/images/weisstechnique.jpg';
 import work7 from '../components/images/jhonny walker.jpg';
-import work8 from '../components/images/medicene.jpeg';
-import work9 from '../components/images/nothingcoinbank.png';
+import work8 from '../components/images/medicene.jpg';
+import work9 from '../components/images/nothingcoinbank.jpg';
 import work10 from '../components/images/mi.jpg';
 import work11 from '../components/images/pepe.jpg';
-import work12 from '../components/images/volksvagan.png';
-import work13 from '../components/images/facebook.png';
-import work14 from '../components/images/auditoirum.png';
+import work12 from '../components/images/volksvagan.jpg';
+
 
 import './workGallery.css';
 import video1 from './videos/jewel.mp4'

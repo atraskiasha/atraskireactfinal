@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 
 import React, { useState, useRef,useEffect} from 'react';
@@ -11,15 +12,15 @@ import { BsFillCaretDownFill } from 'react-icons/bs'; // Import caret down icon 
 
 
 
-import logo1 from './images/3-01.png';
+import logo1 from './images/3-01.jpg';
 import logo2 from './images/ducati.jpg';
-import logo3 from './images/4-01.png';
-import logo4 from './images/7.png';
-import logo5 from './images/1.png';
-import logo6 from './images/cme.png';
+import logo3 from './images/4-01.jpg';
+import logo4 from './images/7.jpg';
+import logo5 from './images/1.jpg';
+import logo6 from './images/cme.jpeg';
 import logo7 from './images/eazydiner-prime.png';
-import logo8 from './images/2.png';
-import logo9 from './images/travel.png';
+import logo8 from './images/2.jpg';
+import logo9 from './images/travel.jpg';
 
 
 // const options = [
@@ -32,10 +33,10 @@ import logo9 from './images/travel.png';
 // ];
 
 const Main = () => {
-  
   const [selectedOption, setSelectedOption] = useState('');
   const [searchValue, setSearchValue] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
+  const [filteredOptions, setFilteredOptions] = useState([]);
 
   const dropdownRef = useRef(null);
 
@@ -45,6 +46,10 @@ const Main = () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
+
+  useEffect(() => {
+    filterOptions();
+  }, [searchValue]);
 
   const handleClickOutside = (event) => {
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -69,7 +74,19 @@ const Main = () => {
   const handleSearchBarFocus = () => {
     setShowDropdown(true);
   };
-  
+
+  const filterOptions = () => {
+    const filtered = [
+      'In need of Digital Marketing Solutions',
+      'Looking for best brand visibility or Public Relation solutions',
+      'Search of optimum Event Management support',
+      'Looking for right Influencer Marketing solutions',
+      'Looking for assistance in MICE solutions?',
+    ].filter((option) =>
+      option.toLowerCase().includes(searchValue.toLowerCase())
+    );
+    setFilteredOptions(filtered);
+  };
 
   return (
     <>
@@ -92,36 +109,19 @@ const Main = () => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item
-            onClick={() => handleOptionSelect('In need of Digital Marketing Solutions')}
-            style={{ fontSize: '12px', color: 'black' }} 
-          >
-           In need of Digital Marketing Solutions?
-          </Dropdown.Item>
-          <Dropdown.Item
-            onClick={() => handleOptionSelect(' Looking for best brand visibility or Public Relation solutions')}
-            style={{ fontSize: '12px', color: 'black' }}
-          >
-           Looking for best brand visibility or Public Relation solutions?
-          </Dropdown.Item>
-          <Dropdown.Item
-            onClick={() => handleOptionSelect('Search of optimum Event Management support')}
-            style={{ fontSize: '12px', color: 'black' }}
-          >
-           Search of optimum Event Management support?
-          </Dropdown.Item>
-          <Dropdown.Item
-            onClick={() => handleOptionSelect('Looking for right Influencer Marketing solutions')}
-            style={{ fontSize: '12px', color: 'black' }}
-          >
-          Looking for right Influencer Marketing solutions?
-          </Dropdown.Item>
-          <Dropdown.Item
-            onClick={() => handleOptionSelect(' Looking for right Influencer Marketing solutions')}
-            style={{ fontSize: '12px', color: 'black' }}
-          >
-           Looking for right Influencer Marketing solutions?
-          </Dropdown.Item>
+        {filteredOptions.length > 0 ? (
+              filteredOptions.map((option) => (
+                <Dropdown.Item
+                  key={option}
+                  onClick={() => handleOptionSelect(option)}
+                  style={{ fontSize: '12px', color: 'black' }}
+                >
+                  {option}
+                </Dropdown.Item>
+              ))
+            ) : (
+              <Dropdown.Item disabled style={{fontSize:'20px'}}>No results found</Dropdown.Item>
+            )}
         </Dropdown.Menu>
       </Dropdown>
       </div>

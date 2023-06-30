@@ -12,8 +12,7 @@ import client9 from './images/brand9.png';
 import client10 from './images/brand10.png';
 import client11 from './images/brand11.png';
 import client12 from './images/brand12.jpg';
-// import client13 from './images/brand15.png';
-// import client14 from './images/brand16.png';
+
 
 
 
@@ -44,13 +43,12 @@ const About = () => {
     },
     paragraph: {
       fontSize: '25px',
-      // Add other initial paragraph styles here
     }
   };
 
 
   
-  // Add media queries for different screen sizes
+  //  media queries for different screen sizes
 styles.paragraph['@media (max-width: 768px)'] = {
   fontSize: '20px',
 };
