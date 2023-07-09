@@ -88,7 +88,7 @@ const ContactUs = () => {
         </Col>
         <Col md={7}>
           <div className="map-part">
-            <p className="text-blk map-contactus-head">Reach us at</p>
+            {/* <p className="text-blk map-contactus-head">Reach us at</p> */}
             <p className="text-blk map-contactus-subhead">
             Conact with us on social media </p>
             <div className="social-media-links mob">
@@ -143,7 +143,7 @@ const ContactUs = () => {
     </Container>
 
        {/* footer starts  */}
-       <footer className=" text-white" style={{backgroundColor:'#333'}}>
+       <footer className=" text-white" style={{backgroundColor:'#000'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-6">

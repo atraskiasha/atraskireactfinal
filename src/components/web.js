@@ -3,11 +3,11 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Modal, Button} from 'react-bootstrap';
 import { Link} from 'react-router-dom';
-import offer1 from './images/ux.jpeg'
-import offer2 from './images/seo.jpeg'
-import offer3 from './images/integration.jpeg'
-import offer4 from './images/analyticsandtracking.jpeg'
-import offer5 from './images/responsiveness.jpeg'
+import offer1 from './images/uxdesigner.jpg'
+import offer2 from './images/seo.jpg'
+import offer3 from './images/socialmediaintegration.jpg'
+import offer4 from './images/analyticsandtracking.jpg'
+import offer5 from './images/mobileresponsiveness.jpg'
 const Web = () => {
   const [showModal, setShowModal] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
@@ -67,26 +67,36 @@ const Web = () => {
           <Col md={4} className="mt-3">
             <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center'}}>UX Designer</h2>
+
             </div>
           </Col>
           <Col md={4} className="mt-3">
             <div className="image-container" onClick={handleImageClick2} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center'}}>SEO</h2>
+
             </div>
           </Col>
           <Col md={4} className="mt-3">
             <div className="image-container" onClick={handleImageClick3} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center'}}>Social Media Integration</h2>
+
             </div>
           </Col>
           <Col md={4} className="mt-3">
             <div className="image-container" onClick={handleImageClick4} style={{cursor:'pointer'}}>
               <img src={offer4} alt="Image 3" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center'}}>Analytics and Tracking</h2>
+
             </div>
           </Col>
           <Col md={4}className="mt-3">
             <div className="image-container" onClick={handleImageClick5} style={{cursor:'pointer'}}>
               <img src={offer5} alt="Image 3" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center'}}>Mobile Responsiveness</h2>
+
             </div>
           </Col>
           

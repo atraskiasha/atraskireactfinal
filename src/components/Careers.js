@@ -11,7 +11,6 @@ import mrimoy from './images/mrimoy.jpg'
 import tridip from './images/Tridip.jpg'
 import mansi from './images/mansi.jfif'
 import abhishek from './images/Abhishek.jpg'
-import asha from './images/asha.jpg'
 
 const Careers = () => {
 
@@ -142,17 +141,7 @@ const Careers = () => {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6 mb-5">
-                        <div class="bg-white rounded shadow-sm py-5 px-4"><img src={asha} alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0 text-black">Asha Sharma</h5><span class="small text-uppercase text-muted">Website Developer</span>
-                            <ul class="social mb-0 list-inline mt-3">
-                                {/* <li class="list-inline-item"><i class="fa-brands fa-square-facebook"></i></li>
-                                <li class="list-inline-item"><i class="fa-brands fa-square-twitter"></i></li>
-                                <li class="list-inline-item"><i class="fa-brands fa-square-instagram"></i></li> */}
-                                <a href='https://www.linkedin.com/in/asha-gautam-a2b2421b2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXeCCIrg7TfeDIQ8jik91Xg%3D%3D'><li class="list-inline-item"><i class="fa-brands fa-linkedin"></i></li></a>
-                            </ul>
-                        </div>
-                    </div>
+                    
 
                 </div>
             </div>

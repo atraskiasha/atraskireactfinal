@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import offer1 from './imagegallery/socialmedia.png'
-import offer2 from './imagegallery/socialmediaad.png'
-import offer3 from './imagegallery/seo.png'
+import offer1 from './images/socialmediamarketing.jpg'
+import offer2 from './images/socialmediaadvertising.jpg'
+import offer3 from './images/seo.jpg'
 
 
 
@@ -61,16 +61,22 @@ const Service = () => {
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center'}}>Social Media Marketing</h2>
+
             </div>
           </Col>
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick2} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center'}}>Social Media Advertisement</h2>
+
             </div>
           </Col>
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick3} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
+              <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100,fontSize:'25px', left: 0, width: '100%', textAlign: 'center'}}>Search Engine Optimization</h2>
+
             </div>
           </Col>
         </Row>

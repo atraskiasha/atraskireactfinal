@@ -114,7 +114,7 @@ const Navbar = () => {
                       >
                         Digital Marketing
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Strategic Promotion</p>
                     </li>
                     <li>
                       <NavLink
@@ -127,7 +127,7 @@ const Navbar = () => {
                       >
                         Events
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Activities and Experiences</p>
 
                     </li>
                     <li>
@@ -141,7 +141,7 @@ const Navbar = () => {
                       >
                         Influencer Marketing
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Engaging Content</p>
 
                     </li>
                   </div>
@@ -157,7 +157,7 @@ const Navbar = () => {
                       >
                         Production
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Goods or Services</p>
 
                     </li>
                     <li>
@@ -171,7 +171,7 @@ const Navbar = () => {
                       >
                         Web Development
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Designing, Creating,</p>
 
                     </li>
                     <li>
@@ -185,7 +185,7 @@ const Navbar = () => {
                       >
                         MICE
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Description</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Incentives, Conferences</p>
 
                     </li>
                   </div>
