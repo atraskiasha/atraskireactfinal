@@ -38,6 +38,7 @@ body {
 
 .background {
   height: 80vh;
+  background-color: black;
 }
 
 .mobile-only{
@@ -110,18 +111,21 @@ body {
 @media screen and (max-width:821px){
   .background{
     height:auto;
+    background-color: black;
   }
 }
 
 @media screen and (max-width:360px){
   .background{
     height:auto;
+    background-color: black;
   }
 }
 
 @media screen and (max-width:380px){
   .background{
     height:auto;
+    background-color: black;
   }
 }
 
@@ -130,6 +134,7 @@ body {
 @media screen and (max-width:415px){
   .background{
     height:auto;
+    background-color: black;
   }
   #changeText{
     /* font-size:1.1rem !important; */

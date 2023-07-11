@@ -1,13 +1,14 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import "./M.css";
-
-import  model1  from '../components/imagegallery/Akanksha-Wankhade-modified.png';
-import  model2  from '../components/imagegallery/Aman-Ashok-modified.png';
-import  model3 from '../components/imagegallery/Bhavya-Sharma-modified.png';
-import  model4 from '../components/imagegallery/Anjali-Bhandari-modified.png';
-import  model5 from '../components/imagegallery/Ashly-Nelyndem-modified.png';
-import  model6 from '../components/imagegallery/Arpitha-Rajendra-modified.png';
-import  {Carousel} from 'react-bootstrap';
+import model1 from './imagegallery/322749974_603548428445666_2133774729650885328_n.jpg';
+import model2 from './imagegallery/322749974_603548428445666_2133774729650885328_n.jpg';
+import model3 from './imagegallery/322749974_603548428445666_2133774729650885328_n.jpg';
+import model4 from './imagegallery/322749974_603548428445666_2133774729650885328_n.jpg';
+import model5 from './imagegallery/322749974_603548428445666_2133774729650885328_n.jpg';
+import model6 from './imagegallery/322749974_603548428445666_2133774729650885328_n.jpg';
+import model7 from './imagegallery/322749974_603548428445666_2133774729650885328_n.jpg';
+import { Carousel } from 'react-bootstrap';
 
 const M = () => {
     
@@ -33,13 +34,13 @@ const M = () => {
         <Carousel.Item>  
           <div className="d-flex justify-content-center">
             <div className='m-2'>
-              <img className="w-30 w-sm-10" src={model4} alt="First slide" />
+              <img className="w-30 w-sm-10" src={model3} alt="First slide" />
+            </div>
+            <div className='m-2'>
+              <img className="w-30" src={model4} alt="First slide" />
             </div>
             <div className='m-2'>
               <img className="w-30" src={model5} alt="First slide" />
-            </div>
-            <div className='m-2'>
-              <img className="w-30" src={model6} alt="First slide" />
             </div>
 
             

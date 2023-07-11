@@ -1,54 +1,81 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
 
-const Collaboration = () => {
+
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+ 
+  import  bigb from "./imagegallery/bigb.png"
+  // import  fashionweek from "./imagegallery/bigb.png"
+  import  pantaloon from "./imagegallery/pantaloons.png" 
+  import  toi from "./imagegallery/the-official-fface-logo-KJ382R.jpg"
+  import  dalmia from "./imagegallery/dalmia.png"
+  import  hero from "./imagegallery/hero.png"
+  import  fresh from "./imagegallery/frespreso.jpg"
+  import  gdg from "./imagegallery/gdgpng.png"
+  import  feed from "./imagegallery/feedingIndia.png"
+  import  tele from "./imagegallery/telegraph.png"
+  import  chai from "./imagegallery/chai-break-logo.jpg"
+  import  amri from "./imagegallery/AMRI.png"
+  import  elev from "./imagegallery/Elleven-Logo_.png"
+  import  mayfair from "./imagegallery/mayfair.jpg"
+  import  jugad from "./imagegallery/jugad.png"
+  import  sports from "./imagegallery/sports.png"
+  import  fame from "./imagegallery/fashionweek.png"
+  // import  fashionweek from "./imagegallery/bigb.png" "./imagegallery";
+
+const BrandCollaboration = () => {
+  const brandLogos = [
+    { id: 1, src:pantaloon },
+    { id: 2, src: bigb },
+    { id: 3, src: toi },
+    { id: 4, src:hero  },
+    { id: 5, src:  dalmia},
+    { id: 6, src: fresh },
+    { id: 7, src: gdg },
+    { id: 8, src: feed },
+    { id: 9, src: tele },
+    { id: 10, src: chai },
+    { id: 11, src: amri },
+    { id: 12, src: elev },
+    { id: 13, src: mayfair },
+    { id: 14, src: jugad },
+    { id: 15, src: sports },
+    { id: 16, src: fame },
+    // Add more logo objects as needed
+  ];
+
   return (
-    <div>
-      <div className="row my-3 py-3 py-md-5 px-2  justify-content-center align-items-center">
-        <h1 className="Heading-1 text-center"> OUR PAST COLLABORATION</h1>
-        {/* <div className="col-lg-5 d-none d-lg-block ps-0 ps-sm-4 text-start py-3"> */}
-        <div className="col-9 ps-0 ps-sm-4 m-2 p-3 justify-content-center">
-          <p style={{textAlign:'center'}}>
-            Atraski welcomes each and every individual starting from a beginner
-            to an intermediate who believes in the fact that Fashion is like
-            the air they need to breathe and survive.
-          </p>
-          <p style={{textAlign:'center'}}>
-            Here are some of our previous journeys and collaborations where our
-            models amazed the world with their gorgeous performance & aesthetic
-            expressions while our designers lit up the garments with their
-            brilliance!
-          </p>
-        </div>
-        <div className="col-9" style={{fontWeight:"bold", textAlign:'center'}}>
-          <ul>
-            <li>Bhubaneswar Fashion Week</li>
-            <li>Bangalore Fashion Confluence</li>
-            <li>Pantaloons</li>
-            <li>Big Bazar</li>
-            <li>Pride campaign</li>
-            <li>IIT Kanpur , KIIT fest.</li>
-          </ul>
-        </div>
-
-        {/* <div className="col-11  d-block d-lg-none ps-0 ps-sm-4 ">
-        <text className="Heading-1">About Us</text>
-        <br />
-        <div className=" Text-1 py-3 ">
-          <p>
-            Atraski Fashion is the runway where we groom our models; upcoming
-            fashionistas to make a giant leap into the real world of fashion
-            with brilliance and extraordinaire!
-          </p>
-          <p>
-            The sole mission of Atraski Fashion is to sculpt raw talent and give
-            shape to passion in order to facilitate their strong commencement
-            into the fashion spree.
-          </p>
-        </div>
-      </div> */}
-      </div>
-    </div>
+    <>
+      <h2 className="Heading-1 text-center  py-5">Our Brand Collaborations</h2>
+      <Container  className="py-3  ">
+        <Row
+          className="justify-content-center py-5"
+          // style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
+        >
+          {/* <hr /> */}
+          {brandLogos.map((logo) => (
+            <Col
+              xs={10}
+              sm={6}
+              md={4}
+              lg={2}
+              key={logo.id}
+              className="p-4"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
+              <img
+                src={logo.src}
+                alt={`Logo ${logo.id}`}
+                className="img-fluid"
+              />
+            </Col>
+          ))}
+          {/* <hr /> */}
+        </Row>
+      </Container>
+    </>
   );
-}
+};
 
-export default Collaboration;
+export default BrandCollaboration;

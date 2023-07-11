@@ -10,6 +10,7 @@ import {
   
 } from "react-router-dom";
 import Navbar from './components/Navbar';
+import "bootstrap/dist/css/bootstrap.css";
 
 
 
@@ -32,12 +33,17 @@ import Privacy1 from './components/Privacy1';
 import Chat from './components/chat';
 import M from './components/Models';
 import EventsAtAtraski from './components/EventsAtAtraski';
-import Collaboration from "./components/Collaboration";
 import Services from './components/Services';
-import Cities from './components/Cities';
 // import Footer from './components/Footer';
 import Section1 from './components/section1';
 import GoogleForm from './components/Form';
+// import Aboutus from './components/Aboutus';
+// import NewBanner from './components/Newbanner';
+// import MV from './components/MV';
+import BrandCollaboration from './components/Collaboration';
+// import IP from './components/IP';
+import Cities from './components/Cities';
+
 
 
 function App() {
@@ -71,7 +77,7 @@ function App() {
           <Route path="/chat" element={<Chat />} />
           <Route path="/mainmodel" element={<M />} />
           <Route path="/eventatatraski" element={<EventsAtAtraski />} />
-          <Route path="/collabration" element={<Collaboration />} />
+          <Route path="/collabration" element={<BrandCollaboration />} />
           <Route path="/servicesfashion" element={<Services />} />
           <Route path="/cities" element={<Cities />} />
           <Route path="/fashion" element={<Section1 />} />

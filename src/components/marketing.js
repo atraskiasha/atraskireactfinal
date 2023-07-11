@@ -15,7 +15,7 @@ const Marketing = () => {
 <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
 <Card className="bg-dark text-white" style={{ maxWidth: '30rem' }}>
   <Card.Img variant="top" src={offer1} />
-  <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 130, left: 0, width: '100%', textAlign: 'center'}}>Influencer Marketing</h2>
+  <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 130, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Influencer Marketing</h2>
 
   <Card.Body>
     <Card.Text className="text-white text-center" style={{fontFamily:"sans-serif"}}>
