@@ -25,7 +25,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const BrandCollaboration = () => {
   const brandLogos = [
-   { id: 1, src:pantaloon },
+    { id: 1, src:pantaloon },
     { id: 2, src: bigb }, 
     { id: 3, src:hero  },
     { id: 4, src:  dalmia},
@@ -47,9 +47,9 @@ const BrandCollaboration = () => {
   return (
     <>
       <h2 className="Heading-1 text-center  py-5">Our Brand Collaborations</h2>
-      <Container  className="py-3  bg-white">
+      <Container  className="py-3 bg-white  ">
         <Row
-          className="justify-content-center py-5"
+          className="bg-white justify-content-center py-5"
           // style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
         >
           {/* <hr /> */}
@@ -63,6 +63,8 @@ const BrandCollaboration = () => {
               className="p-4"
               data-aos="zoom-in"
               data-aos-duration="2000"
+              style={{background:'none'}}
+              
             >
               <img
                 src={logo.src}
