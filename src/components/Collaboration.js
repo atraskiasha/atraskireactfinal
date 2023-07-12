@@ -47,7 +47,7 @@ const BrandCollaboration = () => {
   return (
     <>
       <h2 className="Heading-1 text-center  py-5">Our Brand Collaborations</h2>
-      <Container  className="py-3  ">
+      <Container  className="py-3  bg-white">
         <Row
           className="justify-content-center py-5"
           // style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
