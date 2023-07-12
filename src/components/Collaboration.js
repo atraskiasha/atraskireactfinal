@@ -25,9 +25,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const BrandCollaboration = () => {
   const brandLogos = [
-    { id: 1, src:pantaloon },
-    { id: 2, src: bigb },
-    { id: 3, src: toi },
+       { id: 1, src:pantaloon },
+    { id: 2, src: bigb }, 
     { id: 4, src:hero  },
     { id: 5, src:  dalmia},
     { id: 6, src: fresh },
@@ -41,6 +40,7 @@ const BrandCollaboration = () => {
     { id: 14, src: jugad },
     { id: 15, src: sports },
     { id: 16, src: fame },
+    { id: 3, src: toi },
     // Add more logo objects as needed
   ];
 
