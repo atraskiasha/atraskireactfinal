@@ -45,6 +45,7 @@ const Aboutus = () => {
         className="col-11  d-block d-lg-none ps-0 ps-sm-4 "
         data-aos="fade-right"
         data-aos-duration="3000"
+        style={{background:'none'}}
       >
         <text className="Heading-1 my-3 " style={{background:'none'}}>About Us</text>
         <br />
