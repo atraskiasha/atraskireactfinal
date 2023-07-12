@@ -28,9 +28,10 @@ const Aboutus = () => {
 
       <div
         className="col-12 col-lg-5 py-3   py-lg-0 "
-        style={{ width: "500px", height: "500px" , background:'none' }}
+        style={{ width: "500px", height: "500px" , background:'none', background:'none' }}
         data-aos="fade-left"
         data-aos-duration="3000"
+        
         
       >
         <img
@@ -45,15 +46,15 @@ const Aboutus = () => {
         data-aos="fade-right"
         data-aos-duration="3000"
       >
-        <text className="Heading-1 my-3 ">About Us</text>
+        <text className="Heading-1 my-3 " style={{background:'none'}}>About Us</text>
         <br />
         <div className=" Text-1 py-3 ">
-          <p>
+          <p style={{background:'none'}}>
             Atraski Fashion is the runway where we groom our models; upcoming
             fashionistas to make a giant leap into the real world of fashion
             with brilliance and extraordinaire!
           </p>
-          <p>
+          <p style={{background:'none'}}>
             The sole mission of Atraski Fashion is to sculpt raw talent and give
             shape to passion in order to facilitate their strong commencement
             into the fashion spree.
