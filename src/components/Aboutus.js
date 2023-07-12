@@ -49,7 +49,7 @@ const Aboutus = () => {
       >
         <text className="Heading-1 my-3 " style={{background:'none'}}>About Us</text>
         <br />
-        <div className=" Text-1 py-3 ">
+        <div className=" Text-1 py-3 " style={{background:'none'}}>
           <p style={{background:'none'}}>
             Atraski Fashion is the runway where we groom our models; upcoming
             fashionistas to make a giant leap into the real world of fashion
