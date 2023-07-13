@@ -111,10 +111,10 @@ const Navbar = () => {
                           closeDropdowns();
                           handleNavClick();
                         }}
-                      style={{color:'white'}}>
+                      style={{color:'black'}}>
                         Digital Marketing
                       </NavLink>
-                      <p style={{ color: 'white', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Strategic Promotion</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Strategic Promotion</p>
                     </li>
                     <li>
                       <NavLink
@@ -124,10 +124,10 @@ const Navbar = () => {
                           closeDropdowns();
                           handleNavClick();
                         }}
-                        style={{color:'white'}}>
+                        style={{color:'black'}}>
                         Events
                       </NavLink>
-                      <p style={{ color: 'white', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Activities and Experiences</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Activities and Experiences</p>
 
                     </li>
                     <li>
@@ -138,10 +138,10 @@ const Navbar = () => {
                           closeDropdowns();
                           handleNavClick();
                         }}
-                        style={{color:'white'}}>
+                        style={{color:'black'}}>
                         Influencer Marketing
                       </NavLink>
-                      <p style={{ color: 'white', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Engaging Content</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Engaging Content</p>
 
                     </li>
                   </div>
@@ -154,10 +154,10 @@ const Navbar = () => {
                           closeDropdowns();
                           handleNavClick();
                         }}
-                        style={{color:'white'}}>
+                        style={{color:'black'}}>
                         Production
                       </NavLink>
-                      <p style={{ color: 'white', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Goods or Services</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Goods or Services</p>
 
                     </li>
                     <li>
@@ -168,10 +168,10 @@ const Navbar = () => {
                           closeDropdowns();
                           handleNavClick();
                         }}
-                        style={{color:'white'}}>
+                        style={{color:'black'}}>
                         Web Development
                       </NavLink>
-                      <p style={{ color: 'white', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Designing, Creating,</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Designing, Creating,</p>
 
                     </li>
                     <li>
@@ -182,10 +182,10 @@ const Navbar = () => {
                           closeDropdowns();
                           handleNavClick();
                         }}
-                        style={{color:'white'}}>
+                        style={{color:'black'}}>
                         MICE
                       </NavLink>
-                      <p style={{ color: 'white', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Incentives, Conferences</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Incentives, Conferences</p>
 
                     </li>
                   </div>
