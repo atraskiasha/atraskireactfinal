@@ -43,6 +43,8 @@ import GoogleForm from './components/Form';
 import BrandCollaboration from './components/Collaboration';
 // import IP from './components/IP';
 import Cities from './components/Cities';
+import Main2 from './components/Main2';
+
 
 
 
@@ -56,9 +58,9 @@ function App() {
 
         <Navbar />
         <Routes>
-          <Route exact path="/Atraski" element={<Main/>} />
-          <Route path="/atraskireact" element={<Main/>} />
-          <Route path="/" element={<Main/>} />
+          <Route exact path="/Atraski" element={<Main2/>} />
+          <Route path="/atraskireact" element={<Main2/>} />
+          <Route path="/" element={<Main2/>} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
           <Route path="/OurWork" element={<Work1 />} />
