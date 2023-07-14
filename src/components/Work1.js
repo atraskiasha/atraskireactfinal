@@ -37,11 +37,11 @@ const Work1 = () => {
     
     <>
      {/* projects */}
-      <div>
+      <div className="container-fluid">
         <h2 className="text-center text-white" style={{ marginBottom: '10px' }}>Successful Projects</h2>
         <Row>
-          <Col md={4}>
-            <Card style={{ marginBottom: '30px' }}>
+          <Col md={4} className="my-5">
+            <Card style={{ marginBottom: '30px' , margin:'auto' }}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
                   <p className="description text-center text-bold" style={{ marginBottom: '-40px' }}>JewelBox</p>
@@ -50,8 +50,8 @@ const Work1 = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card style={{ marginBottom: '30px' }}>
+          <Col md={4} className="my-5">
+            <Card style={{ marginBottom: '30px' , margin:'auto'}}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
                   <p className="description text-center text-bold" style={{ marginBottom: '-40px' }}>Haldiram</p>
@@ -60,8 +60,8 @@ const Work1 = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card style={{ marginBottom: '30px' }}>
+          <Col md={4} className="my-5">
+            <Card style={{ marginBottom: '30px' , margin:'auto'}}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
                   <p className="description text-center text-bold" style={{ marginBottom: '-40px' }}>Eazy Dinner</p>
@@ -72,8 +72,8 @@ const Work1 = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={4} >
-            <Card style={{ marginBottom: '0px', marginTop:'30px'}}>
+          <Col md={4} className="my-5">
+            <Card style={{ marginBottom: '0px', marginTop:'30px' , margin:'auto'}}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
                   <p className="description text-center text-bold" style={{ marginBottom: '40px', marginTop:'50px' }}>Mog Asun</p>
@@ -82,8 +82,8 @@ const Work1 = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card style={{ marginBottom: '30px', marginTop:'30px' }}>
+          <Col md={4} className="my-5">
+            <Card style={{ marginBottom: '30px', marginTop:'30px' , margin:'auto' }}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
                   <p className="description text-center text-bold" style={{ marginBottom: '40px', marginTop:'50px' }}>Dil-E-Mughlai</p>
@@ -92,8 +92,8 @@ const Work1 = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card style={{ marginBottom: '30px', marginTop:'30px' }}>
+          <Col md={4} className="my-5">
+            <Card style={{ marginBottom: '30px', marginTop:'30px' , margin:'auto' }}>
               <Card.Body style={{ backgroundColor: 'black', position: 'relative' }}>
                 <div className="video-overlay">
                   <p className="description text-center text-bold" style={{ marginBottom: '40px', marginTop:'50px' }}>DY Patil</p>
