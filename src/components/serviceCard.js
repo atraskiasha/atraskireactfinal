@@ -80,7 +80,7 @@ function OfferCard({ data }) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body style={model}>
-          <p>{modalData.desc}</p>
+          <p style={{color:'#222'}}>{modalData.desc}</p>
         </Modal.Body>
         <Modal.Footer style={model}>
           <Button
