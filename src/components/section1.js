@@ -47,7 +47,7 @@ const Section1 = () => {
       <MV />
       <BrandCollaboration />
       {/* <Ser /> */}
-      {/* <WhatweOffer /> */}
+       <WhatweOffer /> 
       <IP />
       <Cities />
       <M />
