@@ -24,7 +24,7 @@ const Community = () => {
               <h1 className="mb-3 animate">ATRASKI | FASHION</h1>
               <h4 className="mb-3">What sets us Apart</h4>
 
-             <Link to="/blogerMelaDelhi" className="btn btn-outline-light btn-lg mb-2" role="button">
+             <Link to="/bloggersMelaDelhi" className="btn btn-outline-light btn-lg mb-2" role="button">
              
                 Join our community{" "}
               
