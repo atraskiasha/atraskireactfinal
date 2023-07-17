@@ -44,6 +44,8 @@ import BrandCollaboration from './components/Collaboration';
 // import IP from './components/IP';
 import Cities from './components/Cities';
 import Main2 from './components/Main2';
+import BloggerMelaDelhi from './components/BloggersMelaDelhi';
+
 
 
 
@@ -84,6 +86,7 @@ function App() {
           <Route path="/cities" element={<Cities />} />
           <Route path="/fashion" element={<Section1 />} />
           <Route path="/googleform" element={<GoogleForm />} />
+          <Route path="/blogerMelaDelhi" element={<BloggerMelaDelhi />} />
 
 
 
