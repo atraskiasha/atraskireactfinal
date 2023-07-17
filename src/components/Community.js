@@ -23,13 +23,11 @@ const Community = () => {
               <h1 className="mb-3 animate">ATRASKI | FASHION</h1>
               <h4 className="mb-3">What sets us Apart</h4>
 
-              <a
-                className="btn btn-outline-light btn-lg mb-2"
-                href="/googleform"
-                role="button"
-              >
+             <Link to="/blogerMelaDelhi" className="btn btn-outline-light btn-lg mb-2" role="button">
+             
                 Join our community{" "}
-              </a>
+              
+              </Link>
              <hr/>
             </div>
           </div>
