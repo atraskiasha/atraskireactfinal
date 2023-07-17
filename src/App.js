@@ -86,7 +86,7 @@ function App() {
           <Route path="/cities" element={<Cities />} />
           <Route path="/fashion" element={<Section1 />} />
           <Route path="/googleform" element={<GoogleForm />} />
-          <Route path="/blogerMelaDelhi" element={<BloggerMelaDelhi />} />
+          <Route path="/bloggersMelaDelhi" element={<BloggerMelaDelhi />} />
 
 
 
