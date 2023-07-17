@@ -52,20 +52,20 @@ function BloggerMelaDelhi (){
           <div className='blog-heading'><h1 className='heading-2'>events in delhi </h1></div>
           <div className='ques'>
             <div className='conatiner-fluid ques1 my-4'>
-              <h1 className='p-3'>What is Bloggers Mela Delhi</h1>
-              <p className='p-3'> Blogger’s Mela is all about paving the way for newcomers who have started their own journey as bloggers.  
+              <h1 className='p-3 para'>What is Bloggers Mela Delhi</h1>
+              <p className='p-3 para'> Blogger’s Mela is all about paving the way for newcomers who have started their own journey as bloggers.  
 Blogger’s Mela brings together visionaries, the thoughts of the panelists and established bloggers to explore the journey of a blogger, discuss emerging trends, and share insights on future innovation. The event is offering a platform for all the newcomers to connect, learn and be inspired.
 </p>
             </div>
             <div className='conatiner-fluid ques1  my-4'>
-            <h1 className='p-3'>What will be happening</h1>
-              <p className='p-3'> in which we are giving opportunity to ambassador and panellist to have good interaction with brands, also bloggers who have just started there journey will be able to have a clear vision after this event we will have fashion show, Fun activities, pop up stalls and panel discussion
+            <h1 className='p-3 para'>What will be happening</h1>
+              <p className='p-3 para'> in which we are giving opportunity to ambassador and panellist to have good interaction with brands, also bloggers who have just started there journey will be able to have a clear vision after this event we will have fashion show, Fun activities, pop up stalls and panel discussion
               .We have Nitin Gupta as fashion influencer and Mehak & Rituraj as travel blogger’s and Khushboo as food blogger and Fatehh singh as digital creator and Paritosh Anand as creative director, entrepreneur and public speaker 
 </p>
             </div>
             <div className='conatiner-fluid ques1  my-4'>
-            <h1 className='p-3'>Why should Register</h1>
-              <p className='p-3'>   The event is an opportunity aimed at aspiring bloggers to conduct an insightful session with well-known brands, panelists and successful bloggers. The event is offering a platform for all the newcomers to connect, learn and be inspired.
+            <h1 className='p-3 para'>Why should Register</h1>
+              <p className='p-3 para'>   The event is an opportunity aimed at aspiring bloggers to conduct an insightful session with well-known brands, panelists and successful bloggers. The event is offering a platform for all the newcomers to connect, learn and be inspired.
 This year's event is going to be graced by renowned bloggers such as Nitin Gupta as a fashion influencer, Mehek and Rituraj as Travel Blogger, Khushboo as a food Blogger , Fatehh Singh as a digital creator, Paritosh Anand as a creative director, an entrepreneur, a public speaker and many more.
  
 </p>
@@ -168,7 +168,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
    
         <div className='container-fluid ques2'>
           <Link to="https://atraski.com/events/bloggers-mela-delhi/" target='_blank' style={{ textDecoration: "none" }}>
-            <h1 className='heading-3'>Register For Blogger Mela</h1>
+            <h1 className='heading-31'>Register For Blogger Mela</h1>
           </Link>
         </div>
       </>
