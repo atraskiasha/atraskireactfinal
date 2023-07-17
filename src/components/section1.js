@@ -14,6 +14,7 @@ import  img13 from "./imagegallery/img12.jpg";
 import  img14 from "./imagegallery/img12.jpg";
 import  img15 from "./imagegallery/img12.jpg";
 import  img16 from "./imagegallery/img12.jpg";
+import Test from "./Test";
 import  bannerimg from "./imagegallery/barbeque.png";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
@@ -52,6 +53,7 @@ const Section1 = () => {
       <Cities />
       <M />
       <Community />
+  <Test />
       {/* <Tes /> */}
       {/* <Comm /> */}
 
