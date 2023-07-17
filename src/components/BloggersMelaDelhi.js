@@ -413,7 +413,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
  
       <div className='container-fluid ques2'>
         <Link to="https://atraski.com/events/bloggers-mela-delhi/" target='_blank' style={{ textDecoration: "none" }}>
-          <h1 className='heading-3'>Register For Bloggers Mela Delhi</h1>
+          <h1 className='heading-3'>Register For Bloggers' Mela Delhi</h1>
         </Link>
       </div>
     </>
