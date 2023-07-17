@@ -49,7 +49,7 @@ function BloggerMelaDelhi (){
             <div className='blog-image-2'></div>
             
           </div>
-          <div className='blog-heading'><h1 className='heading-2'>events in delhi </h1></div>
+          
           <div className='ques'>
             <div className='conatiner-fluid ques1 my-4'>
               <h1 className='p-3 para'>What is Bloggers Mela Delhi</h1>
