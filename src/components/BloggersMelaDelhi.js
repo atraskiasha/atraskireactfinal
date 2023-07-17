@@ -60,7 +60,7 @@ function BloggerMelaDelhi (){
         {/* <div className='blog-heading'><h1 className='heading-2'>events in delhi </h1></div> */}
         <div className='ques'>
           <div className='conatiner-fluid ques1 my-4'>
-            <h1 className='p-3 para'>What is Blogger's Mela Delhi ?</h1>
+            <h1 className='p-3 para'>What is Bloggers' Mela Delhi ?</h1>
             <p className='p-3 para'> Blogger’s Mela is all about paving the way for newcomers who have started their own journey as bloggers.  
 Blogger’s Mela brings together visionaries, the thoughts of the panelists and established bloggers to explore the journey of a blogger, discuss emerging trends, and share insights on future innovation. The event is offering a platform for all the newcomers to connect, learn and be inspired.
 </p>
