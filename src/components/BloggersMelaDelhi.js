@@ -127,7 +127,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 </div>
 <div className='container-fluid big-box'>
   <div className='container-fluid small-box'>
-<div className='container-fluid ambasador mt-4'><h1 className='h1'>Pannelist</h1></div>
+<div className='container-fluid ambasador mt-4'><h1 className='h1'>Panelist</h1></div>
 
 <div class="logos">
     <div class="logo-slider1">
@@ -168,7 +168,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
    
         <div className='container-fluid ques2'>
           <Link to="https://atraski.com/events/bloggers-mela-delhi/" target='_blank' style={{ textDecoration: "none" }}>
-            <h1 className='heading-31'>Register For Blogger Mela</h1>
+            <h1 className='heading-31'>Register For Bloggers Mela Delhi</h1>
           </Link>
         </div>
       </>
