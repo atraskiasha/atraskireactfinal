@@ -52,7 +52,7 @@ function BloggerMelaDelhi (){
   return (
     <>
       <div className="container-fluid blog-delhi">
-        <div className='blog-heading'> <h1 className='heading-1'>Bloggers Mela Delhi</h1></div>
+        <div className='blog-heading'> <h1 className='heading-1'>Bloggers' Mela Delhi</h1></div>
         <div className='blog-image'>
           <div className='blog-image-2'></div>
           
