@@ -51,9 +51,10 @@ const Section1 = () => {
        <WhatweOffer /> 
       <IP />
       <Cities />
-      <M />
+ {/* <M /> */}
+ <Test />
       <Community />
-  <Test />
+  
       {/* <Tes /> */}
       {/* <Comm /> */}
 
