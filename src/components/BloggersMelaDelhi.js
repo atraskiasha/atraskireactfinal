@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './BloggerMelaDelhi.css';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import BannerImage from './images/Banner.jpg';
 import Image3 from './images/8.jpg';
@@ -46,13 +49,47 @@ import brand9 from './images/hero.png';
 
 
 
-function BloggerMelaDelhi (){
+function BloggerMelaDelhi() {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
  
 
   return (
     <>
       <div className="container-fluid blog-delhi">
-        <div className='blog-heading'> <h1 className='heading-1'>Bloggers' Mela Delhi</h1></div>
+        <div className='blog-heading'> <h1 className='heading-1'>Bloggers Mela Delhi</h1></div>
         <div className='blog-image'>
           <div className='blog-image-2'></div>
           
@@ -60,19 +97,19 @@ function BloggerMelaDelhi (){
         {/* <div className='blog-heading'><h1 className='heading-2'>events in delhi </h1></div> */}
         <div className='ques'>
           <div className='conatiner-fluid ques1 my-4'>
-            <h1 className='p-3 para'>What is Bloggers' Mela Delhi ?</h1>
+            <h1 className='p-3 para'>What is Bloggers Mela Delhi</h1>
             <p className='p-3 para'> Blogger’s Mela is all about paving the way for newcomers who have started their own journey as bloggers.  
 Blogger’s Mela brings together visionaries, the thoughts of the panelists and established bloggers to explore the journey of a blogger, discuss emerging trends, and share insights on future innovation. The event is offering a platform for all the newcomers to connect, learn and be inspired.
 </p>
           </div>
           <div className='conatiner-fluid ques1  my-4'>
-          <h1 className='p-3 para'>What will be happening ?</h1>
+          <h1 className='p-3 para'>What will be happening</h1>
             <p className='p-3 para'> in which we are giving opportunity to ambassador and panellist to have good interaction with brands, also bloggers who have just started there journey will be able to have a clear vision after this event we will have fashion show, Fun activities, pop up stalls and panel discussion
             .We have Nitin Gupta as fashion influencer and Mehak & Rituraj as travel blogger’s and Khushboo as food blogger and Fatehh singh as digital creator and Paritosh Anand as creative director, entrepreneur and public speaker 
 </p>
           </div>
           <div className='conatiner-fluid ques1  my-4'>
-          <h1 className='p-3 para'>Why should Register ?</h1>
+          <h1 className='p-3 para'>Why should Register</h1>
             <p className='p-3 para'>   The event is an opportunity aimed at aspiring bloggers to conduct an insightful session with well-known brands, panelists and successful bloggers. The event is offering a platform for all the newcomers to connect, learn and be inspired.
 This year's event is going to be graced by renowned bloggers such as Nitin Gupta as a fashion influencer, Mehek and Rituraj as Travel Blogger, Khushboo as a food Blogger , Fatehh Singh as a digital creator, Paritosh Anand as a creative director, an entrepreneur, a public speaker and many more.
 
@@ -83,43 +120,128 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
           <div className='container-fluid small-box'>
 
           <div className='ambasador mt-4'><h1 className='h1'>Ambassadors</h1></div>
-          <div class="logos">
-  <div class="logo-slider">
    
-          <img src={Image3} className='' alt=" "/>
+          
+      <Slider {...settings}>
+        
+      <div className="card" >
+        <div className="card-top">
+          <img src={Image3} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={AkashImage} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador01} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador02} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador03} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador04} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador05} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador06} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador07} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador08} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador09} alt="" />
+
+        </div>
+      </div>
+
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador10} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={Ambassador11} alt="" />
+
+        </div>
+      </div>
+
+
       
+      </Slider>
 
-
-          <img src={Ambassador01} className='' alt=" "/>
-          <img src={Ambassador02} className='' alt=" "/>
-          <img src={Ambassador04} className= '' alt=" "/>
-
-          <img src={Ambassador06} className='' alt=" "/>
-          <img src={Ambassador07} className='' alt=" "/>
-          <img src={Ambassador08} className='' alt=" "/>
-
+          
 
 
 
 
 
   </div>
-  <div class="logo-slider">
 
 
 
    
 
 
-  <img src={Ambassador09} className='' alt=" "/>
-
-  <img src={Ambassador11} className='' alt=" "/>
-  <img src={Ambassador07} className='' alt=" "/>
-              <img src={Ambassador06} className='' alt=" "/>
-              <img src={Ambassador04} className= '' alt=" "/>
-              <img src={Ambassador06} className='' alt=" "/>
-
-
+  
 
 
 
@@ -128,46 +250,90 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
 
 </div>
-</div>
 
 
-</div>
-</div>
 <div className='container-fluid big-box'>
 <div className='container-fluid small-box'>
 <div className='container-fluid ambasador mt-4'><h1 className='h1'>Panelist</h1></div>
 
-<div class="logos">
-  <div class="logo-slider1">
-   
-          <img src={pannel1} className='' alt=" "/>
+<Slider {...settings}>
+        
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel1} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel2} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel3} alt="" />
+
+        </div>
+      </div>
+
       
 
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel5} alt="" />
 
-          <img src={pannel2} className='' alt=" "/>
-          <img src={pannel3} className='' alt=" "/>
+        </div>
+      </div>
 
-          <img src={pannel5} className=''alt=" "/>
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel6} alt="" />
 
-          <img src={pannel6} className= ' 'alt=" "/>
-          <img src={pannel2} className=''alt=" "/>
+        </div>
+      </div>
 
-  </div>
-  <div class="logo-slider1">
-   
-  <img src={pannel7}className='' alt=""/>
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel7} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel8} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel9} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel10} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={pannel11} alt="" />
+
+        </div>
+      </div>
+
+  </Slider>    
 
 
-  <img src={pannel8}className='' alt=" "/>
-
-  <img src={pannel9} className=''alt=" "/>
-  <img src={pannel10} className=''alt=" "/>
-  <img src={pannel11} className=''alt=" "/>
-  <img src={pannel2} className=''alt=" "/>
-
- 
 </div>
-</div></div>
 
 
 </div>
@@ -413,7 +579,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
  
       <div className='container-fluid ques2'>
         <Link to="https://atraski.com/events/bloggers-mela-delhi/" target='_blank' style={{ textDecoration: "none" }}>
-          <h1 className='heading-3'>Register For Bloggers' Mela Delhi</h1>
+          <h1 className='heading-3'>Register For Bloggers Mela Delhi</h1>
         </Link>
       </div>
     </>
