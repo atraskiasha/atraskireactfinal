@@ -131,12 +131,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
         </div>
       </div>
 
-      <div className="card" >
-        <div className="card-top">
-          <img src={AkashImage} alt="" />
-
-        </div>
-      </div>
+      
 
 
       <div className="card" >
@@ -154,20 +149,20 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
         </div>
       </div>
 
-      <div className="card" >
+      {/* <div className="card" >
         <div className="card-top">
           <img src={Ambassador03} alt="" />
 
         </div>
-      </div>
+      </div> */}
 
 
-      <div className="card" >
+      {/* <div className="card" >
         <div className="card-top">
           <img src={Ambassador04} alt="" />
 
         </div>
-      </div>
+      </div> */}
 
 
       <div className="card" >
@@ -261,6 +256,13 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       <div className="card" >
         <div className="card-top">
           <img src={pannel1} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card" >
+        <div className="card-top">
+          <img src={AkashImage} alt="" />
 
         </div>
       </div>
