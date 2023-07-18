@@ -392,11 +392,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-@media screen and (min-width:375){
+@media screen and (min-width:376px){
   .slick-prev{
     margin-left:25px;
   
   }
+  
+}
 
 /* .slider2::before,
 .slider2::after {
