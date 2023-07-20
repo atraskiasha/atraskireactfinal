@@ -3,6 +3,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Product from "./product";
+import cityImage from './images/indiaMaps.png';
+import './cities.css';
 
 import { productData, responsive } from "./data";
 
@@ -17,11 +19,9 @@ export default function Cities() {
   ));
 
   return (
-    <div className="container py-5 my-5">
-      <h1 className="text-center">Cities Associated with</h1>
-      <Carousel showDots={true} responsive={responsive} className="my-3">
-        {product}
-      </Carousel>
+    <div className="container-fluid py-5 my-5 d-flex justify-content-center align-items-center flex-column bg-white">
+      <h1 className="text-center text-black">Cities Associated with</h1>
+      <img src={cityImage} className="mt-5 map" style={{borderRadius:'15px' , height:'450px' , width:'450px'}}></img>
     </div>
   );
 }
