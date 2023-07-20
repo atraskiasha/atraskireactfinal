@@ -22,7 +22,7 @@ export default function Cities() {
     <div className="container-fluid py-5 my-5 d-flex justify-content-center align-items-center flex-column bg-white">
             <h1 className="text-center" style={{color:'#fc0c8c' , fontWeight:'bold'}}>Cities Associated with</h1>
 
-      <img src={cityImage} className="mt-5 map" style={{borderRadius:'15px' , height:'450px' , width:'450px'}}></img>
+      <img src={cityImage} className="mt-5 map" style={{borderRadius:'15px' , height:'450px' , width:'430px'}}></img>
     </div>
   );
 }
