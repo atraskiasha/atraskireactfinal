@@ -25,7 +25,7 @@ import fashion from './imagegallery/AT-Fashion-Logo.png.webp';
 
 import Upcoming from './Upcoming';
 // import bloger from '../components/imagegallery/blogger.png';
-import vedio1 from './images/videos/Blogger.mp4'
+import vedio1 from './images/Blogger.mp4'
 
 
 const Blogger = () => {
