@@ -83,7 +83,7 @@ const Blogger = () => {
           <Col md={6} sm={12} className="gallery-col k1">
             <img src={blogger3} alt="Image 1"className='row1' />
             <div className="image-overlay mm ">
-                  <span className="image-title">PRARTHANA JAGAN</span>
+                  <span className="image-title">SIMRAN POPTANI</span>
               </div>
             </Col>
             <Col md={6}  sm={12} className="gallery-col k1">
@@ -99,7 +99,7 @@ const Blogger = () => {
           <Col md={6} sm={12} className="gallery-col k1">
             <img src={blogger5} alt="Image 1" className='row1' />
             <div className="image-overlay mm">
-                  <span className="image-title">SIMRAN POPTANI</span>
+                  <span className="image-title">PRARTHANA JAGAN</span>
               </div>
             </Col>
             <Col md={6} sm={12} className="gallery-col k1">
