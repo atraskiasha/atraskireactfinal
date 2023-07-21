@@ -20,6 +20,12 @@ import Ambassador08 from './images/Ambassador08.jpg';
 import Ambassador09 from './images/Ambassador09.jpg';
 import Ambassador10 from './images/Ambassador10.png';
 import Ambassador11 from './images/Ambassador11.png';
+import Ambassador12 from './images/Ambassador12.jpg';
+import Ambassador13 from './images/Ambassador13.jpeg';
+import Ambassador14 from './images/Ambassador14.jpeg';
+import Ambassador15 from './images/Ambassador15.jpeg';
+import Ambassador16 from './images/Ambassador16.jpeg';
+import Ambassador17 from './images/Ambassador17.jpeg';
 import pannel1 from './images/pannelist01.png';
 import pannel2 from './images/pannelist02.png';
 import pannel3 from './images/pannelist03.png';
@@ -35,6 +41,14 @@ import pannel15 from './images/Panlist15.jpg';
 import pannel16 from './images/Panlist16.jpg';
 import pannel17 from './images/Panlist17.jpg';
 import pannel18 from './images/Panlist18.jpg';
+import pannel19 from './images/Panlist19.jpg';
+import pannel20 from './images/Panlist20.jpeg';
+import pannel21 from './images/Panlist21.jpeg';
+import pannel22 from './images/Panlist22.jpeg';
+import pannel23 from './images/Panlist23.jpeg';
+import pannel24 from './images/Panlist24.jpeg';
+import pannel25 from './images/Panlist25.jpeg';
+import pannel26 from './images/Panlist26.jpeg';
 
 import brand1 from './images/AMRI.png';
 import brand2 from './images/bigb.png';
@@ -224,6 +238,47 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
         </div>
       </div>
 
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={Ambassador12} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={Ambassador13} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={Ambassador14} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={Ambassador15} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={Ambassador16} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={Ambassador17} alt="" />
+
+        </div>
+      </div>
 
       
       </Slider>
@@ -373,6 +428,51 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
         </div>
       </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel19} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel20} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel21} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel22} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel23} alt="" />
+
+        </div>
+      </div>
+
+      
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel26} alt="" />
+
+        </div>
+      </div>
+
 
   </Slider>    
 
