@@ -253,28 +253,28 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
 <Slider {...settings}>
         
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel1} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={AkashImage} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel2} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel3} alt="" />
 
@@ -283,49 +283,49 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
       
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel5} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel6} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel7} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel8} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel9} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel10} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={pannel11} alt="" />
 
