@@ -119,6 +119,7 @@
     justify-content: center;
     border-radius: 33px;
     margin-left:12px;
+    cursor: pointer;
 
     
   }
@@ -162,12 +163,23 @@
     font-size: 0.8rem;
   }
   .h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight:900;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    
+    
+
 
 }
 .container-2{
-  max-height:600px;
+  max-height:650px;
 }
 .change_content:after{
   font-size: 2rem;
