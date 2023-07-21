@@ -48,7 +48,7 @@ const ImageGallery = () => {
     <Container fluid>
       <Row>
         {/* {imageUrls.map((imageUrl, index) => ( */}
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -63,7 +63,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -78,7 +78,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -93,7 +93,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -108,7 +108,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -123,7 +123,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -159,7 +159,7 @@ const ImageGallery = () => {
 
       <Row>
         {/* {imageUrls.map((imageUrl, index) => ( */}
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -174,7 +174,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -189,7 +189,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -204,7 +204,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -219,7 +219,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
@@ -234,7 +234,7 @@ const ImageGallery = () => {
             />
           </div>
         </Col>
-        <Col xs={6} sm={4} md={4} lg={2} xl={2}>
+        <Col xs={6} sm={4} md={4} lg={2} xl={2} className="my-1">
           <div
             className="image-box"
             style={{ width: "100%", height: "100%" }}
