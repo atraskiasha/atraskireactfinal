@@ -18,7 +18,7 @@ import  fashionweek  from "./imagegallery/fashionweek.png";
     return (
       <>
         <h2 className="Heading-1 text-center py-5 mt-5">
-          Intellectual Presentors
+          Intellectual Properties
         </h2>
         <Container  className="py-3  ">
          
