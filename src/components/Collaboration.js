@@ -80,7 +80,7 @@ const BrandCollaboration = () => {
       <div className="continer-fluid main-logo">
         <div className="container-fluid main-logo1">
          
-        <div  className="img img1" ><img src={bmw} style={{width:'150px'}} className="imgages"></img></div>
+        <div  className="img img1" ><img src={bmw} style={{width:'150px' , paddingTop:'1.5rem'}} className="imgages"></img></div>
           
           <div  className="img img1"><img src={myntra} className="imgages"></img></div>
 
