@@ -110,7 +110,7 @@ source{
 }
 
 img {
-    width: 100%;
+/*     width: 100%; */
 }
 .image-title {
     color: #fff;
