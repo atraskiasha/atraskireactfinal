@@ -457,13 +457,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
         </div>
       </div>
 
-      <div className="card cardss" >
-        <div className="card-top">
-          <img src={pannel23} alt="" />
-
-        </div>
-      </div>
-
+     
       
 
       <div className="card cardss" >
