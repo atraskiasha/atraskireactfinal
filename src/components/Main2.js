@@ -95,7 +95,7 @@ const navigate = useNavigate()
 <div className= "background-1 container-fluid" style={{background:'#fff'}}>
 <div className="content-2 container-fluid"  style={{background:'#fff'}}>
     <h1 className='h1' style={{background:'#fff'}}> Are you Looking for
-    <span class="change_content" style={{background:'#fff'}}> </span> </h1>
+    <span class="change_content mt-2" style={{background:'#fff'}}> </span> </h1>
       {/* <h1>Your Security Our Responsibility  </h1> */}
 
 
