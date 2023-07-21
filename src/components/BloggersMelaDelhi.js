@@ -124,7 +124,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
           
       <Slider {...settings}>
         
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Image3} alt="" />
 
@@ -134,7 +134,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador01} alt="" />
 
@@ -142,14 +142,14 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div>
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador02} alt="" />
 
         </div>
       </div>
 
-      {/* <div className="card" >
+      {/* <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador03} alt="" />
 
@@ -157,7 +157,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div> */}
 
 
-      {/* <div className="card" >
+      {/* <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador04} alt="" />
 
@@ -165,7 +165,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div> */}
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador05} alt="" />
 
@@ -173,7 +173,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div>
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador06} alt="" />
 
@@ -181,7 +181,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div>
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador07} alt="" />
 
@@ -189,7 +189,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div>
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador08} alt="" />
 
@@ -197,7 +197,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div>
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador09} alt="" />
 
@@ -205,14 +205,14 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       </div>
 
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador10} alt="" />
 
         </div>
       </div>
 
-      <div className="card" >
+      <div className="card cardss" >
         <div className="card-top">
           <img src={Ambassador11} alt="" />
 
