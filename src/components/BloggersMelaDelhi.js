@@ -30,6 +30,11 @@ import pannel8 from './images/Panlist09.jpg';
 import pannel9 from './images/Panlist10.jpg';
 import pannel10 from './images/Panlist11.jpg';
 import pannel11 from './images/Panlist12.jpg';
+import pannel14 from './images/Panlist14.jpg';
+import pannel15 from './images/Panlist15.jpg';
+import pannel16 from './images/Panlist16.jpg';
+import pannel17 from './images/Panlist17.jpg';
+import pannel18 from './images/Panlist18.jpg';
 
 import brand1 from './images/AMRI.png';
 import brand2 from './images/bigb.png';
@@ -253,7 +258,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
 <Slider {...settings}>
         
-      <div className="card cardss" >
+      <div className="card cardss">
         <div className="card-top">
           <img src={pannel1} alt="" />
 
@@ -328,6 +333,43 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
       <div className="card cardss" >
         <div className="card-top">
           <img src={pannel11} alt="" />
+
+        </div>
+      </div>
+
+     
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel14} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel15} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel16} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel17} alt="" />
+
+        </div>
+      </div>
+
+      <div className="card cardss" >
+        <div className="card-top">
+          <img src={pannel18} alt="" />
 
         </div>
       </div>
