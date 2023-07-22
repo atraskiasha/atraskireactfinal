@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo4 from './images/logo.png';
+import './Navbar.css';
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -99,10 +100,10 @@ const Navbar = () => {
               <ul
                 className={`dropdown-menu ${subMenuOpen ? 'show' : ''}`}
                 aria-labelledby="navbarDropdownMenuLink"
-                style={{width:'450px'}}
+                style={{width:'700px'}}
               >
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-4 ">
                     <li>
                       <NavLink
                         className="dropdown-item"
@@ -114,7 +115,9 @@ const Navbar = () => {
                       style={{color:'black'}}>
                         Digital Marketing
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Strategic Promotion</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Social Media Manage</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Running Ads</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Off Page SEO  and On Page SEO</p>
                     </li>
                     <li>
                       <NavLink
@@ -125,9 +128,9 @@ const Navbar = () => {
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        Events
+                        Public Relation
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Activities and Experiences</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Media Outreach</p>
 
                     </li>
                     <li>
@@ -139,13 +142,15 @@ const Navbar = () => {
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        Influencer Marketing
+                        Influential Marketing
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Engaging Content</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Influencers Campaign</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>College Ambassador</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Campaign / Youth Marketing</p>
 
                     </li>
                   </div>
-                  <div className="col-6">
+                  <div className="col-4 adjust1">
                     <li>
                       <NavLink
                         className="dropdown-item"
@@ -155,7 +160,7 @@ const Navbar = () => {
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        Production
+                        My City My Voice
                       </NavLink>
                       <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Goods or Services</p>
 
@@ -169,9 +174,10 @@ const Navbar = () => {
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        Web Development
+                        Travel
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Designing, Creating,</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Incetives Trips</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Travel Agency For Corporate</p>
 
                     </li>
                     <li>
@@ -183,9 +189,75 @@ const Navbar = () => {
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        MICE
+                        Book Our Stays
                       </NavLink>
                       <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Incentives, Conferences</p>
+
+                    </li>
+                  </div>
+                  <div className="col-4 adjust">
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/production"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                        style={{color:'black'}}>
+                        Fashion
+                      </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Brand Collaboration</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Services</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Models</p>
+
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/web"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                        style={{color:'black'}}>
+                        Intellectual Properties
+                      </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Bloggers Mela</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>The Voice Fest</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Business E-Shower</p>
+
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/mice"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                        style={{color:'black'}}>
+                        Integrated Marketing
+                      </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Incentives, Conferences</p>
+
+                    </li>
+
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/mice"
+                        onClick={() => {
+                          closeDropdowns();
+                          handleNavClick();
+                        }}
+                        style={{color:'black'}}>
+                        Events & Exhi
+                      </NavLink>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Events</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Exhibition</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Product Launches</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> ATL & BTL</p>
 
                     </li>
                   </div>
