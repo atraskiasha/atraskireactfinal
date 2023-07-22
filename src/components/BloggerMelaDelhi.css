@@ -487,6 +487,8 @@ margin-top:30px;
   margin-left:5px;
 
 }
-.slick-dots{
+@media screen and (max-width:481px){
+  .slick-dots{
   display:none !important;
+}
 }
