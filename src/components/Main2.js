@@ -1,10 +1,10 @@
 // import robot from './robot.png'
-import React, { useState, useRef,useEffect} from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 import '../index.css';
 import { Form, FormControl, Dropdown, Button } from 'react-bootstrap';
 // import CustomSelect from './customSelect';
-import {  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { BsFillCaretDownFill } from 'react-icons/bs'; // Import caret down icon from react-icons library
 
 
@@ -30,11 +30,11 @@ import Chat from './chat';
 //   { value: 'Search of optimum Event Management support?', label: 'Search of optimum Event Management support?', link:'/chat' },
 //   { value: 'Looking for right Influencer Marketing solutions?', label: 'Looking for right Influencer Marketing solutions?' , link:'/chat'},
 //   { value: 'Looking for assistance in MICE solutions?', label: 'Looking for assistance in MICE solutions?', link:'/chat' },
-  
+
 // ];
 
 const Main2 = () => {
-const navigate = useNavigate()
+  const navigate = useNavigate()
   const [selectedOption, setSelectedOption] = useState('');
   const [searchValue, setSearchValue] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
@@ -92,14 +92,14 @@ const navigate = useNavigate()
 
   return (
     <>
-<div className= "background-1 container-fluid" style={{background:'#fff'}}>
-<div className="content-2 container-fluid"  style={{background:'#fff'}}>
-    <h1 className='h1' style={{background:'#fff'}}> Are you Looking for
-    <span class="change_content mt-2" style={{background:'#fff'}}> </span> </h1>
-      {/* <h1>Your Security Our Responsibility  </h1> */}
+      <div className="background-1 container-fluid" style={{ background: '#fff' }}>
+        <div className="content-2 container-fluid" style={{ background: '#fff' }}>
+          <h1 className='h1 ' style={{ background: '#fff', color: "black" }}> Are you Looking for
+            <span class="change_content my-2" style={{ background: '#fff' }}> </span> </h1>
+          {/* <h1>Your Security Our Responsibility  </h1> */}
 
 
-      {/* <div className="background">
+          {/* <div className="background">
         <div className="content">
           <h1>Welcome to Atraski</h1>
           <h3 id="mainheading" style={{ marginTop: '-15px', fontSize: '20px' }}>
@@ -150,73 +150,113 @@ const navigate = useNavigate()
       </Button>
     </Form>
           
-      
+      <i class="fa-regular fa-lightbulb-on"></i>
         </div>
       </div>
  */}
-</div>
-<div className='container-2 conatiner-fluid' style={{background:'#fff'}}>
-    <div className='content-3 container-fluid' style={{background:'#fff'}}>
-        <div className='content-4' style={{background:'#fff'}}>
-        <div className='box boxes mx-2'style={{background:'#fff'}}>
-        <div style={{background:'#fff'}}><i class="fa-solid fa-clock" style={{background:'#fff'}}></i></div>
-        <div style={{background:'#fff'}}>24x7 Support</div>
         </div>
+        <div className='container-2  conatiner-fluid' style={{ background: '#fff', }}>
+          <div className='content-3 container-fluid' style={{ background: '#fff' }}>
+            <div className='content-4' style={{ background: '#fff' }}>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to="/services"><div style={{ background: '#fff' }}><i class="fa-solid fa-clock text-decoration-none" style={{ background: '#fff' }}></i></div> </Link>
+                <Link to="/services"> <div style={{ background: '#fff' }} className='text1'>Digital Marketing</div></Link>
+              </div>
 
-        <div className='box boxes mx-2' style={{background:'#fff'}}>
-        <div style={{background:'#fff'}}><i class="fa-solid fa-handshake-simple" style={{background:'#fff'}}></i></div>
-        <div style={{background:'#fff'}}>Proud Clients</div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to=" "> <div style={{ background: '#fff' }}><i class="fa-solid fa-handshake-simple" style={{ background: '#fff' }}></i></div></Link>
+                <Link to=" ">  <div style={{ background: '#fff' }} className='text1'>Public Relation</div></Link>
 
+
+
+              </div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to="/marketing"><div style={{ background: '#fff' }}><i class="fa-solid fa-business-time" style={{ background: '#fff' }}></i></div></Link>
+                <Link to="/marketing"><div style={{ background: '#fff' }} className='text1'>Influential Marketing</div></Link>
+
+
+              </div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to=" "> <div style={{ background: '#fff' }}><i class="fa-sharp fa-solid fa-plane" style={{ background: '#fff' }}></i></div></Link>
+                <Link to=" "><div style={{ background: '#fff' }} className='text1'>Travel</div></Link>
+
+              </div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to="https://mycitymyvoice.in/"><div style={{ background: '#fff', textDecoration: "none" }}><i class="fa-sharp fa-solid fa-microphone" style={{ background: '#fff' }}></i></div></Link>
+                <Link to="https://mycitymyvoice.in/"> <div style={{ background: '#fff', textDecoration: "none!important" }}><span className='ms-1 text1'>Mcmv</span></div></Link>
+
+              </div>
+            </div>
+
+
+            <div className='content-4' style={{ background: '#fff' }}>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to=" https://atstay.in/"> <div style={{ background: '#fff' }}><i class="fa-solid fa-check" style={{ background: '#fff' }}></i></div></Link>
+                <Link to="https://atstay.in/"><div style={{ background: '#fff' }} className='text1'>Book Our Stays</div></Link>
+
+
+              </div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to="/fashion "><div style={{ background: '#fff' }}><i class="fa-solid fa-glasses" style={{ background: '#fff' }}></i></div></Link>
+                <Link to="/fashion "> <div style={{ background: '#fff' }} className='text1'>Fashion</div> </Link>
+              </div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to=" https://atstay.in/"><div style={{ background: '#fff' }}><i class="fa-solid fa-pen" style={{ background: '#fff' }}></i></div></Link>
+                <Link to=" https://atstay.in/ "><div style={{ background: '#fff' }} className='text1'>Integrated Marketing </div></Link>
+
+
+              </div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to="/event "><div style={{ background: '#fff' }}><i class="fa-solid fa-calendar-days" style={{ background: '#fff' }}></i></div></Link>
+                <Link to="/event "><div style={{ background: '#fff' }} className='text1'>Events& Exhibit</div></Link>
+
+              </div>
+              <div className='box boxes mx-2' style={{ background: '#fff' }}>
+                <Link to=" "><div style={{ background: '#fff' }}><i class="fa-solid fa-shield-halved" style={{ background: '#fff' }}></i></div></Link>
+                <Link to=" "><div style={{ background: '#fff' }} className='text1'>Intellectual property</div></Link>
+
+
+              </div>
+              {/* <i class="fa-solid fa-shield-halved"></i> */}
+            </div>
+            <div className='content-4 mx-2' style={{ background: '#fff' }}>
+
+              {/* <div className='box boxes ms-4' style={{background:'#fff'}}>
+        <Link to ="/event "><div style={{background:'#fff'}}><i class="fa-solid fa-business-time" style={{background:'#fff'}}></i></div></Link>
+        <Link to ="/event "><div style={{background:'#fff'}} className='text1'>Events& Exhibit</div></Link>
 
 
         </div>
-        <div className='box boxes mx-2' style={{background:'#fff'}}>
-        <div style={{background:'#fff'}}><i class="fa-solid fa-check" style={{background:'#fff'}}></i></div>
-        <div style={{background:'#fff'}}>Regularity</div>
+        <div className='box boxes me-4' style={{background:'#fff'}}>
+        <Link to =" "><div style={{background:'#fff'}}><i class="fa-solid fa-pen" style={{background:'#fff'}}></i></div></Link>
+        <Link to =" "><div style={{background:'#fff'}} className='text1'>Intellectual property</div></Link>
 
 
-        </div>
-        </div>
-        <div className='content-4' style={{background:'#fff'}}>
-        <div className='box boxes mx-2' style={{background:'#fff'}}>
-        <div style={{background:'#fff'}}><i class="fa-sharp fa-solid fa-thumbs-up" style={{background:'#fff'}}></i></div>
-        <div style={{background:'#fff'}}>Trustable</div>
+        </div> */}
+
+            </div>
 
 
-        </div>
-        <div className='box boxes mx-2' style={{background:'#fff'}}>
-        <div style={{background:'#fff'}}><i class="fa-solid fa-business-time" style={{background:'#fff'}}></i></div>
-        <div style={{background:'#fff'}}>Passionate</div>
 
+          </div>
 
         </div>
-        <div className='box boxes mx-2' style={{background:'#fff'}}>
-        <div style={{background:'#fff'}}><i class="fa-solid fa-pen" style={{background:'#fff'}}></i></div>
-        <div style={{background:'#fff'}}>Creative</div>
-
+        <div class="parent">
+          {/* <div class="bottom"><i class="fa-light fa-message-bot"onClick={()=>navigate("/chat")}></i><br></br></div> */}
+          <div class="bottom"><i class="fa-solid fa-comment" onClick={() => navigate("/chat")}></i><div className='mx-2'>Chat</div><br></br></div>
 
         </div>
-        </div>
+      </div>
 
 
-
-    </div>
-
-</div>
-<div class="parent">
-  {/* <div class="bottom"><i class="fa-light fa-message-bot"onClick={()=>navigate("/chat")}></i><br></br></div> */}
-  <div class="bottom"><i class="fa-solid fa-comment" onClick={()=>navigate("/chat")}></i><div className='mx-2'>Chat</div><br></br></div>
-
-</div>
-</div>
-
-
-<div
-        className="background-image-res"
+      <div
+        className="background-image-res cont1"
 
         style={{
+
           backgroundImage: `url(${logo8})`,
-          backgroundSize: '100% auto',
+          backgroundSize: '100%',
+
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
@@ -230,10 +270,10 @@ const navigate = useNavigate()
       </div>
 
 
-      <div className="container2"
+      <div className="container2 cont1"
         style={{
           backgroundImage: `url(${logo2})`,
-          backgroundSize: '100% auto',
+          backgroundSize: '100%',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
@@ -247,7 +287,7 @@ const navigate = useNavigate()
         <img src="images/imageb.jpg" alt="" />
       </div>
 
-      <div
+      <div className='cont1'
         style={{
           backgroundImage: `url(${logo3})`,
           backgroundSize: '100% auto',
@@ -262,12 +302,12 @@ const navigate = useNavigate()
         }}
       >
       </div>
-      <div
+      <div className='cont1'
         style={{
           backgroundImage: `url(${logo1})`,
           backgroundSize: '100% auto',
           backgroundAttachment: 'fixed',
-          height: '80vh',
+          height: '100vh',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           position: 'relative',
@@ -277,14 +317,14 @@ const navigate = useNavigate()
         }}
       >
       </div>
-      <div
+      <div className='cont1'
         style={{
           backgroundImage: `url(${logo4})`,
           backgroundSize: '100% auto',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
-          height: '80vh',
+          height: '100vh',
           position: 'relative',
           zIndex: '-1',
 
@@ -292,14 +332,14 @@ const navigate = useNavigate()
         }}
       >
       </div>
-      <div
+      <div className='cont1'
         style={{
           backgroundImage: `url(${logo5})`,
           backgroundSize: '100% auto',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: '80vh',
+          height: '100vh',
           position: 'relative',
           zIndex: '-1',
 
@@ -307,14 +347,14 @@ const navigate = useNavigate()
         }}
       >
       </div>
-      <div
+      <div className='cont1'
         style={{
           backgroundImage: `url(${logo7})`,
           backgroundSize: '100% auto',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: '80vh',
+          height: '100vh',
           position: 'relative',
           zIndex: '-1',
 
@@ -322,14 +362,14 @@ const navigate = useNavigate()
         }}
       >
       </div>
-      <div
+      <div className='cont1'
         style={{
           backgroundImage: `url(${logo9})`,
           backgroundSize: '100% auto',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: '80vh',
+          height: '100vh',
           position: 'relative',
           zIndex: '-1',
 
@@ -337,14 +377,14 @@ const navigate = useNavigate()
         }}
       >
       </div>
-      <div
+      <div className='cont1'
         style={{
           backgroundImage: `url(${logo6})`,
           backgroundSize: '100% auto',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: '80vh',
+          height: '100vh',
           position: 'relative',
           zIndex: '-1',
 
@@ -360,7 +400,7 @@ const navigate = useNavigate()
             <div className="col-md-6">
               <p><i className="fa fa-envelope"></i> Email: communications@atraski.com</p>
               {/* <p><i className="fa fa-envelope"></i>Email: priti.jhawar@atraski.com</p>             */}
-                <p><i className="fa fa-phone"></i> Contact No: 9163720198 / 7596009785</p>
+              <p><i className="fa fa-phone"></i> Contact No: 9163720198 / 7596009785</p>
               {/* <p><i className="fa fa-phone"></i> Contact No: 7596009785</p> */}
             </div>
             <div className="col-md-6 text-md-right">
