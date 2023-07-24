@@ -155,7 +155,7 @@ const Main2 = () => {
       </div>
  */}
         </div>
-        <div className='container-2  conatiner-fluid' style={{ background: '#fff', }}>
+        <div className='container-2  conatiner-fluid' style={{ background: '#fff',  height:'265px' }}>
           <div className='content-3 container-fluid' style={{ background: '#fff' }}>
             <div className='content-4' style={{ background: '#fff' }}>
               <div className='box boxes mx-2' style={{ background: '#fff' }}>
