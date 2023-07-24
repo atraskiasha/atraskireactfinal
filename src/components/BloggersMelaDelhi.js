@@ -138,7 +138,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
           <div className='container-fluid big-box'>
           <div className='container-fluid small-box'>
 
-          <div className='ambasador mt-4'><h1 className='h1'>Ambassadors</h1></div>
+          <div className='ambasador mt-4'><h1 className=''>Ambassadors</h1></div>
    
           
       <Slider {...settings}>
@@ -309,7 +309,7 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
 <div className='container-fluid big-box'>
 <div className='container-fluid small-box'>
-<div className='container-fluid ambasador mt-4'><h1 className='h1'>Panelist</h1></div>
+<div className='container-fluid ambasador mt-4'><h1 className=''>Panelist</h1></div>
 
 <Slider {...settings}>
         
