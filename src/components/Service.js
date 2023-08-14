@@ -86,8 +86,10 @@ const Service = () => {
             <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>Social Media Marketing:</h4>
-            <h9>Social media marketing has revolutionised the way businesses connect with their audience. It harnesses the power of platforms like Facebook, Instagram, and Twitter to reach potential customers, build brand awareness, and drive engagement. By utilising targeted ads, captivating content, and strategic campaigns, social media marketing enables businesses to expand their online presence, attract new leads, and increase conversions. Moreover, it provides valuable insights into customer behaviour, preferences, and trends, allowing for more effective marketing strategies.</h9>
+            <h4>SocialSocial Media Manage:</h4>
+            <h9>Social media management is the practice of using social media platforms to promote products, services, or content.
+Our services involve creating, curating, and posting content across various social media platforms, engaging with the audience, analyzing performance metrics, and adapting the strategy based on insights. We also manage advertising campaigns, monitor trends, and work to enhance the brand's online presence on various platforms like Facebook, Instagram, and Twitter to reach potential customers. Social Media Management plays a crucial role in maintaining a positive and consistent image for the organization on social media while driving engagement and achieving marketing goals.
+</h9>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose}>
@@ -103,9 +105,11 @@ const Service = () => {
             <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>Social Media Advertisement:</h4>
-            <h9>Social media advertising is a powerful tool for businesses to reach their target audience with precision and impact. By leveraging platforms like Facebook, Instagram, and LinkedIn, companies can deliver tailored messages and engaging content to potential customers. Social media ads offer unparalleled targeting options based on demographics, interests, and behaviour, ensuring maximum relevance and ROI. They also provide real-time performance tracking and analytics, allowing businesses to optimise their campaigns for better results. With the ability to boost brand visibility, drive website traffic, and generate leads, social media advertising is a game-changer in the world of digital marketing, offering businesses endless opportunities for growth and success.
-</h9>
+            <h4>Running Ads:</h4>
+            <h9>
+Social media advertising is a powerful tool for businesses to reach their target audience with precision and impact. By leveraging platforms like Facebook, Instagram, and LinkedIn, companies can deliver tailored messages and engaging content to potential customers. Social media ads offer unparalleled targeting options based on demographics, interests, and behavior, ensuring maximum relevance and ROI. They also provide real-time performance tracking and analytics, allowing businesses to optimize their campaigns for better results. With the ability to boost brand visibility, drive website traffic, and generate leads, social media advertising is a game-changer in the world of digital marketing, offering businesses endless opportunities for growth and success.</h9>
+
+
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose2}>
@@ -121,8 +125,10 @@ const Service = () => {
             <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>Search Engine Optimization:</h4>
-            <h9>Search engine optimization (SEO) is the key to improving a website's visibility in search engine results and driving organic traffic. By optimizing website content, structure, and technical aspects, businesses can rank higher on search engine pages, increasing their chances of being discovered by potential customers. SEO enhances user experience, making websites faster, easier to navigate, and more user-friendly. It also builds trust and credibility, as users tend to trust websites that appear in top search results. Additionally, SEO is a cost-effective marketing strategy with long-term benefits, as it continues to drive organic traffic even after initial optimization efforts. With SEO, businesses can reach their target audience effectively and gain a competitive edge in the online marketplace.
+            <h4>Off Page SEO and On Page SEO:</h4>
+            <h9>Search Engine Optimization (SEO) is a set of strategies and practices aimed at improving a website's visibility and ranking on search engines like Google. It includes off-page SEO and on-page SEO. Our goal is to optimize various aspects of a website, such as content, keywords, meta tags, and links, to make it more attractive to search engine algorithms. This helps the website appear higher in search results for relevant queries, ultimately driving more organic traffic to the site.
+It also builds trust and credibility, as users tend to trust websites that appear in top search results.
+With SEO, businesses can reach their target audience effectively and gain a competitive edge in the online marketplace.
 
 </h9>
           </Modal.Body>
