@@ -73,8 +73,10 @@ const Public = () => {
           <Modal.Body className="modal_body">
             {/* <h4>Media Relations</h4>
             <h6>Media relations are a crucial aspect of any successful marketing strategy. It involves building and nurturing relationships with journalists, reporters, and media outlets to secure positive coverage for businesses. </h6> */}
-            <h4>Media Relations:</h4>
-            <h6 style={{color:'grey' , fontSize:'15px'}}>Media relations are a crucial aspect of any successful marketing strategy. It involves building and nurturing relationships with journalists, reporters, and media outlets to secure positive coverage for businesses. Effective media relations can result in increased brand visibility, credibility, and public trust. By crafting compelling press releases, organizing media events, and engaging in proactive outreach, businesses can generate valuable media coverage, reach a wider audience, and establish themselves as industry leaders. Media relations also offer opportunities for crisis management and reputation building. Overall, media relations are an invaluable tool for businesses to enhance their brand image, create buzz, and drive business growth. </h6>
+            <h4>Media Outreach:</h4>
+            <h6 style={{color:'grey' , fontSize:'15px'}}>Media outreach refers to the strategic efforts and activities undertaken by individuals, organizations, or businesses to connect and engage with various forms of media, such as newspapers, magazines, television, radio, online publications, and social media platforms. We aim to achieve the goal of media outreach is to gain coverage and exposure for a specific message, story, product, event, or initiative. This can involve pitching press releases, arranging interviews, sending media kits, and building relationships with journalists and influencers to amplify the reach and impact of the content.
+It is the strategic management of communication between an organization and its target audience, with the aim of building and maintaining a positive reputation. We help in activities such as media relations, crisis management, event planning, and social media engagement to influence public perception and foster goodwill.
+ </h6>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose}>
