@@ -61,7 +61,7 @@ const  Production = () => {
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
-              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Social Media Marketing</h2>
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Goods & Services</h2>
 
             </div>
           </Col>
