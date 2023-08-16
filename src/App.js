@@ -45,6 +45,14 @@ import BrandCollaboration from './components/Collaboration';
 import Cities from './components/Cities';
 import Main2 from './components/Main2';
 import BloggerMelaDelhi from './components/BloggersMelaDelhi';
+import PublicRelation from './components/PublicRelation';
+import FashionPage from './components/FashionPage';
+
+
+import  IntellectualPage from './components/IntellectualPage';
+import IntegratedMarketing from './components/IntegratedMarketing';
+import Exhibit from './components/Exhibit';
+import MarketgPage from './components/Marketpage';
 
 
 
@@ -87,6 +95,12 @@ function App() {
           <Route path="/fashion" element={<Section1 />} />
           <Route path="/googleform" element={<GoogleForm />} />
           <Route path="/bloggersMelaDelhi" element={<BloggerMelaDelhi />} />
+            <Route path="/publicrelation" element={<PublicRelation />} />
+          <Route path="/fashion1" element={<FashionPage />} />
+          <Route path="/intellpage" element={<IntellectualPage />} />
+          <Route path="/integratemarketing" element={<IntegratedMarketing />} />
+          <Route path="/exhibit" element={<Exhibit />} />
+          <Route path="/market1" element={<MarketgPage />} />
 
 
 
