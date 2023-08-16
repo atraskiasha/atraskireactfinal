@@ -61,21 +61,21 @@ const  IntellectualPage = () => {
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
-              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Social Media Marketing</h2>
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Bloggers' Mela</h2>
 
             </div>
           </Col>
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick2} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
-              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Social Media Advertisement</h2>
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>The Voice Fest</h2>
 
             </div>
           </Col>
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick3} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
-              <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100,fontSize:'25px', left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Search Engine Optimization</h2>
+              <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100,fontSize:'25px', left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Business E-Shower</h2>
 
             </div>
           </Col>
@@ -109,7 +109,7 @@ Bloggers' events often attract brands looking for influencer collaborations and 
             <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4> Voice Fest:</h4>
+            <h4> The Voice Fest:</h4>
             <h9>The ultimate celebration of vocal artistry – The Voice Fest, immerse yourself in a world of captivating performances, interactive workshops, and a platform to let yourself shine. Whether you're a singer, a storyteller, a voice actor, or simply an enthusiast, Voice Fest has something extraordinary in store for you.Voice Fest is more than an event; it's an experience that celebrates the beauty, power, and versatility of the talent.
 </h9>
 
@@ -129,7 +129,7 @@ Bloggers' events often attract brands looking for influencer collaborations and 
             <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>Business E-Shower,:</h4>
+            <h4>Business E-Shower:</h4>
             <h9> Business E-Shower, a spectacular virtual gathering celebrating and supporting new businesses. Join entrepreneurs, industry leaders, and like-minded professionals from across the business landscape to forge connections, share insights, and inspire growth. Engage with a vibrant community through interactive platforms, networking, and idea exchange. Experience the convenience of connecting from your own screen. Whether you're a seasoned entrepreneur looking to expand your network or a budding business owner seeking inspiration and guidance, this event offers a unique opportunity to connect with like-minded individuals who share your drive and ambition.
 
 
