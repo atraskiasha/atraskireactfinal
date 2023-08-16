@@ -45,16 +45,16 @@ function Prod() {
     return (
         <>
            <Container>
-        <h1 className="mt-5 text-white text-center">Production</h1>
+        <h1 className="mt-5 text-white text-center">My City My Voice</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4">
-          <Col md={4}>
+          {/* <Col md={4}>
             <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}  >
               <img src={offer1} alt="Image 1" className="img-fluid" />
               <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center',fontSize:'25px', backgroundColor:'#F9F5F6'}}>Commercial Shoot</h2>
 
             </div>
-          </Col>
+          </Col> */}
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick2} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
@@ -74,7 +74,7 @@ function Prod() {
         </Container>
 
 
-        <Modal show={showModal} onHide={handleModalClose} dialogClassName="custom-modal w-1000">
+        {/* <Modal show={showModal} onHide={handleModalClose} dialogClassName="custom-modal w-1000">
           <Modal.Header closeButton >
             <Modal.Title>What We Offer:</Modal.Title>
           </Modal.Header>
@@ -88,7 +88,7 @@ function Prod() {
               Close
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
 
 
 
@@ -111,21 +111,24 @@ function Prod() {
         </Modal>
 
 
-
+{/* 
         <Modal show={showModal3} onHide={handleModalClose3} dialogClassName="custom-modal w-1000">
           <Modal.Header closeButton >
             <Modal.Title>What We Offer:</Modal.Title>
           </Modal.Header>
           <Modal.Body className="modal">
-            <h4>Podcast Shoots:</h4>
-            <h6 style={{color:'grey' , fontSize:'15px'}}>Podcast shoots are a valuable way for businesses to create engaging audiovisual content. By recording and producing professional podcasts, businesses can connect with their audience on a deeper level and establish thought leadership. Podcast shoots allow for insightful conversations, interviews, and discussions that provide valuable industry insights and knowledge. They offer a personal and intimate connection with listeners, fostering brand loyalty and engagement. Additionally, podcast shoots can be repurposed into various formats, such as video snippets or transcriptions, expanding the reach and impact of the content. With podcast shoots, businesses can amplify their brand, expand their audience, and build a loyal community of listeners. </h6>
+            <h4>Goods & Services:</h4>
+            <h6 style={{color:'grey' , fontSize:'15px'}}>My City My Voice is a platform committed to blowing the wind beneath the wings of aspiring writers and budding stand-up speakers to project their art across the nation.
+We have successfully executed our events in 12+ cities building a community of more than 1000 people. Our county has a huge number of talented artist. We are not only encouraging their talents but giving them opportunities to brighten their skills.
+Laying out the best of the maestros from the core of the country. We provide the opportunity for you to portray your competence and abide by the famous saying “ability is nothing without opportunity”, so resolve to seize it!
+</h6>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose3}>
               Close
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
 
 
 
