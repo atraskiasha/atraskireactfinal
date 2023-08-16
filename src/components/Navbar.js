@@ -137,7 +137,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/marke"
+                        to="/market1"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
