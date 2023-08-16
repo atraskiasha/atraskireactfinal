@@ -208,7 +208,6 @@ With SEO, businesses can reach their target audience effectively and gain a comp
         </div>
       </footer>
 
-      {/*  footer ends  */}
 
 
 
