@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import logo4 from './images/logo.png';
 import './Navbar.css';
 
+
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [subMenuOpen, setSubMenuOpen] = useState(false);
@@ -122,7 +123,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/event"
+                        to="/publicrelation"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
@@ -136,7 +137,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/marketing"
+                        to="/marke"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
@@ -199,7 +200,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/production"
+                        to="/fashion1"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
@@ -215,7 +216,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/web"
+                        to="/intellpage"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
@@ -231,7 +232,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/mice"
+                        to="/integratemarketing"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
@@ -246,7 +247,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/mice"
+                        to="/exhibit"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
