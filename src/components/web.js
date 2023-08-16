@@ -61,7 +61,7 @@ const Web = () => {
     <>
       
            <Container>
-        <h1 className="mt-5 text-white text-center">Web Development</h1>
+        <h1 className="mt-5 text-white text-center">Travel</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
         <Row className="mt-4" style={{display:'flex' , justifyContent:'center'}} >
           <Col md={4} className="mt-3">
@@ -78,27 +78,27 @@ const Web = () => {
 
             </div>
           </Col>
-          <Col md={4} className="mt-3">
+          {/* <Col md={4} className="mt-3">
             <div className="image-container" onClick={handleImageClick3} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
               <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Social Media Integration</h2>
 
             </div>
-          </Col>
-          <Col md={4} className="mt-3">
+          </Col> */}
+          {/* <Col md={4} className="mt-3">
             <div className="image-container" onClick={handleImageClick4} style={{cursor:'pointer'}}>
               <img src={offer4} alt="Image 3" className="img-fluid" />
               <h2 className="image-heading" style={{position: 'absolute',fontSize:'25px', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Analytics and Tracking</h2>
 
             </div>
-          </Col>
-          <Col md={4}className="mt-3">
+          </Col> */}
+          {/* <Col md={4}className="mt-3">
             <div className="image-container" onClick={handleImageClick5} style={{cursor:'pointer'}}>
               <img src={offer5} alt="Image 3" className="img-fluid" />
               <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Mobile Responsiveness</h2>
 
             </div>
-          </Col>
+          </Col> */}
           
         </Row>
         </Container>
@@ -109,8 +109,11 @@ const Web = () => {
             <Modal.Title>What We Offer:</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>UX Design:</h4>
-            <h6 style={{color:'grey' , fontSize:'15px'}}>UX (User Experience) design is crucial for businesses looking to create intuitive and user-friendly digital experiences. It focuses on understanding user behaviours, needs, and preferences to optimize the usability and functionality of a website or application. By employing UX design principles, businesses can enhance customer satisfaction, reduce bounce rates, and increase conversions. UX design improves the overall user journey, making it seamless and enjoyable, resulting in higher engagement and retention. It also helps businesses gain a competitive edge by delivering exceptional user experiences that differentiate them from competitors. Ultimately, UX design is a valuable investment that leads to improved customer loyalty, positive brand perception, and business growth.
+            <h4>Incentive trips :</h4>
+            <h6 style={{color:'grey' , fontSize:'15px'}}>Incentive trips are company-sponsored travel experiences offered to employees as rewards for achieving certain performance goals or milestones. These trips are designed to motivate and recognize employees' hard work and achievements. We provide these trips from domestic getaways to international vacations and often include various activities and entertainment.
+We help companies in  arranging  these small incentive trips.
+
+
  </h6>
           </Modal.Body>
           <Modal.Footer>
@@ -126,8 +129,13 @@ const Web = () => {
             <Modal.Title>What We Offer:</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>SEO:</h4>
-            <h6 style={{color:'grey' , fontSize:'15px'}}>Search engine optimization (SEO) is the key to improving a website's visibility in search engine results and driving organic traffic. By optimizing website content, structure, and technical aspects, businesses can rank higher on search engine pages, increasing their chances of being discovered by potential customers. SEO enhances user experience, making websites faster, easier to navigate, and more user-friendly. It also builds trust and credibility, as users tend to trust websites that appear in top search results. Additionally, SEO is a cost-effective marketing strategy with long-term benefits, as it continues to drive organic traffic even after initial optimization efforts. With SEO, businesses can reach their target audience effectively and gain a competitive edge in the online marketplace.
+            <h4>Travel Agency For Corporate:</h4>
+            <h6 style={{color:'grey' , fontSize:'15px'}}>Corporate travel agencies help with planning and booking flights, accommodations, transportation, and other travel-related services for employees traveling on business.
+We assist in finding cost-effective options and negotiating corporate rates with airlines, hotels, and other service providers to help companies manage your  travel expenses.
+We also ensure that travel arrangements align with the company's travel policies, helping to control costs and maintain consistency.
+We can organize and manage group travel for conferences, meetings, or corporate events.
+When choosing a corporate travel agency, consider factors such as their experience, reputation, range of services, technology tools, and ability to tailor services to your organization's needs.
+
  </h6>
           </Modal.Body>
           <Modal.Footer>
@@ -137,7 +145,7 @@ const Web = () => {
           </Modal.Footer>
         </Modal>
 
-
+{/* 
         <Modal show={showModal3} onHide={handleModalClose3} dialogClassName="custom-modal w-1000" >
           <Modal.Header closeButton>
             <Modal.Title>What We Offer:</Modal.Title>
@@ -151,8 +159,8 @@ const Web = () => {
               Close
             </Button>
           </Modal.Footer>
-        </Modal>
-
+        </Modal> */}
+{/* 
         <Modal show={showModal4} onHide={handleModalClose4} dialogClassName="custom-modal w-1000" >
           <Modal.Header closeButton>
             <Modal.Title>What We Offer:</Modal.Title>
@@ -167,9 +175,9 @@ const Web = () => {
               Close
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
 
-        <Modal show={showModal5} onHide={handleModalClose5} dialogClassName="custom-modal w-1000" >
+        {/* <Modal show={showModal5} onHide={handleModalClose5} dialogClassName="custom-modal w-1000" >
           <Modal.Header closeButton>
             <Modal.Title>What We Offer:</Modal.Title>
           </Modal.Header>
@@ -182,7 +190,7 @@ const Web = () => {
               Close
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
 
 
 
