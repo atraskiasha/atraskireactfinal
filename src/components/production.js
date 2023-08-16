@@ -1,19 +1,19 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react'
-import { Container, Row, Col, Modal, Button} from 'react-bootstrap';
-import { Link} from 'react-router-dom';
-import offer1 from './images/commercialshoot.jpg'
-import offer2 from './images/productshoot.jpg'
-import offer3 from './images/podcastshoot.jpg'
-import '../index.css'
+import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+import offer1 from './images/socialmediamarketing.jpg'
+import offer2 from './images/socialmediaadvertising.jpg'
+import offer3 from './images/seo.jpg'
 
 
 
-function Prod() {
+
+const  Production = () => {
   const [showModal, setShowModal] = useState(false);
-  const [showModal2, setShowModal2] = useState(false);
-  const [showModal3, setShowModal3] = useState(false);
+  const [showModal2 , setShowModal2] = useState(false);
+  const [showModal3 , setShowModal3] = useState(false);
 
   const handleModalClose = () => {
     setShowModal(false);
@@ -40,88 +40,110 @@ function Prod() {
   const handleImageClick3 = () => {
     setShowModal3(true);
   };
-  
 
-    return (
-        <>
-           <Container>
+  //   const modalStyle = `
+  //   .custom-modal .modal-dialog {
+  //     max-width: 800px;
+  //   }
+  // `;
+
+
+
+  return (
+
+
+    <>
+
+      <Container>
         <h1 className="mt-5 text-white text-center">My City My Voice</h1>
         <h3 className="mt-3  text-white text-center">What We Offer</h3>
-        <Row className="mt-4">
-          {/* <Col md={4}>
-            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}  >
+        <Row className="mt-4" style={{pointerEvents:'cursor'}}>
+          <Col md={4}>
+            <div className="image-container" onClick={handleImageClick} style={{cursor:'pointer'}}>
               <img src={offer1} alt="Image 1" className="img-fluid" />
-              <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center',fontSize:'25px', backgroundColor:'#F9F5F6'}}>Commercial Shoot</h2>
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Social Media Marketing</h2>
 
             </div>
-          </Col> */}
-          <Col md={4}>
+          </Col>
+          {/* <Col md={4}>
             <div className="image-container" onClick={handleImageClick2} style={{cursor:'pointer'}}>
               <img src={offer2} alt="Image 2" className="img-fluid" />
-              <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center',fontSize:'25px', backgroundColor:'#F9F5F6'}}>Product Shoot</h2>
+              <h2 className="image-heading" style={{position: 'absolute', fontSize:'25px',color:'black',top: 100, left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Social Media Advertisement</h2>
 
             </div>
           </Col>
           <Col md={4}>
             <div className="image-container" onClick={handleImageClick3} style={{cursor:'pointer'}}>
               <img src={offer3} alt="Image 3" className="img-fluid" />
-              <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100, left: 0, width: '100%', textAlign: 'center',fontSize:'25px', backgroundColor:'#F9F5F6'}}>Podcast Shoot</h2>
+              <h2 className="image-heading" style={{position: 'absolute', color:'black',top: 100,fontSize:'25px', left: 0, width: '100%', textAlign: 'center', backgroundColor:'#F9F5F6'}}>Search Engine Optimization</h2>
 
             </div>
-          </Col>
-          
+          </Col> */}
         </Row>
-        </Container>
 
-
-        {/* <Modal show={showModal} onHide={handleModalClose} dialogClassName="custom-modal w-1000">
-          <Modal.Header closeButton >
-            <Modal.Title>What We Offer:</Modal.Title>
+        <Modal show={showModal} onHide={handleModalClose} dialogClassName="custom-modal w-1000" >
+          <Modal.Header closeButton>
+            <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
-          <Modal.Body className="modal">
-            <h4>Commercial Shoots:</h4>
-            <h6 style={{color:'grey' , fontSize:'15px'}}>Commercial shoots are an effective way for businesses to create compelling visual content for marketing campaigns. By producing high-quality videos or images, businesses can showcase their products or services in an engaging and professional manner. Commercial shoots enable businesses to tell their brand story, evoke emotions, and capture the attention of their target audience. The visual appeal of commercial shoots helps in building brand recognition, attracting new customers, and increasing conversions. Additionally, commercial shoots offer versatility, allowing businesses to repurpose content for various marketing channels, including television, social media, and websites. Overall, commercial shoots are an essential tool for businesses to create impactful marketing materials that drive success.
- </h6>
+          <Modal.Body>
+            <h4>Goods & Services:</h4>
+            <h9>
+            My City My Voice is a platform committed to blowing the wind beneath the wings of aspiring writers and budding stand-up speakers to project their art across the nation.
+We have successfully executed our events in 12+ cities building a community of more than 1000 people. Our county has a huge number of talented artist. We are not only encouraging their talents but giving them opportunities to brighten their skills.
+Laying out the best of the maestros from the core of the country. We provide the opportunity for you to portray your competence and abide by the famous saying “ability is nothing without opportunity”, so resolve to seize it!
+
+
+
+
+
+
+</h9>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose}>
               Close
             </Button>
           </Modal.Footer>
-        </Modal> */}
+        </Modal>
 
 
 
-
-        <Modal show={showModal2} onHide={handleModalClose2} dialogClassName="custom-modal w-1000">
-          <Modal.Header closeButton >
-            <Modal.Title>What We Offer:</Modal.Title>
+        {/* <Modal show={showModal2} onHide={handleModalClose2} dialogClassName="custom-modal w-1000" >
+          <Modal.Header closeButton>
+            <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
-          <Modal.Body className="modal">
-            <h4>Product Shoots:</h4>
-            <h6 style={{color:'grey' , fontSize:'15px'}}>Product shoots are a vital component of effective marketing strategies. They involve capturing high-quality images or videos of products to showcase their features, design, and benefits. By investing in professional product shoots, businesses can create visually appealing content that grabs the attention of potential customers. These visuals can be used across various platforms, including websites, social media, and advertising campaigns, to enhance product visibility and drive sales. Product shoots provide a clear and enticing representation of the product, allowing customers to make informed purchase decisions. They also help businesses establish a strong brand identity, build trust, and differentiate themselves from competitors.
- </h6>
-            
+          <Modal.Body>
+            <h4> College Ambassador:</h4>
+            <h9>
+College Ambassador is a community Program for different brands where College Students or Youth  promote the particular brand in their College. It can be a Product brand or Service Brand.
+These ambassadors typically engage in activities such as giving company motives, participating in events, sharing their personal experiences, and answering questions from prospective Customers. We serve as a bridge between the company and potential customers, helping to provide insights and information about particular products , niches and various aspects of the company.
+
+</h9>
+
+
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose2}>
               Close
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
 
 
 {/* 
-        <Modal show={showModal3} onHide={handleModalClose3} dialogClassName="custom-modal w-1000">
-          <Modal.Header closeButton >
-            <Modal.Title>What We Offer:</Modal.Title>
+        <Modal show={showModal3} onHide={handleModalClose3} dialogClassName="custom-modal w-1000" >
+          <Modal.Header closeButton>
+            <Modal.Title>What We Offer</Modal.Title>
           </Modal.Header>
-          <Modal.Body className="modal">
-            <h4>Goods & Services:</h4>
-            <h6 style={{color:'grey' , fontSize:'15px'}}>My City My Voice is a platform committed to blowing the wind beneath the wings of aspiring writers and budding stand-up speakers to project their art across the nation.
-We have successfully executed our events in 12+ cities building a community of more than 1000 people. Our county has a huge number of talented artist. We are not only encouraging their talents but giving them opportunities to brighten their skills.
-Laying out the best of the maestros from the core of the country. We provide the opportunity for you to portray your competence and abide by the famous saying “ability is nothing without opportunity”, so resolve to seize it!
-</h6>
+          <Modal.Body>
+            <h4>Youth marketing:</h4>
+            <h9> 
+Youth marketing refers to the strategies and techniques used by businesses and brands to target and engage with the younger demographic, typically those between the ages of 13 to 35. It involves creating advertising campaigns, products, and experiences that resonate with the interests, values, and lifestyles of young people.
+We help in building this type of marketing which often leverages social media, influencers, events, and trends to connect with and build relationships with the youth audience and other platforms that are popular among young people to build a brand
+
+
+
+</h9>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleModalClose3}>
@@ -133,11 +155,51 @@ Laying out the best of the maestros from the core of the country. We provide the
 
 
 
+      </Container>
 
-      
 
-        {/* footer starts  */}
-        <footer className=" text-white" style={{backgroundColor:'#333'}}>
+
+      {/* why hire */}
+      <section className="py-5 ">
+        <div className="container">
+          <div className="row justify-content-center text-center mb-5">
+            <div className="col-md-8">
+              <h2 className="display-4 fw-bold">Why Should You Hire Us?</h2>
+              <hr className="mx-auto border-2 w-25" />
+              <p className="lead">We have a lot to offer when it comes to digital marketing services.</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-4 mb-4">
+              <div className="card h-100">
+                <div className="bg-dark card-body">
+                  <h4 className="card-title fw-bold" style={{color:'#FFF4F4'}}>Experience</h4>
+                  <p className="card-text">We have years of experience in the industry and have helped numerous clients achieve their goals.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card h-100">
+                <div className="bg-dark card-body">
+                  <h4 className="card-title fw-bold" style={{color:'#FFF4F4'}}>Expertise</h4>
+                  <p className="card-text">Our team consists of highly skilled professionals with expertise in various areas of digital marketing.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card h-100">
+                <div className="bg-dark card-body">
+                  <h4 className="card-title fw-bold" style={{color:'#FFF4F4'}}>Results</h4>
+                  <p className="card-text">We focus on delivering measurable results that help our clients achieve their business objectives.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       {/* footer starts  */}
+       <footer className=" text-white" style={{backgroundColor:'#333'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -162,8 +224,10 @@ Laying out the best of the maestros from the core of the country. We provide the
       {/*  footer ends  */}
 
 
-        </>
-    );
+
+
+    </>
+  )
 }
 
-export default Prod
+export default Production;
