@@ -25,7 +25,7 @@ import Public from './components/publicreln';
 import Web from './components/web';
 import Mice from './components/mice';
 import Marketing from './components/marketing';
-import Prod from './components/production';
+import Production from './components/Production';
 import Blogger from './components/Blogger';
 import Eshower from './components/Eshower';
 // import Footer1 from './components/Footer1';
@@ -77,7 +77,7 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           <Route path="/event" element={<Event1 />} />
           <Route path="/public" element={<Public />} />
-          <Route path="/production" element={<Prod />} />
+          <Route path="/production" element={< Production />} />
           <Route path="/mice" element={<Mice />} />
           <Route path="/marketing" element={<Marketing />} />
           <Route path="/web" element={<Web />} />
