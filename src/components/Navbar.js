@@ -253,7 +253,7 @@ const Navbar = () => {
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        Events & Exhi
+                        Events & Exhibition
                       </NavLink>
                       <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Events</p>
                       <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Exhibition</p>
