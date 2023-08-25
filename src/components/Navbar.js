@@ -120,18 +120,21 @@ const Navbar = () => {
                       <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Running Ads</p>
                       <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Off Page SEO  and On Page SEO</p>
                     </li>
-                    <li>
+<li>
                       <NavLink
                         className="dropdown-item"
-                        to="/publicrelation"
+                        to="/exhibit"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        Public Relation
+                        Events & Exhibition
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Media Outreach</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Events</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Exhibition</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Product Launches</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> ATL & BTL</p>
 
                     </li>
                     <li>
@@ -244,21 +247,19 @@ const Navbar = () => {
 
                     </li>
 
-                    <li>
+                    
+                                              <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/exhibit"
+                        to="/publicrelation"
                         onClick={() => {
                           closeDropdowns();
                           handleNavClick();
                         }}
                         style={{color:'black'}}>
-                        Events & Exhibition
+                        Public Relation
                       </NavLink>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Events</p>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Exhibition</p>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> Product Launches</p>
-                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}> ATL & BTL</p>
+                      <p style={{ color: 'black', fontFamily:'serif', fontSize:'0.8rem',marginLeft:'20px', marginBottom:'10px' }}>Media Outreach</p>
 
                     </li>
                   </div>
