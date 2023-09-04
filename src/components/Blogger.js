@@ -36,7 +36,7 @@ const Blogger = () => {
   return (
 
     <div className='bg-white w-100'>
-      <div className='blog-heading1'><h1>Bloogers' Mela</h1></div>
+      <div className='blog-heading1'><h1>Blogger's Mela</h1></div>
       <div className='container-fluid blogger-1'>
         <video controls autoPlay muted>
           <source src={vedio1}></source>
